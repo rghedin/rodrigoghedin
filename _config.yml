@@ -1,0 +1,20 @@
+title: rodrigo.ghed.in
+description: O jardim digital de Rodrigo Ghedin
+url: "https://rodrigo.ghed.in" # the base hostname & protocol for your site
+
+markdown: kramdown
+
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+
+permalink: /blog/:slug
+timezone: UTC−03:00
+future: false
+
+exclude:
+- README.md
+- LICENSE.md
+
+Blog: /blog

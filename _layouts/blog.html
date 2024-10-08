@@ -1,0 +1,43 @@
+{% include head.html %}
+
+{% include header.html %}
+
+<main class="h-feed">
+
+    {% for post in paginator.posts %}
+<article class="h-entry {% if post.type == 'image' %}e-image{% elsif post.type == 'quote' %}e-quote{% elsif post.type == 'aside' %}e-aside{% elsif post.type == 'link' %}e-link{% endif %}">
+<h2 class="p-name">
+  <a href="{{ post.url }}">{{ post.title }}</a>
+</h2>
+
+<div class="e-content">
+{{ post.content }}
+</div>
+
+<p class="dt-published">
+  <a href="{{ post.url }}">{{ post.date | date: "%-d/%-m/%Y" }}</a>
+</p>
+</article>
+    {% endfor %}
+</main>
+
+{% if paginator.total_pages > 1 %}
+<ul class="nav-blogs">
+  {% if paginator.previous_page %}
+  <li class="nav-blogs-novos">
+    &laquo; <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Novos</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="nav-blogs-antigos">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Antigos</a>  &raquo;
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
+
+{% include footer.html %}
+
+</body>
+
+</html>

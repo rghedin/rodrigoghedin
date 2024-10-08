@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ site.baseurl }}/assets/favicon.ico" type="image/x-icon">
+    <link href="{{ site.baseurl }}/feed.xml" rel="alternate" type="application/atom+xml">
+    {% if page.layout == 'default' or page.layout == 'page' %}<meta name="robots" content="index,follow">{% else %}<meta name="robots" content="noindex,follow">{% endif %}
+    <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+    <script defer src="https://umami.ghed.in/script.js" data-website-id="1a506ada-7a4c-41b8-bfd3-a0ed00af9042"></script>
+</head>
+
+<body>
