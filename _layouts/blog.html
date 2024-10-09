@@ -4,6 +4,8 @@
 
 <main class="h-feed">
 
+  {{ content }}
+  
     {% for post in paginator.posts %}
 <article class="h-entry {% if post.type == 'image' %}e-image{% elsif post.type == 'quote' %}e-quote{% elsif post.type == 'aside' %}e-aside{% elsif post.type == 'link' %}e-link{% endif %}">
 <h2 class="p-name">

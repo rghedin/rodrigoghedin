@@ -1,5 +1,6 @@
 ---
 layout: post
+type: longform
 title: "CSS: text-wrap para equilibrar títulos"
 date: 2024-09-12 07:39 -0300
 categories: notinhas

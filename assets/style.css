@@ -16,8 +16,10 @@
 	--fs-0: 1rem;
 	--fs-1: 1.2rem;
 	--fs-2: 1.6rem;
+	--fs-3: 2.5rem;
 
 	--pos-margem-baixo: 1.5rem;
+	--pos-salto-medio: 5rem;
 	--pos-grande-salto: 12rem;
 	--pos-curvada: .4rem;
 }
@@ -82,6 +84,11 @@ h4 {
 	font-weight: 500;
 	line-height: 1.2;
 	margin-bottom: var(--pos-margem-baixo);
+}
+
+main h1 {
+	font-size: var(--fs-3);
+	margin-bottom: var(--pos-salto-medio);
 }
 
 code {
@@ -159,6 +166,12 @@ footer div {
  ************/
 .h-entry {
 	margin-bottom: var(--pos-grande-salto);
+}
+
+h1.p-name,
+h2.p-name {
+	font-size: var(--fs-2);
+	margin-bottom: var(--pos-margem-baixo);
 }
 
 .dt-published {
