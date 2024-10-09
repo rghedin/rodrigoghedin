@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="fediverse:creator" content="@manualdousuario@mastodon.social" />
     <link href="{{ site.baseurl }}/feed.xml" rel="alternate" type="application/atom+xml">
     {% if page.layout == 'default' or page.layout == 'page' %}<meta name="robots" content="index,follow">{% else %}<meta name="robots" content="noindex,follow">{% endif %}
     <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css?v={{ "now" | date: "%Y%m%d%H%M" }}" media="all">
 </head>
 
 <body>
