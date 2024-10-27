@@ -154,7 +154,6 @@ footer ul {
 	display: flex;
 	column-gap: 1rem;
 	list-style: none;
-	text-transform: lowercase;
 }
 footer ul,
 footer p {
@@ -298,7 +297,4 @@ p.link span {
 		right: 50%;
 		max-width: 1200px;
 	}
-}
-
-@media (prefers-color-scheme: dark) {
 }
