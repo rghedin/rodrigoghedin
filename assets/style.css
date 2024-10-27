@@ -125,6 +125,10 @@ header h2 a:hover {
 header h2 img {
 	border-radius: 50%;
 }
+header picture {
+	height: 48px;
+	width: 48px;
+}
 
 nav {
 	display: flex;

@@ -1,5 +1,15 @@
 <header>
-<h2 class="title"><img src="{{ site.url }}/assets/rodrigo-ghedin-perfil.jpg" alt="RSS" width="48" height="48" /> <a href="{{ site.url }}">{{ site.title }}</a></h2>
+<h2 class="title">
+    <picture>
+        <img
+            type="image/avif"
+            srcset="{{ site.url }}/assets/rodrigo-ghedin-96px.avif"
+            src="{{ site.url }}/assets/rodrigo-ghedin-96px.jpg"
+            alt="Foto"
+            width="48"
+            height="48"
+        />
+    </picture> <a href="{{ site.url }}">{{ site.title }}</a></h2>
 <nav>
     <a href="{{ site.url }}{{ site.Blog }}">/blog</a>
     <a href="{{ site.url }}/now">/now</a>
