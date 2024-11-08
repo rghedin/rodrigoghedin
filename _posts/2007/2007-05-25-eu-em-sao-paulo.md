@@ -14,13 +14,13 @@ O plano inicial era almoçarmos assim que eu chegasse lá, perto das 14h30min. A
 
 Abrindo um (grande) parêntese, deixe-me falar brevemente da sensação que dá ao voar de avião pela primeira vez. De tudo o que eu podia esperar, essa parte era a que mais me afligia. Ainda escreverei algo sobre os pensamentos mórbidos que tive na véspera da viagem, mas é bem melhor do que eu imaginava. A viagem é estupidamente rápida, tranquila e, na que eu fiz, sem sustos. O avião, segundo o comandante, voa a cerca de sete quilômetros de altura, numa velocidade de 810 Km/h. Viajei num Airbus 320, da TAM:
 
-![Airbus 320.]({{ site.baseurl }}/assets/2007/airbus-320.jpg)
+![Airbus 320.]({{ site.url }}/assets/2007/airbus-320.jpg)
 
 Achei pequeno, mas como não tinha e nem tenho base de comparação, essa é uma constatação bem idiota de se fazer. Na ida, serviram um pãozinho delicioso, com lombo defumado e um abacaxi assado/frito/cozido dentro. Na volta, um café completo: pão com presunto e muçarela, algumas frutas frescas e um pedaço de bolo. Ambos vinham acompanhados de uma bebida (guaraná, Coca-Cola, água, suco ou cerveja). Nota dez!
 
 Quando entrei no avião, a primeira sensação que tive foi um quase _déjà vu_: o interior do mesmo me fez lembrar aqueles filmes do tipo "Pânico no ar", bem típicos da Sessão da Tarde.
 
-![Interior do A320.]({{ site.baseurl }}/assets/2007/interior-do-a320.jpg)
+![Interior do A320.]({{ site.url }}/assets/2007/interior-do-a320.jpg)
 
 Cheguei em Congonhas perto das cinco da tarde. Depois de um breve desencontro, finalmente achei o André e como nem nosso plano B podia ser executado (tomar um café da tarde), recorremos a um rápido capuccino ali mesmo. Tivemos um papo breve e, em seguida, peguei um táxi para ir à sede da Microsoft.
 
@@ -30,21 +30,21 @@ Depois do shopping, eu, [Alexandre Fugita](https://techbits.com.br) e [Mario Ama
 
 Isso já era um tanto tarde, mas sem problemas, afinal, o André só sairia da redação do jornal à meia noite. O destino, previamente combinado com o Tuca, era um Fran's Café na Paulista, aparentemente o café com o pior atendimento da cidade. Durante o trajeto, Mario ficou pelo caminho, eu conheci a famosa Avenida Paulista e, nela, o famoso MASP.
 
-![Eu na Av. Paulista.]({{ site.baseurl }}/assets/2007/eu-na-paulista.jpg)
+![Eu na Av. Paulista.]({{ site.url }}/assets/2007/eu-na-paulista.jpg)
 
 Chegamos ao tal café e, lá, finalmente conheci o Tuca. Tal qual eu imaginava, ele e a Pat formam um casal bacana!
 
-![Pat, eu e Tuca.]({{ site.baseurl }}/assets/2007/pat-eu-tuca.jpg)
+![Pat, eu e Tuca.]({{ site.url }}/assets/2007/pat-eu-tuca.jpg)
 
 Dali em diante, um papo muito bom, enriquecido lá pelas tantas com a chegada do André (que [também relatou o dia em seu blog](http://marmota.org/blog/um-cupido-perdido-em-sao-paulo/)). Falamos de muita coisa, com destaque para histórias antigas dos tempos das cavernas da Internet e as bizarrices e possibilidades interessantes do _Second Life_. Quando o Fugita disse que, ao entrarmos no jogo, nosso personagem aparece sem roupa e andrógino, surgiu na roda a teoria de que a fonte de inspiração da Linden Lab para essa feature foi o _Exterminador do Futuro_. Foi bem divertido!
 
-![Todo mundo.]({{ site.baseurl }}/assets/2007/todo-mundo.jpg)
+![Todo mundo.]({{ site.url }}/assets/2007/todo-mundo.jpg)
 
 Como coisa boa passa rápido, quando alguém resolveu consultar o relógio, se espantou com o mostrador marcando mais de três da manhã. Saímos sob um frio de cerca de 10º C. Voltei com o André e o Fugita, no Marmotamóvel. Primeiro deixamos o Fugita, aí o André se perdeu e, uma hora depois, após ter passado duas vezes no Museu do Ipiranga e umas três vezes na frente do hotel, finalmente chegamos.
 
 Com muito medo de dormir e perder a hora do vôo, embora o recepcionista do hotel tenha ficado de ligar na hora pedida, não dormi. Aguardei uma hora lendo uma revista qualquer e, quando deu a hora, tomei café e, em seguida, um táxi rumo a Congonhas. A propósito, como Congonhas é grande comparado ao aeroporto de Maringá…
 
-![Congonhas.]({{ site.baseurl }}/assets/2007/congonhas.jpg)
+![Congonhas.]({{ site.url }}/assets/2007/congonhas.jpg)
 
 Sem atrasos, tranquila e rapidamente, voltei a Maringá, onde fui recepcionado, aqui em casa, pela minha mãe, irmã e namorada. E, só para constar, fui dormir só no final da tarde de ontem. Ao todo fiquei mais de 36h acordado, um recorde pessoal!
 

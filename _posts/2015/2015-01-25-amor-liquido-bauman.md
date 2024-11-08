@@ -4,7 +4,7 @@ title: "O amor líquido de Bauman"
 date: 2015-01-25 21:19 -0300
 categories: críticas
 ---
-![Lábios em formato de coração]({{ site.baseurl }}/assets/lc3a1bios-em-formato-de-corac3a7c3a3o.jpg)
+![Lábios em formato de coração]({{ site.url }}/assets/lc3a1bios-em-formato-de-corac3a7c3a3o.jpg)
 
 Logo no início de _Amor Líquido,_ o sociólogo polonês Zygmunt Bauman resume do que se trata o livro:
 
@@ -12,7 +12,7 @@ Logo no início de _Amor Líquido,_ o sociólogo polonês Zygmunt Bauman resume 
 
 Ao longo de quase 200 páginas, Bauman faz um passeio descritivo e em forma livre de como vê o amor no contexto da sociedade líquida. Apesar do problema do aquecimento global, o termo não se refere a um futuro apocalíptico dominado pela água, similar ao visto em _Waterworld_, mas sim a uma sociedade em constante mudança, sem formas definidas, contrária à solidez das instituições e relacionamentos de antigamente. O amor, pois, também sofre a interferência dessas mudanças do meio.
 
-Para Bauman, o amor na sociedade líquida troca a qualidade pela quantidade, livra-se dos compromissos e chateações, e se mantém apenas enquanto as duas partes acreditam estar tirando vantagem da situação. Pegando emprestada uma frase de Ralph Waldo Emerson, ele compara: "quando se esquia sobre gelo fino, a salvação está na velocidade". Ou seja, na falta de um porto seguro para a nossa solidão, na falta de alguém que nos assossegue e elimine [a separação a que faz referência Erich Fromm]({{ site.baseurl }}/a-arte-de-amar-erich-fromm "A Arte de Amar, de Erich Fromm"), o ser humano pós-moderno mergulha na celeridade das relações líquidas, efêmeras, rápidas e descompromissadas.
+Para Bauman, o amor na sociedade líquida troca a qualidade pela quantidade, livra-se dos compromissos e chateações, e se mantém apenas enquanto as duas partes acreditam estar tirando vantagem da situação. Pegando emprestada uma frase de Ralph Waldo Emerson, ele compara: "quando se esquia sobre gelo fino, a salvação está na velocidade". Ou seja, na falta de um porto seguro para a nossa solidão, na falta de alguém que nos assossegue e elimine [a separação a que faz referência Erich Fromm]({{ site.url }}/a-arte-de-amar-erich-fromm "A Arte de Amar, de Erich Fromm"), o ser humano pós-moderno mergulha na celeridade das relações líquidas, efêmeras, rápidas e descompromissadas.
 
 Tal qual a morte, diz ele, o amor não tem história própria. Não se pode aprender a amar da mesma forma que a morte não pode ser ensinada. Outra semelhança entre os dois momentos é que não se pode evitá-los. A morte e o amor são, para Bauman, certezas da vida. Quem vê vantagens na liquidez do amor acaba, em algum ponto, revendo essa impressão. Isso tudo não significa, porém, que ele seja _contra_ a liberalização sexual; ele critica a valorização excessiva do sexo casual, como expõe na página 64:
 

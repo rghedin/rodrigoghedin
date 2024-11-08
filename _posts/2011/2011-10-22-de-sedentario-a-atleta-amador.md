@@ -14,7 +14,7 @@ Aquele episódio foi bem marcante para mim. Ficar dois dias num quarto de hospit
 
 Não foi a primeira vez que disse a mim mesmo “agora vai”. Não foi a primeira vez, mas em todas as outras eu havia falhado. E, nessa, ainda tinha o agravante de ter que esperar a recuperação da cirurgia — fiquei quase um mês com um cateter no ureter, o “caninho” que liga o rim à bexiga, o que me impedia de fazer quaisquer atividades.
 
-O período de repouso passou e com ele vieram as mudanças. Na parte da alimentação, reduzi o consumo de doces, comida engordurada (cortei pastel) e carne vermelha, passei a não recusar salada (sempre comi, mas era mais seletivo), acrescentei frutas à minha dieta e doses generosas de água. Ah, e mantive a restrição a refrigerante, que havia [começado em fevereiro]({{ site.baseurl }}/parar-beber-refrigerante).
+O período de repouso passou e com ele vieram as mudanças. Na parte da alimentação, reduzi o consumo de doces, comida engordurada (cortei pastel) e carne vermelha, passei a não recusar salada (sempre comi, mas era mais seletivo), acrescentei frutas à minha dieta e doses generosas de água. Ah, e mantive a restrição a refrigerante, que havia [começado em fevereiro]({{ site.url }}/parar-beber-refrigerante).
 
 Na parte física, estava convencido de que a caminhada seria o suficiente e, assim, comecei a andar cerca de uma hora por dia, no mínimo três vezes por semana. Calhou de, na mesma época, um fisioterapeuta me recomendar… pilates!
 
@@ -26,7 +26,7 @@ Em paralelo, mantive as caminhadas, que há pouco menos de dois meses se transfo
 
 Gosto de fazer caminhadas com o smartphone a tiracolo. Além de música ou podcast para distrair, também utilizo um aplicativo chamado [Endomondo](http://www.endomondo.com) que, graças ao GPS, monitora a atividade e permite visualizar meus progressos. Não é o tipo de coisa pela qual sou obsessivo, mas dá uma sensação boa ver que, hoje, minha velocidade média quase que dobrou e as distâncias percorridas também cresceram consideravelmente em relação a março/abril. E é legal pra caramba dizer que, em 2011, eu já caminhei/corri 315,2 km e queimei mais de 17 mil calorias, o equivalente a 32 hambúrgueres!
 
-![Histórico do mês de outubro de 2011, no Endomondo.]({{ site.baseurl }}/assets/2011/endomondo-outubro-2011.png)
+![Histórico do mês de outubro de 2011, no Endomondo.]({{ site.url }}/assets/2011/endomondo-outubro-2011.png)
 
 Virei não um viciado, mas um interessado e disciplinado atleta amador. A minha meta passa longe de virar desportista, até porque não tenho mais idade, muito menos interesse nisso; meu objetivo é conservar da melhor forma possível o meu único bem insubstituível: _meu corpo_. E isso vai além do ato de praticar exercícios por si só; envolve planejar o meu dia de modo que, no final dele, eu tenha uma hora disponível para a prática, e envolve alguns sacrifícios alimentares que, afinal, não são lá tão sacrificantes assim.
 
@@ -36,8 +36,8 @@ Não é o caso de achar que, com essa série de mudanças eu me tornarei invulne
 
 No mais, se nada desse discurso saudável-gente-boa lhe inspirou, no fim das contas pelo menos visuais incríveis você poderá apreciar caminhando ao ar livre. Tem coisas que tela alguma representa tão bem quanto ver ao vivo; a natureza é uma delas.
 
-![Árvores e Sol na praça da biblioteca, em Paranavaí-PR.]({{ site.baseurl }}/assets/2011/praca-biblioteca.jpg)
+![Árvores e Sol na praça da biblioteca, em Paranavaí-PR.]({{ site.url }}/assets/2011/praca-biblioteca.jpg)
 
-![Pôr-do-Sol no lago, em Guarapuava-PR.]({{ site.baseurl }}/assets/2011/lago.jpg)
+![Pôr-do-Sol no lago, em Guarapuava-PR.]({{ site.url }}/assets/2011/lago.jpg)
 
-![Pôr-do-Sol na pista de atletismo, em Paranavaí-PR.]({{ site.baseurl }}/assets/2011/ceu.jpg)
+![Pôr-do-Sol na pista de atletismo, em Paranavaí-PR.]({{ site.url }}/assets/2011/ceu.jpg)

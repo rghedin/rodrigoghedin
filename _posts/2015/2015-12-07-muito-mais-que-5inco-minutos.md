@@ -4,7 +4,7 @@ title: "\"Muito Mais que 5inco Minutos\": O livro da vlogueira Kéfera Buchmann"
 date: 2015-12-07 22:26 -02:00
 categories: críticas
 ---
-![Kéfera]({{ site.baseurl }}/assets/kefera.jpeg)
+![Kéfera]({{ site.url }}/assets/kefera.jpeg)
 
 Kéfera Buchmann, 22 anos, nasceu em Curitiba e tornou-se uma estrela multimidiática nascida na Internet. Acumula 5,7 milhões de inscritos no YouTube, 5 milhões de seguidores no Facebook e 3 milhões de pessoas que veem suas fotos no Instagram. Já apresentou dois programas de TV, dublou a animação _Big Hero 6_, da Disney, e tem [sua própria página na Wikipédia](https://pt.wikipedia.org/wiki/Kéfera_Buchmann), de onde tirei todas essas informações.
 

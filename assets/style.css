@@ -83,6 +83,7 @@ h3,
 h4 {
 	font-weight: 500;
 	line-height: 1.2;
+	text-wrap: balance;
 	margin-bottom: var(--pos-margem-baixo);
 }
 
@@ -175,6 +176,9 @@ h1.p-name,
 h2.p-name {
 	font-size: var(--fs-2);
 	margin-bottom: var(--pos-margem-baixo);
+}
+h1.p-name {
+	font-size: var(--fs-3);
 }
 
 .dt-published {

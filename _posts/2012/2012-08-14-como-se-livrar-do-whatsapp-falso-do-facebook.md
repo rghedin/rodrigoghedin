@@ -8,7 +8,7 @@ Acabei de cair no golpe do WhatsApp falso do Facebook. Eu. Caí. Num. Golpe. Do.
 
 Me matem, por favor.
 
-![]( {{ site.baseurl }}/assets/img/2012/cilada1.png)
+![]( {{ site.url }}/assets/img/2012/cilada1.png)
 
 O gigantesco problema desse é que assim que o usuário "instala" o app, ele dispara uma solicitação para todos os contatos. Como a que eu recebi veio de um cara confiável, cliquei sem pensar muito — e a possibilidade de usar o WhatsApp de dentro do Facebook era interessante. Assim que aceitei, eu passei a ser a pessoa confiável que enviou (sem saber) uma solicitação (não autorizada) para meus contatos instalarem esse app (malicioso).
 
@@ -20,6 +20,6 @@ Se você clicou na minha solicitação e instalou essa merda, primeiramente _me 
 
 O passo seguinte é remover o app da sua conta. Para isso, vá até a [página de configurações de privacidade](https://www.facebook.com/settings/?tab=privacy&ref=mb), role-a até o final e clique no "Editar configurações" do bloco "Anúncios, aplicativos e sites". Na lista "Aplicativos que você usa", estará o nosso WhatsApp fake; clique nele e, na caixa que aparecer, no link "Remover aplicativo". Uma caixa de confirmação surgirá; antes de clicar em "Remover", lembre-se de marcar "Excluir todas as atividades do aplicativo".
 
-![]( {{ site.baseurl }}/assets/img/2012/remover-aplicativo.png)
+![]( {{ site.url }}/assets/img/2012/remover-aplicativo.png)
 
 E… bem, desconfie de tudo e de todos. Isso é igual conselho de mãe, que a gente sabe de cor e salteado, mas é sempre bom relembrar.

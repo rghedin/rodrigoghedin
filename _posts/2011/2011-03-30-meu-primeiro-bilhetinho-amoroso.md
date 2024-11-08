@@ -4,7 +4,7 @@ title: "Meu primeiro bilhetinho amoroso"
 date: 2011-03-30 01:43 0300
 categories: relatos
 ---
-![Charlie Brown]({{ site.baseurl }}/assets/2011/charlie-brown.jpg)
+![Charlie Brown]({{ site.url }}/assets/2011/charlie-brown.jpg)
 
 Hoje assistia a um episódio do _Todo mundo odeia o Chris_ pela milésima vez (valeu, Record!). Aquele do dia dos namorados, no qual o Chris compra um cartão para sua namorada barraqueira, rasga o cartão da professora e tudo mais. Ah vai, você já assistiu um punhado de vezes também!
 

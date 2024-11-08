@@ -8,10 +8,10 @@ Ah, o Japão! Cultura riquíssima, culinária exótica, costumes milenares. Meu 
 
 Na época do PlayStation, um dos meus jogos favoritos era um de futebol, _Winning Eleven_. Todas as versões da franquia tinham uma característica em comum: os menus e nomes dos jogadores vinham em japonês! Evidente que não sabia o nome de nenhum jogador estrangeiro, mas os brasileiros eram identificáveis por dedução. E, graças a este atalho, aprendi duas sílabas em japonês:
 
-!['RO' em japonês.]({{ site.baseurl }}/assets/2006/ro.jpg)  
+!['RO' em japonês.]({{ site.url }}/assets/2006/ro.jpg)  
 Significa "Ro".
 
-!['RI' em japonês.]({{ site.baseurl }}/assets/2006/ri.jpg)  
+!['RI' em japonês.]({{ site.url }}/assets/2006/ri.jpg)  
 Significa "Ri".
 
 O primeiro era fácil aprender devido à grande quantidade de "Ro" na seleção brasileira: Ronaldo, Roberto Carlos, Romário. Já o "Ri" era por causa do Rivaldo. E o que podemos concluir disso? Que esses jogos são muito velhos.
@@ -20,7 +20,7 @@ Alguns anos mais tarde, uma amiga de longa data me deu um presente. Pequeno, sin
 
 Graças à minha mania de guardar cadernos e folhas da escola, pude encontrar com relativa facilidade o papel. Veja que legal:
 
-!['Rodrigo Passoli Ghedin' em japonês.]({{ site.baseurl }}/assets/2006/nome-japones.jpg)
+!['Rodrigo Passoli Ghedin' em japonês.]({{ site.url }}/assets/2006/nome-japones.jpg)
 
 Repare que a leitura é de trás para frente, e a escrita, verticalizada. Meu nome está escrito em katanana, um dos "alfabetos" japoneses.
 
@@ -28,4 +28,4 @@ Ontem, lendo meu agregador de feeds, me deparei com [uma manchete curiosa no Ter
 
 O sistema é simples. Basta inserir um nome, e clicar no botão "Translate". É possível, ainda, escolher a "fonte". Minha favorita é a "Calligraphy". Entretanto, o sistema só reconhece nomes "comuns"; sobrenomes e nomes japoneses ele não converte. Então, se você tem um nome comum, como o meu (Rodrigo), divirta-se!
 
-!['Rodrigo' em japonês.]({{ site.baseurl }}/assets/2006/rodrigo.png)
+!['Rodrigo' em japonês.]({{ site.url }}/assets/2006/rodrigo.png)
