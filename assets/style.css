@@ -75,6 +75,7 @@ ol,
 blockquote,
 pre {
 	margin-bottom: var(--pos-margem-baixo);
+	text-wrap: pretty;
 }
 
 h1,
