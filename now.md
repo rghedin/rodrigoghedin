@@ -6,19 +6,19 @@ Uma [página “now”](https://nownownow.com/about) (“agora”, em inglês) d
 
 \*\*\*
 
-Conduzindo [um experimento](https://manualdousuario.net/comentarios-email-experimento/) no <cite>Manual</cite> que substitui comentários por conversas no e-mail.
+Iniciando os preparativos para o recesso do Manual do Usuário. 
 
 Lendo <cite>Pedagogia do oprimido</cite> (Paulo Freire, 1974).
 
-Vendo <cite>Soprano's</cite> (David Chase, 1999–2007).
+Vendo <cite>Soprano's</cite> (David Chase, 1999–2007) e <cite>Boardwalk Empire</cite> (Terence Winter, 2010–2014).
 
 Últimos filmes:
 
+* <cite>Abismo de um sonho</cite> (Federico Fellini, 1952)
+* <cite>Guerra civil</cite> (Alex Garland, 2024)
 * <cite>Navio fantasma</cite> (Steve Beck, 2002)
 * <cite>Carrie, a estranha</cite> (Brian De Palma, 1976)
 * <cite>O sétimo selo</cite> (Ingmar Bergman, 1957).
 * <cite>A substância</cite> (Coralie Fargeat, 2024).
-* <cite>Wanda</cite> (Barbara Loden, 1970).
-* <cite>Dias perfeitos</cite> (Wim Wenders, 2023).
 
-*Atualizada em 19/11/2024.*
+*Atualizada em 1º/12/2024.*
