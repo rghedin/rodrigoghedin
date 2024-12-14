@@ -101,6 +101,12 @@ code {
 	padding: .1rem .2rem;
 }
 
+blockquote {
+	border-left: 4px solid rgb(232, 232, 232);
+	border-radius: 6px;
+	padding-left: 1rem;
+}
+
 header {
 	display: flex;
 	align-items: center;
