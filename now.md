@@ -6,9 +6,9 @@ Uma [página “now”](https://nownownow.com/about) (“agora”, em inglês) d
 
 \*\*\*
 
-Iniciando os preparativos para o recesso do Manual do Usuário. 
+Curtindo o recesso do Manual do Usuário e da [Célere](https://celere.dev), minha nova empresa. 
 
-Lendo <cite>Pedagogia do oprimido</cite> (Paulo Freire, 1974).
+Lendo <cite>Nexus: Uma breve história das redes de informação, da Idade da Pedra à inteligência artificial</cite> (Companhia das Letras, 2024).
 
 Vendo <cite>Soprano's</cite> (David Chase, 1999–2007) e <cite>Boardwalk Empire</cite> (Terence Winter, 2010–2014).
 
@@ -21,4 +21,4 @@ Vendo <cite>Soprano's</cite> (David Chase, 1999–2007) e <cite>Boardwalk Empire
 * <cite>O sétimo selo</cite> (Ingmar Bergman, 1957).
 * <cite>A substância</cite> (Coralie Fargeat, 2024).
 
-*Atualizada em 1º/12/2024.*
+*Atualizada em 20/12/2024.*
