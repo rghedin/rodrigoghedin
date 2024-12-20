@@ -8,7 +8,7 @@ Uma [página “now”](https://nownownow.com/about) (“agora”, em inglês) d
 
 Curtindo o recesso do Manual do Usuário e da [Célere](https://celere.dev), minha nova empresa. 
 
-Lendo <cite>Nexus: Uma breve história das redes de informação, da Idade da Pedra à inteligência artificial</cite> (Companhia das Letras, 2024).
+Lendo <cite>Nexus: Uma breve história das redes de informação, da Idade da Pedra à inteligência artificial</cite> (Yuval Noah Harari, 2024).
 
 Vendo <cite>Soprano's</cite> (David Chase, 1999–2007) e <cite>Boardwalk Empire</cite> (Terence Winter, 2010–2014).
 
