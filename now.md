@@ -1,6 +1,7 @@
 ---
 layout: page
 title: /now
+excerpt: O que Rodrigo Ghedin está aprontando no momento.
 ---
 Uma [página “now”](https://nownownow.com/about) (“agora”, em inglês) descreve o que alguém está fazendo no momento em sua vida.
 

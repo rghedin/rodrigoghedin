@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Rodrigo Ghedin
+excerpt: Site pessoal, jardim digital e cartão de visitas do Rodrigo Ghedin.
 ---
 <h1>Olá!</h1>
 
@@ -8,4 +9,4 @@ Meu nome é Rodrigo Ghedin e este é o meu jardim digital na internet. Serve-me 
 
 Puxe uma cadeira e sinta-se à vontade.
 
-Ah, escrevo também no [Manual do Usuário](https://manualdousuario.net/).
+Ah, escrevo o [Manual do Usuário](https://manualdousuario.net/).
