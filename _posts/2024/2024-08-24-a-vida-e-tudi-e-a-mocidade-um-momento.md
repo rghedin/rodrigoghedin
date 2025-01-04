@@ -7,4 +7,4 @@ categories: citações
 ---
 >A vida é tudo e a mocidade um momento.
 
-—  Ercilia Nogueira Cobra, _Virgindade inútil: Novela de uma revoltada_.
+— Ercilia Nogueira Cobra, _Virgindade inútil: Novela de uma revoltada_.
