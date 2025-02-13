@@ -8,11 +8,11 @@ excerpt: Comprei um celular Android. Não para testar nem nada do tipo; é para 
 ---
 Comprei um celular Android. Não para testar nem nada do tipo; é para substituir o meu iPhone, que está com a bateria degradada e um software (iOS&nbsp;18) que não se entende mais com telas pequenas da década passada.
 
-Mentiria se dissesse que vou trocá-lo só por isso. Faz uma década (!) que não uso outro celular. Estou curioso e desconfortável no cercadinho da Apple.
+Mentiria se dissesse que vou trocá-lo só por isso. Faz uma década (!) que não uso outro celular. Estou incomodado, desconfortável no cercadinho da Apple.
 
-Faz tanto tempo… Há anos eu digo a mim mesmo que quando meu celular quebrar, testarei outras águas. Nunca quebra e na última vez em que troquei, fui no seguro e peguei outro quase igual. (E, justiça seja feita, foram raros os problemas.)
+Faz tanto tempo… Há anos eu digo a mim mesmo que quando meu celular quebrar, testarei outras águas. Nunca quebra e na última vez em que troquei, fui no seguro e peguei outro quase igual. (E, justiça seja feita, foram raros os problemas com este e os iPhones anteriores.)
 
-A vida é muito curta e o mercado, sedento por vender para esperar pelas coisas quebrarem. (Mentira; ainda me censuro internamente por estar antecipando essa troca, mas menos do que me censuraria até alguns meses atrás.)
+A vida é curta e o mercado está sempre sedento para vender. Mesmo sempre relutante em comprar qualquer coisa fabricada em larga escala, talvez eu seja (todos sejamos) fraco demais para resistir.
 
 Estou animado com a mudança e já faço planos para, se tudo correr bem com o celular, trocar também o Mac por Linux no computador.
 
