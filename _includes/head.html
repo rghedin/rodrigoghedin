@@ -7,7 +7,7 @@
     <title>{{ page.title | truncate: 45, "…"}} | {{ site.title }}</title>
     <meta name="description" content="{{ page.content | strip_html | truncate: 120, '…' }}">
     <meta name="fediverse:creator" content="@manualdousuario@mastodon.social" />
-    <link rel="alternate" type="application/atom+xml" href="{{ site.baseurl }}/feed.xml">
+    {% feed_meta %}
     {% if page.layout == 'default' or page.layout == 'page' %}<meta name="robots" content="index,follow">{% else %}<meta name="robots" content="noindex,follow">{% endif %}
     <!--Template baseado no jekyllBear https://knhash.in/jekyllBear -->
 
