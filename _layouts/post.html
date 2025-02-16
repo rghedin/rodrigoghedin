@@ -3,7 +3,7 @@
 {% include header.html %}
 
 <main>
-    <article class="h-entry {% if page.type == 'image' %}e-image{% elsif page.type == 'quote' %}e-quote{% elsif page.type == 'aside' %}e-aside{% elsif page.type == 'link' %}e-link{% elsif page.type == 'page' %}entry_page{% endif %}">
+    <article class="h-entry{% if page.type == 'image' %} e-image{% elsif page.type == 'quote' %} e-quote{% elsif page.type == 'aside' %} e-aside{% elsif page.type == 'link' %} e-link{% elsif page.type == 'page' %} entry_page{% endif %}">
 
     <h1 class="p-name">{{ page.title }}</h1>
 
