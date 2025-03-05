@@ -8,4 +8,3 @@ pagination:
  sort_reverse: true
 excerpt: Pensamentos, ideias e inspirações de Rodrigo Ghedin.
 ---
-<h1>/blog</h1>
