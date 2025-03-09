@@ -2,7 +2,6 @@
 layout: post
 title: "\"Muito Mais que 5inco Minutos\": O livro da vlogueira Kéfera Buchmann"
 date: 2015-12-07 22:26 -02:00
-categories: críticas
 ---
 ![Kéfera]({{ site.url }}/assets/kefera.jpeg)
 

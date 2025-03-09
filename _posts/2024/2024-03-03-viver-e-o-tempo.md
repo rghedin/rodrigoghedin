@@ -2,7 +2,6 @@
 layout: post
 title: "Viver e o tempo"
 date: 2024-03-03 10:21 -0300
-categories: relatos
 ---
 Todo ano, muitas pessoas (ou alguns desocupados no Twitter) reclamam horrores de que janeiro nunca acaba.
 

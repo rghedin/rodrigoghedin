@@ -2,7 +2,6 @@
 layout: post
 title: Loucamente equivocados
 date: 2015-06-28 18:22 -0300
-categories: críticas
 ---
 Dia desses estava zapeando a Netflix em busca de um filme açucarado. (Às vezes o nível de glicose sentimental baixa e nada é melhor que duas horas vendo a felicidade fictícia alheia para restaurá-lo.) Encontrei _Loucamente Apaixonados_, de Drake Doremus. O algoritmo da Netflix disse que eu iria gostar, e como ele é o melhor amigo para indicar filmes, aceitei a sugestão. E isso foi antes de eu saber que o filme foi feito com umas Canon 7D, custou uma mixaria e foi a sensação no Festival Sundance em 2011.
 

@@ -2,7 +2,6 @@
 layout: post
 title: "“Como escrever bem”, de William Zinsser"
 date: 2022-03-08 14:05 -0300
-categories: críticas
 ---
 ![Foto de cima do livro “Como escrever bem”, com capa vermelha e letras pretas, sobre um suporte de madeira clara com duas plantas à direita e o chão de taco à vista do lado esquerdo.](/assets/2022/como-escrever-bem.jpg)
 

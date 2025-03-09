@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Quebrar o dente comendo pipoca, um dos meus…"
 date: 2022-11-16 20:11 -0300
-categories: notinhas
 ---
 Quebrar o dente comendo pipoca, um dos meus alimentos favoritos, é quase como ser traído por um grande amigo.
 

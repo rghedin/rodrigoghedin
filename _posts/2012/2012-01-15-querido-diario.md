@@ -2,7 +2,6 @@
 layout: post
 title: "Querido diário"
 date: 2012-01-15 20:30 -02:00
-categories: relatos
 ---
 Ontem, numa conversa de bar, o assunto "diário" surgiu e, quando questionado, respondi que tenho um.
 

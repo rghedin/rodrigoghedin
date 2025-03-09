@@ -3,7 +3,6 @@ layout: post
 type: quote
 title: "Fossem meus os tecidos bordados dos céus…"
 date: 2017-05-24 13:30 -0300
-categories: citações
 ---
 >Fossem meus os tecidos bordados dos céus,  
 Ornamentados com luz dourada e prateada,  

@@ -3,7 +3,6 @@ layout: post
 type: quote
 title: "Ele queria que eu fosse mais ousado…"
 date: 2021-03-07 18:00 -0300
-categories: citações
 ---
 >Ele queria que eu fosse mais ousado, mais maluco. Disse-me, "Você tem que escrever como se seus pais estivessem mortos". Meus pais estavam vivos. Aceitei seu conselho.
 

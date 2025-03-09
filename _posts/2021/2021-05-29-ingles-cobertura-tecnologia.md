@@ -2,7 +2,6 @@
 layout: post
 title: "O inglês e a cobertura de tecnologia"
 date: 2021-05-29 18:50 -0300
-categories: meta
 ---
 Em resposta à última newsletter do _Manual do Usuário_, um leitor me disse: “Mesmo sendo fluente em inglês, incomodou-me o fato de quase todas indicações serem em outra língua. Isso não afasta um pouco o público? Estou sendo chato?”
 

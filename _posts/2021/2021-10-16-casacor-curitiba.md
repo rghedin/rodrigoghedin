@@ -3,7 +3,6 @@ layout: post
 type: image
 title: "Casacor Curitiba 2021"
 date: 2021-10-16 13:50 -0300
-categories: passeios
 ---
 ![Foto de mãos segurando um celular tirando foto de um quarto. Ao fundo, o quarto desfocado.](/assets/2021/DSC06414.JPG)
 

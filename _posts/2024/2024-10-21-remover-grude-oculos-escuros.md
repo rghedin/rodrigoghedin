@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Faz uns bons anos me vi obrigado a comprar…"
 date: 2024-10-21 10:39 -0300
-categories: notinhas
 ---
 Faz uns bons anos me vi obrigado a comprar um novo par de óculos escuros porque o meu antigo, daqueles com acabamento emborrachado, ficou grudento.
 

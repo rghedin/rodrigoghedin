@@ -2,7 +2,6 @@
 layout: post
 title: "O dia em que viajei com o Djavan"
 date: 2024-05-26 13:38 -0300
-categories: relatos
 ---
 Dia desses me vi a dois metros do Djavan enquanto aguardava para embarcar em um voo. Ele estava de boina, óculos escuros e máscara cirúrgica, talvez numa tentativa de passar despercebido. Não funcionou por dois motivos:
 

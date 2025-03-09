@@ -2,7 +2,6 @@
 layout: post
 title: "Akira Toryiama"
 date: 2024-03-10 09:22 -0300
-categories: relatos
 ---
 Quando criança, não entendia por que as personagens de desenhos animados tinham uma espécie de amnésia entre os episódios. O que acontecia em um era esquecido ou ignorado no seguinte, criando histórias isoladas.
 

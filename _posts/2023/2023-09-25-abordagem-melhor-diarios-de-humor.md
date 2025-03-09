@@ -2,7 +2,6 @@
 layout: post
 title: "Uma abordagem melhor para diários de humor"
 date: 2023-09-25 18:52 -0300
-categories: relatos
 ---
 Estava curioso com a implementação da Apple do diário de humor, uma das novidades do iOS 17, ali chamado [“Estado Emocional”](https://support.apple.com/pt-br/guide/iphone/iphfdc377776/ios). Assim que atualizei o celular, abri, dei uma olhada e… bom, continuarei com o Daylio mesmo.
 

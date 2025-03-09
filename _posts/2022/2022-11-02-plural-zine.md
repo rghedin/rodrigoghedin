@@ -3,7 +3,6 @@ layout: post
 type: link
 title: "“Rodrigo Ghedin escreve sobre tecnologia com coragem e honestidade”, no Plural"
 date: 2022-11-02 09:50 -0300
-categories: aparições
 ---
 Crítica do Irinêo Baptista Netto do zine _Outros jeitos de pensar a tecnologia_.
 

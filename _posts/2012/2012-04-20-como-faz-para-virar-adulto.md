@@ -2,7 +2,6 @@
 layout: post
 title: "Como faz para virar adulto?"
 date: 2012-04-20 11:40 -0300
-categories: relatos
 ---
 Trecho da [crítica](http://therumpus.net/2012/04/not-just-a-review-my-life-and-the-fallback-plan-by-leigh-stein/) ao livro _The Fallback Plan_, de Leigh Stein, escrita por [Alizah Salario](http://www.alizahsalario.com/):
 

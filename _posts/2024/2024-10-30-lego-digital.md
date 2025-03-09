@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Passei os últimos dois dias estabelecendo…"
 date: 2024-10-30 09:00 -0300
-categories: notinhas
 ---
 Passei os últimos dois dias estabelecendo conexões entre plataformas sociais e o [Manual do Usuário](https://manualdousuario.net/) a fim de automatizar a distribuição do conteúdo do blog de um jeito que não pareça displicente (leia-se: título e link).
 

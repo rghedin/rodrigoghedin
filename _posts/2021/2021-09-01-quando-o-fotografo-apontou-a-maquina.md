@@ -3,7 +3,6 @@ layout: post
 type: quote
 title: "Quando o fotógrafo apontou a máquina para seu lado…"
 date: 2021-09-01 09:10 -0300
-categories: citações
 ---
 >Quando o fotógrafo apontou a máquina para seu lado, Raimundo estremeceu. Olhou bem sério. A máquina disparou, aproximou-se revoltado:
 >

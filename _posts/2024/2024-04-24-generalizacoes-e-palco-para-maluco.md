@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Uma pessoa com alguma visibilidade em…"
 date: 2024-04-24 08:50 -0300
-categories: notinhas
 ---
 Uma pessoa com visibilidade em redes sociais faz uma crítica absurda e gera uma reação gigantesca. Um jovem (“gen z”) descobre alguma obviedade ou inventa qualquer idiotice (pois jovem) e toda uma geração é rotulada de perdida. Pessoas nos EUA fazem uma bobagem e isso é extrapolado ao mundo todo, uma crise global.
 

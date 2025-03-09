@@ -3,7 +3,6 @@ layout: post
 type: quote
 title: "Os melhores estudantes receberam seus diplomas…"
 date: 2016-07-31 12:20 -0300
-categories: citações
 ---
 >Os melhores estudantes receberam seus diplomas primeiro. Foram sendo chamados. Abe Mortenson estava entre eles. Pegou seu canudo. Aplaudi.  
 — Onde ele vai terminar? — perguntou Jimmy.  

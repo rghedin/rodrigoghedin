@@ -3,7 +3,6 @@ layout: post
 type: quote
 title: "Eu não estou interessado em nenhuma teoria…"
 date: 2018-03-29 18:00 -0300
-categories: citações
 ---
 >Eu não estou interessado em nenhuma teoria  
 Nem nessas coisas do oriente, romances astrais  

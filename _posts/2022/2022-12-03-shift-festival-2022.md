@@ -3,7 +3,6 @@ layout: post
 type: link
 title: "“A internet virou um grande shopping”, no Sh*ft Festival"
 date: 2022-12-03 08:18 -0300
-categories: aparições
 ---
 ![Palco, com duas mulheres sentadas em poltronas e um telão atrás, onde aparece um homem branco, de barba e cabelo curto, usando um headset grande.](/assets/2022/shift-festival-2022.jpeg)
 

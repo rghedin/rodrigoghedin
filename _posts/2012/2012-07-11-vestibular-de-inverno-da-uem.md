@@ -2,7 +2,6 @@
 layout: post
 title: "Eu vestibulando — de novo"
 date: 2012-07-11 10:20 -03:00
-categories: relatos
 ---
 ![Eu, representado por um macaquinho, indeciso sobre o meu futuro acadêmico.]({{ site.url }}/assets/2012/vestibulando-de-merda.gif)
 

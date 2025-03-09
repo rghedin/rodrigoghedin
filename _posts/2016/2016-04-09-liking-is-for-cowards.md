@@ -3,7 +3,6 @@ layout: post
 type: quote
 title: "Liking is for cowards. Go for what hurts."
 date: 2016-04-09 10:03 -0300
-categories: citações
 ---
 >Liking is for cowards. Go for what hurts.
 

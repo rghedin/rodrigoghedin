@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "O isolamento das redes sociais cobra um preço"
 date: 2021-12-01 11:50 -0300
-categories: notinhas
 ---
 O isolamento das redes sociais cobra um preço. Dia desses perguntei a uma amiga, que morava fora, quando ela visitaria o Brasil outra vez.
 

@@ -3,7 +3,6 @@ layout: post
 type: longform
 title: "CSS: text-wrap para equilibrar títulos"
 date: 2024-09-12 07:39 -0300
-categories: notinhas
 ---
 Tem tanta coisa possível no CSS hoje que já considero uma “obra aberta” — impossível conhecer tudo, sempre nos presenteando com pequenas pérolas.
 

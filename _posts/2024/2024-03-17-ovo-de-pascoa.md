@@ -2,7 +2,6 @@
 layout: post
 title: "Ovo de Páscoa"
 date: 2024-03-17 09:08 -0300
-categories: relatos
 ---
 Lá se vão oito anos (!) desde que o roqueiro Roger Moreira, do alto do seu QI, elucidou a dúvida matemático-financeira que assombrava a humanidade desde que um coelho ressuscitou e Jesus botou um ovo de chocolate — ou algo assim.
 

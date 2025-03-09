@@ -2,7 +2,6 @@
 layout: post
 title: "“Anna Kariênina”, de Lev Tolstói"
 date: 2022-06-15 18:40 -0300
-categories: críticas
 ---
 Não é à toa que “Anna Kariênina” continua aí, firme e forte, e não apenas por sua inigualável frase inicial. Todo o resto é tão bom quanto — e algumas partes, como a da personagem título no penúltimo capítulo, ainda hoje têm um estilo arrojado, surpreendente.
 

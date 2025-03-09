@@ -2,7 +2,6 @@
 layout: post
 title: "Cheiro de manga podre"
 date: 2023-01-01 08:39 -0300
-categories: relatos
 ---
 Quando venho ao interior, à minha cidade natal, gosto de calçar os tênis de corrida e andar a esmo pela cidade.
 

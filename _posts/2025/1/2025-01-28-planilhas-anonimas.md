@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Novos receios desbloqueados em 2025: aparecer em uma planilha…"
 date: 2025-01-28 09:59 -0300
-categories: notinhas
 excerpt: Novos receios desbloqueados em 2025&Icirc; aparecer em uma planilha anônima em que as pessoas falem mal de mim com requintes de crueldade. PSIcirc; A dos maridos, em que esposas apontam os defeitos e dão dicas para eventuais futuras esposas…
 ---
 Novos receios desbloqueados em 2025: aparecer em uma planilha anônima em que as pessoas falem mal de mim com requintes de crueldade.

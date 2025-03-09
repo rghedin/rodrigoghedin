@@ -2,7 +2,6 @@
 layout: post
 title: "Por que você deveria doar os seus livros"
 date: 2011-06-04 14:49 -03:00
-categories: relatos
 ---
 Faz mais ou menos um mês, peguei um punhado de livros da estante, fui à biblioteca municipal e doei tudo. Uns 30 volumes, acho, de livros clássicos de filósofos e grandes pensadores até a coleção inteira de _Harry Potter_ (capa dura, ainda!), além de alguns romances contemporâneos.
 

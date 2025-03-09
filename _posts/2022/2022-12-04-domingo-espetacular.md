@@ -3,7 +3,6 @@ layout: post
 type: link
 title: "“Golpe do emprego faz diversas vítimas em várias partes do país”, no Domingo Espetacular"
 date: 2022-12-04 22:00 -0300
-categories: aparições
 ---
 ![Homem branco, de barba e cabelo curto, vestindo camiseta preta, com um monitor grande, uma ring light e uma palmeira ao fundo. No CG, “Rodrigo Ghedin, Jornalista”.](/assets/2022/domingo-espetacular.jpeg)
 

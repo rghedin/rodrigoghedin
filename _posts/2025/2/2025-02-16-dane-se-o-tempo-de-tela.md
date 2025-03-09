@@ -2,7 +2,6 @@
 layout: post
 title: "Dane-se o tempo de tela"
 date: 2025-02-16 08:26 -0300
-categories: relatos
 excerpt: Em um domingo qualquer de janeiro, fiquei horrorizado quando me dei conta de que passei +10 horas olhando para telas. O número leva em conta as telas do celular, tablet e computador, que trabalham em harmonia para…
 ---
 Em um domingo qualquer de janeiro, fiquei horrorizado quando me dei conta de que passei +10 horas olhando para telas. O número leva em conta as telas do celular, tablet e computador, que trabalham em harmonia para esfregar na minha cara que há dias em que parece que não tenho vida.

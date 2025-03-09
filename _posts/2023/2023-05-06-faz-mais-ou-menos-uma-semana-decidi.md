@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Faz mais ou menos uma semana, decidi…"
 date: 2023-05-06 09:37 -0300
-categories: notinhas
 ---
 Faz mais ou menos uma semana, decidi parar de usar máscara no dia a dia.
 

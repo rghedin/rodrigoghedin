@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Os textos do autor [eu] variam de…"
 date: 2024-12-14 12:14 -0300
-categories: notinhas
 ---
 Está rolando a pesquisa anual de quem lê o Manual. Ri gostoso deste comentário:
 

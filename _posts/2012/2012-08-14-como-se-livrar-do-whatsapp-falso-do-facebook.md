@@ -2,7 +2,6 @@
 layout: post
 title: "Como se livrar do WhatsApp falso do Facebook"
 date: 2012-08-14 11:27 -0300
-categories: tecnologia
 ---
 Acabei de cair no golpe do WhatsApp falso do Facebook. Eu. Caí. Num. Golpe. Do. Facebook.
 

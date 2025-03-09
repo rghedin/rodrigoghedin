@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "“Outros jeitos de pensar sobre tecnologia”, no MonoEstéreo"
 date: 2022-07-22 13:00 -0300
-categories: aparições
 ---
 [Outros jeitos de pensar sobre tecnologia, com Rodrigo Ghedin](https://eduf.me/rodrigo-ghedin/) &rarr; 
 

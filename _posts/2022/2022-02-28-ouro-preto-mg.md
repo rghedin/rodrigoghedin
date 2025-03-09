@@ -3,7 +3,6 @@ layout: post
 type: image
 title: "Ouro Preto (MG)"
 date: 2022-02-28 15:50 -0300
-categories: passeios
 ---
 ![Vista de uma rua em Ouro Preto, com calçamento de pedra, prédios históricos dos dois lados e pessoas e carros — em primeiro plano, à esquerda, mulher de cabelo curto e roupa preta de costas.](/assets/2022/ORG_DSC07192.JPG)
 

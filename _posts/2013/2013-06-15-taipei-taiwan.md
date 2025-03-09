@@ -2,7 +2,6 @@
 layout: post
 title: "Taipei, Taiwan"
 date: 2013-06-15 12:00 -0300
-categories: passeios
 ---
 ![Rua lateral do Guang Hua Digital Plaza, um dos grandes centros de eletrônicos de Taipei.](/assets/2013/guang-hua-taipei.jpg)
 

@@ -2,7 +2,6 @@
 layout: post
 title: "Esperança de dias melhores"
 date: 2022-10-29 08:55 -0300
-categories: etc
 ---
 Mesmo com Lula ganhando a eleição amanhã, os estragos causados pelo bolsonarismo permanecerão entre nós por muito tempo: o das políticas públicas, à coletividade; e o das relações interpessoais.
 

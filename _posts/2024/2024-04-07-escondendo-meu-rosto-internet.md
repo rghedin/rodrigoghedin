@@ -2,7 +2,6 @@
 layout: post
 title: "Escondendo meu rosto na internet"
 date: 2024-04-07 10:16 -0300
-categories: relatos
 ---
 Dois eventos não relacionados — o nascimento da bebê de alguém próximo e um site que [gera avatares feios](https://txstc55.github.io/ugly-avatar) — me levaram a repensar a exposição a que me submeto, quase sempre de modo voluntário, na internet.
 

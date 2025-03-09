@@ -2,7 +2,6 @@
 layout: post
 title: "Sempre há tempo para recomeçar"
 date: 2013-05-12 09:40 -03:00
-categories: relatos
 ---
 ![Turma 2016 de Comunicação e Multimeios.](/assets/2013/cmm2013.jpeg)
 

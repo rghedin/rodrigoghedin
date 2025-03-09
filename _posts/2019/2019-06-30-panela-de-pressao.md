@@ -2,7 +2,6 @@
 layout: post
 title: "Panela de pressão"
 date: 2019-06-30 19:00 -0300
-categories: relatos
 ---
 Nos últimos anos reduzi meu consumo de leguminosas a basicamente quando como fora. Longe de não gostar, é que nunca havia mexido com panela de pressão e tinha medo de explodi-la na tentativa de cozinhar um feijão.
 

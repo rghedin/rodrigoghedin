@@ -3,7 +3,6 @@ layout: post
 type: link
 title: "“Estamos preparados para o fim do Twitter?”, na revista Gama"
 date: 2022-12-04 08:20 -0300
-categories: aparições
 ---
 Fui fonte na reportagem do Leonardo Vieira sobre o (possível) fim do Twitter.
 

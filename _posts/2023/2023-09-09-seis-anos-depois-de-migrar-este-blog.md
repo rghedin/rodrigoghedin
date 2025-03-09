@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Seis anos depois de migrar este blog…"
 date: 2023-09-09 14:54 -0300
-categories: meta
 ---
 Seis anos depois de [migrar este blog](/eu-refiz-um-blog/) para o Jekyll, hospedado no GitHub Pages, tomei vergonha na cara e sentei a bunda na frente do computador para *entender* como o Jekyll funciona.
 

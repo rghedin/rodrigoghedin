@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Assisti ao filme “Abismo de um sonho” (1952), do…"
 date: 2024-12-01 09:51 -0300
-categories: notinhas
 ---
 Assisti ao filme *Abismo de um sonho* (1952), do Fellini, e notei uma personagem conhecida fazendo uma ponta: Cabiria, interpretada Giulietta Masina. Segundo o IMDb, Fellini gostou tanto da personagem que escreveu um filme só dela, o aclamado *Noites de Cabiria* (1957). (Os dois eram casados.)
 

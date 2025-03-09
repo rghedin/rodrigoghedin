@@ -2,7 +2,6 @@
 layout: post
 title: "Reflexões de Black Friday"
 date: 2024-11-29 18:35 -0300
-categories: listas
 ---
 1. Existe papel higiênico de folha quádrupla. (Qual é o limite?)
 2. Existe um TLD (o final do endereço de sites, tipo `.com`) para a Black Friday, como em [saas.blackfriday](https://saas.blackfriday) (esse site existe e funciona).

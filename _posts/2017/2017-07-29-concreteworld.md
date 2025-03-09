@@ -2,7 +2,6 @@
 layout: post
 title: "Concreteworld"
 date: 2017-07-29 10:00 -0300
-categories: crônicas
 ---
 Vez ou outra algumas assessorias nos convidam para encontros ou almoços. Elas fazem isso para que seus clientes tenham a oportunidade de se apresentarem adequadamente e falarem dos seus produtos ou serviços. Bater um papo, basicamente. Quase sempre são encontros agradáveis e proveitosos.
 

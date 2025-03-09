@@ -2,7 +2,6 @@
 layout: post
 title: "Negatividade"
 date: 2025-03-09 17:18 -0300
-categories: relatos
 excerpt: "Tornei-me a pessoa que temia: um reclamão. A ponto de, no domingo de Carnaval, P. reclamar que eu estava muito negativo."
 ---
 Tornei-me a pessoa que temia: um reclamão. A ponto de, no domingo de Carnaval, P. reclamar que eu estava muito negativo.

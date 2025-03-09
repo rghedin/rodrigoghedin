@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Dermatilomania ou transtorno de escoriação"
 date: 2024-05-07 07:54 -0300
-categories: relatos
 ---
 Há meses (anos?) vivo com os dedos esfolados por arrancar a pele em torno das unhas. ([Foto meio nojenta](/assets/2024/dedos-dermatilomania-ou-transtorno-de-escoriacao.jpeg).) É automático e irresistível, e sempre bate o arrependimento depois, seguido do “vou parar com isso”. Óbvio que não paro.
 

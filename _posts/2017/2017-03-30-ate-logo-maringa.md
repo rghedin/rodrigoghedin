@@ -2,7 +2,6 @@
 layout: post
 title: "Até logo, Maringá"
 date: 2017-03-30 06:40 -0300
-categories: passeios
 ---
 ![Bloco E34 da UEM.](/assets/2017/e34-uem.jpg)
 

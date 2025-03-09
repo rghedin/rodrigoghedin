@@ -3,7 +3,6 @@ layout: post
 type: link
 title: "“Como cobrir tecnologia: big techs, novos produtos e segurança digital”, na Rede de Jornalistas Internacionais"
 date: 2024-04-20 07:58 -0300
-categories: aparições
 ---
 Webinário sobre a cobertura de tecnologia a convite do ICJF.
 

@@ -2,7 +2,6 @@
 layout: post
 title: "Dicas para ser menos pessimista"
 date: 2024-04-29 08:16 -0300
-categories: relatos
 ---
 Um leitor do Manual do Usuário cancelou a inscrição na newsletter do site porque estava se sentindo mal com meu “viés negativo”.
 

@@ -2,7 +2,6 @@
 layout: post
 title: "Filme do Elvis"
 date: 2024-02-25 13:24 -0300
-categories: críticas
 ---
 Vimos *Priscilla* no cinema. Ao sair da sessão, me peguei pensando: como eram os filmes do Elvis Presley?
 

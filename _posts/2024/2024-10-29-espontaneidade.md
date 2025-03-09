@@ -3,7 +3,6 @@ layout: post
 type: longform
 title: "Espontaneidade"
 date: 2024-10-28 09:45 -0300
-categories: notinhas
 ---
 Topei com um podcast e um canal no YouTube anacrônicos, que me lembraram uma época mais ingênua da internet — uma que tento preservar nesta newsletter, no meu blog e até no Manual do Usuário.
 

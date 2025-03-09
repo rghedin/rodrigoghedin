@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Comprei um celular Android. Não para testar nem nada do…"
 date: 2025-02-13 18:25 -0300
-categories: notinhas
 excerpt: Comprei um celular Android. Não para testar nem nada do tipo; é para substituir o meu iPhone, que está com a bateria degradada e um software (iOS 18) que não se entende mais com telas pequenas. Mentiria se dissesse…
 ---
 Comprei um celular Android. Não para testar nem nada do tipo; é para substituir o meu iPhone, que está com a bateria degradada e um software (iOS&nbsp;18) que não se entende mais com telas pequenas.

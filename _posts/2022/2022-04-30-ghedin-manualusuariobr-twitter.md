@@ -3,7 +3,6 @@ layout: post
 type: image
 title: "@ghedin e @manualusuariobr no Twitter"
 date: 2022-04-30 10:15 -0300
-categories: imagens
 ---
 Faz uns anos que decidi usar apenas [o perfil do Manual do Usuário no Twitter](https://twitter.com/manualusuariobr) para publicar materiais do Manual e opiniões de tecnologia.
 

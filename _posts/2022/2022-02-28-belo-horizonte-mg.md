@@ -3,7 +3,6 @@ layout: post
 type: image
 title: "Belo Horizonte (MG)"
 date: 2022-02-28 15:45 -0300
-categories: passeios
 ---
 ![Em primeiro plano, homem com camiseta de time, boné e máscara lê algo sentado em um banco. Ao fundo, um jardim, chafarizes e dois prédios históricos, um amarelo e outro azul.](/assets/2022/ORG_DSC07056.JPG)
 

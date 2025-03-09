@@ -2,7 +2,6 @@
 layout: post
 title: "Gente que não gosta de viajar"
 date: 2022-03-06 18:55 -0300
-categories: passeios
 ---
 Descrever-se é difícil. Há uma linha tênue entre mostrar seu melhor lado e soar esnobe e, frente a esse dilema, não é raro nos apegarmos a clichês. “Gosto de ver filmes”, “adoro comer”, “vivo para viajar”. Quem não gosta disso tudo? Bom… eu não curto muito viajar.
 

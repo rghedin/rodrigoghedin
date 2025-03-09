@@ -2,7 +2,6 @@
 layout: post
 title: "Review ⚡️ rápido: PFF2 Aura 9320 da 3M"
 date: 2021-08-01 11:20 -0300
-categories: notinhas
 ---
 ![Selfie de homem branco, cabelo curto e óculos, usando uma máscara 3M Aura branca.](/assets/2021/pff2-3m-aura-9320.jpeg)
 

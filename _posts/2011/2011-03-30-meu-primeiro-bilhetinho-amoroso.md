@@ -2,7 +2,6 @@
 layout: post
 title: "Meu primeiro bilhetinho amoroso"
 date: 2011-03-30 01:43 0300
-categories: relatos
 ---
 ![Charlie Brown]({{ site.url }}/assets/2011/charlie-brown.jpg)
 

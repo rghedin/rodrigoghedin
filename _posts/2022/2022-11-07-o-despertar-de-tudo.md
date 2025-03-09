@@ -2,7 +2,6 @@
 layout: post
 title: "“O despertar de tudo”, de David Graeber e David Wengrow"
 date: 2022-11-07 08:32 -0300
-categories: críticas
 ---
 Li [_O despertar de tudo: Uma nova história da humanidade_](https://www.companhiadasletras.com.br/livro/9786559211722/o-despertar-de-tudo), do David Graeber e David Wengrow, publicado pela Companhia das Letras.
 

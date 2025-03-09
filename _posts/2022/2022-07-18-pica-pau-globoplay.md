@@ -3,7 +3,6 @@ layout: post
 type: aside
 title: "Pica-Pau no Globoplay"
 date: 2022-07-18 13:35 -0300
-categories: notinhas
 ---
 Utilidade pública: o desenho clássico do Pica-Pau, aquele final dos anos 1950, [entrou no catálogo do Globoplay](https://globoplay.globo.com/o-pica-pau-e-seus-amigos/t/gHFCjZXFC8/). Na proporção correta (4:3), com a dublagem original e, até onde vi, sem cortes.
 
