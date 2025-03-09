@@ -277,6 +277,10 @@ p.link span {
 }
 
 @media only screen and (max-width: 512px) {
+	:root {
+		--pos-margem-baixo: 1rem;
+	}
+
 	body {
 		font-size: 1.15rem;
 	}
