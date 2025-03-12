@@ -245,7 +245,6 @@ figure {
 }
 
 .e-quote blockquote {
-	font-family: var(--ff-base);
 	margin-left: 0;
 	font-size: var(--fs-2);
 	line-height: 1.35;
@@ -278,6 +277,7 @@ p.link span {
 
 @media only screen and (max-width: 512px) {
 	:root {
+		--fs-2: 1.55rem;
 		--pos-margem-baixo: 1rem;
 	}
 
@@ -306,5 +306,9 @@ p.link span {
 		left: 50%;
 		right: 50%;
 		max-width: 1200px;
+	}
+
+	.e-quote blockquote {
+		line-height: 1.3;
 	}
 }
