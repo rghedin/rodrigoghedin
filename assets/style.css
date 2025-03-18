@@ -173,6 +173,9 @@ footer div {
 .h-entry {
 	margin-bottom: var(--pos-grande-salto);
 }
+.h-entry p:last-child {
+	margin-bottom: 0;
+}
 
 h1.p-name,
 h2.p-name {
@@ -183,7 +186,8 @@ h1.p-name {
 	font-size: var(--fs-3);
 }
 
-.dt-published {
+.dt-published,
+.comentario {
 	font-family: var(--ff-mono);
 	font-size: var(--fs-0);
 }
