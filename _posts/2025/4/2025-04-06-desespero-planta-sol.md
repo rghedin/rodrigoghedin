@@ -1,0 +1,9 @@
+---
+layout: post
+type: image
+title: "O desespero desta coitada pelo calor do Sol"
+date: 2025-04-06 11:49 -0300
+---
+![Planta em um vaso, contra uma parede branca, com os galhos “esticados” em direção à luz.](/assets/2025/4/planta-sol.avif)
+
+O desespero desta coitada pelo calor do Sol.
