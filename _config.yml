@@ -1,6 +1,10 @@
 title: rodrigo.ghed.in
 description: O jardim digital de Rodrigo Ghedin
-url: "https://rodrigo.ghed.in" # the base hostname & protocol for your site
+url: "https://rodrigo.ghed.in"
+author: Rodrigo Ghedin
+
+feed:
+  icon: /assets/perfil.avif
 
 markdown: kramdown
 
