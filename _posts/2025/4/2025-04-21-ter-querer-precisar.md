@@ -9,7 +9,7 @@ Aí lembrei de um livrinho que li dia desses, “A arte da quietude”, do Pico 
 
 Parei o podcast e tentei fazer isso nas quase 10h de viagem que tinha pela frente.
 
-Antes de pegar no sono, peguei-me pensando na urgência de \*ter\* que ouvir aquele podcast sobre ansiedade. Será que tenho que ouvi-lo mesmo? Já consegui vencer a ilusão de achar que um dia consumirei tudo que gostaria. ([falei disso aqui](https://manualdousuario.net/orbita-post/quando-seu-hobby-vira-um-peso/#comment-272269)). A reflexão do \*ter que…\* é um evolução desse raciocínio.
+Antes de pegar no sono, peguei-me pensando na urgência de \*ter\* que ouvir aquele podcast sobre ansiedade. Será que tenho que ouvi-lo mesmo? Já consegui vencer a ilusão de achar que um dia consumirei tudo que gostaria. ([Falei disso aqui](https://manualdousuario.net/orbita-post/quando-seu-hobby-vira-um-peso/#comment-272269).) A reflexão do \*ter que…\* é um evolução desse raciocínio.
 
 Estou convencido de que coisas que \*tenho\* que ler/ver/ouvir/jogar/consumir são coisas dispensáveis. Que esse verbo sinaliza que, na real, eu não tenho que fazer nada disso. 
 
