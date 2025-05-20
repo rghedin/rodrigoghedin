@@ -11,4 +11,4 @@ Meu blog, que mantenho de uma forma ou outra desde 2005, também está aqui, al�
 
 Ah, escrevo o [Manual do Usuário](https://manualdousuario.net) e sou sócio da [Célere](https://celere.dev).
 
-Se quiser ou precisar falar comigo, [envie um e-mail](mailto:rodrigo@ghed.in).
+Para falar comigo, [envie um e-mail](mailto:rodrigo@ghed.in).
