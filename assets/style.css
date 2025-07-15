@@ -200,27 +200,26 @@ h1.p-name {
 	color: var(--cor-link-alt-est);
 }
 
-ul.nav-blogs {
+.nav-blogs {
 	display: flex;
 	justify-content: space-between;
-	list-style-type: none;
 	font-family: var(--ff-mono);
 	font-size: var(--fs-0);
 	padding: 0;
 	margin: 0 0 var(--pos-grande-salto);
 }
-ul.nav-blogs > li.nav-blogs-antigos:only-child {
+.nav-blogs > .nav-blogs-antigos:only-child {
 	width: 100%;
 	text-align: right;
 }
-ul.nav-blogs > li.nav-blogs-novos:only-child {
+.nav-blogs > .nav-blogs-novos:only-child {
 	width: 100%;
 	text-align: left;
 }
-ul.nav-blogs a {
+.nav-blogs a {
 	color: var(--cor-link-alt);
 }
-ul.nav-blogs a:hover {
+.nav-blogs a:hover {
 	color: var(--cor-link-alt-est);
 }
 
