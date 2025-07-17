@@ -2,3 +2,6 @@ User-agent: *
 Disallow: /
 Allow: /$
 Allow: /feed.xml
+
+User-agent: Buttondown RSS-Feed-Parser
+Allow: /
