@@ -17,10 +17,10 @@
 
 	--ff-mono: ui-monospace, monospace;
 
-	--fs-0: .9rem;
-	--fs-1: 1.3rem;
-	--fs-2: 1.75rem;
-	--fs-3: 2.2rem;
+	--fs-0: .85rem;
+	--fs-1: 1.1rem;
+	--fs-2: 1.4rem;
+	--fs-3: 1.7rem;
 
 	--pos-margem-baixo: 1.25rem;
 	--pos-salto-medio: 5rem;
@@ -49,7 +49,7 @@ img {
 
 body {
 	background-color: var(--esq-fundo);
-	width: min(100%, 68ch);
+	width: min(100%, 64ch);
 	margin-inline: auto;
 	padding: 1rem .5rem .5rem;
 	font-family: "Helvetica Neue", Arial, sans-serif;
@@ -182,6 +182,7 @@ footer div {
 h1.p-name,
 h2.p-name {
 	font-size: var(--fs-3);
+	font-weight: 400;
 	margin-bottom: var(--pos-margem-baixo);
 }
 h1.p-name {
@@ -259,6 +260,7 @@ figure {
 	line-height: 1.35;
 	border-left: none;
 	padding-left: 0;
+	font-family: Georgia, serif;
 }
 
 .e-quote blockquote:before {
@@ -288,11 +290,6 @@ p.link span {
 	:root {
 		--fs-2: 1.55rem;
 		--pos-margem-baixo: 1rem;
-	}
-
-	body {
-		font-size: 1.25rem;
-		line-height: 1.4;
 	}
 
 	footer {
