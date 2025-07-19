@@ -114,7 +114,7 @@ blockquote {
 
 header {
 	display: flex;
-	justify-content: start;
+	justify-content: space-between;
 	column-gap: var(--pos-margem-baixo);
 	align-items: center;
 	margin: 0 auto var(--pos-grande-salto);
@@ -124,11 +124,10 @@ header h2 {
 	font-size: var(--fs-1);
 	line-height: 1.5;
 	margin: 0;
-	height: 42px;
-	cursor: pointer;
+	height: 54px;
 }
 header h2 img {
-	border-radius: var(--pos-curvada);
+	border-radius: 50%;
 	box-shadow: var(--sombra);
 }
 header picture {
@@ -287,6 +286,57 @@ p.link span {
 	line-height: 1;
 }
 
+/*
+ * Formulário
+ */
+/* Formulário */
+form {
+	margin-bottom: var(--pos-margem-baixo);
+}
+
+label {
+	display: block;
+	margin-bottom: .5rem;
+}
+
+input {
+	font-family: inherit;
+	font-size: var(--fs-1);
+}
+
+input[type="text"],
+input[type="email"] {
+	width: 100%;
+	padding: .5rem;
+	color: var(--esq-fonte);
+	background-color: var(--esq-fundo);
+	border: 2px solid light-dark(var(--cor-fundo-alt), hsl(0, 0%, 30%));
+	border-radius: var(--pos-curvada);
+	transition: border-color .2s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+	border-color: var(--cor-link);
+}
+
+input[type="submit"] {
+	padding: .5rem 1rem;
+	color: var(--esq-fundo);
+	background-color: var(--cor-link);
+	border: none;
+	border-radius: var(--pos-curvada);
+	cursor: pointer;
+	transition: background-color .2s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: var(--cor-link-est);
+}
+
+/*
+ * Telas pequenas
+ */
 @media only screen and (max-width: 512px) {
 	:root {
 		--fs-2: 1.55rem;
@@ -320,6 +370,10 @@ p.link span {
 		line-height: 1.3;
 	}
 }
+
+/*
+ * Modo escuro
+ */
 
 @media (prefers-color-scheme: dark) {
 	.full-img,
