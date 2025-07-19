@@ -249,6 +249,7 @@ figure {
 	width: 100vw;
 	max-width: 100%;
 	box-shadow: var(--sombra);
+	border-radius: var(--pos-curvada);
 }
 .e-image p:has(> img) {
 	margin-bottom: 0;
@@ -312,6 +313,7 @@ p.link span {
 		left: 50%;
 		right: 50%;
 		max-width: 1200px;
+		border-radius: initial;
 	}
 
 	.e-quote blockquote {
