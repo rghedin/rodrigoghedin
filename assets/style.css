@@ -120,13 +120,13 @@ header {
 	margin: 0 auto var(--pos-grande-salto);
 }
 
-header h2 {
+header h1 {
 	font-size: var(--fs-1);
 	line-height: 1.5;
 	margin: 0;
 	height: 54px;
 }
-header h2 img {
+header h1 img {
 	border-radius: 50%;
 	box-shadow: var(--sombra);
 }
@@ -379,7 +379,7 @@ input[type="submit"]:hover {
 	.full-img,
 	.e-image img,
 	figure,
-	header h2 img {
+	header h1 img {
 		box-shadow: none;
 	}	
 }
