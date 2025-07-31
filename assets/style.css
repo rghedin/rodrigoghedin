@@ -275,12 +275,25 @@ figure {
 	top: -140px;
 }
 
-p.link {
-	padding: 1rem;
-	background: var(--cor-link-est);
+p.link,
+.e-link div.e-content > p {
+	padding: .5rem 1rem;
+	background: var(--cor-fundo-alt);
 	border-radius: var(--pos-curvada);
 }
-p.link span {
+p.link::before,
+.e-link div.e-content > p::before {
+	content: "\2197";
+	color: black;
+	opacity: .15;
+	z-index: 1;
+	font-size: 56px;
+	line-height: 1;
+	float: right;
+}
+
+p.link span,
+.e-link div.e-content > p span {
 	font-family: var(--ff-mono);
 	font-size: var(--fs-0);
 	line-height: 1;
