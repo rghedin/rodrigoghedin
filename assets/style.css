@@ -276,13 +276,13 @@ figure {
 }
 
 p.link,
-.e-link div.e-content > p {
+.e-link div.e-content p:first-child {
 	padding: .5rem 1rem;
 	background: var(--cor-fundo-alt);
 	border-radius: var(--pos-curvada);
 }
-p.link::before,
-.e-link div.e-content > p::before {
+p.link:before,
+.e-link div.e-content p:first-child:before {
 	content: "\2197";
 	color: black;
 	opacity: .15;
