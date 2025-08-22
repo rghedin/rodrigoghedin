@@ -1,7 +1,7 @@
 :root {
 	--cor-fonte: hsl(0, 0%, 0%);
 	--cor-fundo: hsl(0, 0%, 100%);
-	--cor-fundo-alt: hsl(0, 0%, 95%);
+	--cor-fundo-alt: hsl(0, 0%, 85%);
 
 	--esq-fonte: light-dark(var(--cor-fonte), var(--cor-fundo));
 	--esq-fundo: light-dark(var(--cor-fundo), var(--cor-fonte));
@@ -125,6 +125,7 @@ header h1 {
 	line-height: 1.5;
 	margin: 0;
 	height: 54px;
+	flex-basis: content;
 }
 header h1 img {
 	border-radius: 50%;
@@ -139,7 +140,16 @@ nav {
 	display: flex;
 	column-gap: var(--pos-margem-baixo);
 	align-items: center;
-	height: 42px;
+	height: 60px;
+	flex-basis: 100%;
+	border-bottom: 1px dashed hsl(0, 0%, 85%);
+	padding-block: 1rem;
+}
+nav a:visited {
+	color: var(--cor-link);
+}
+nav a:hover {
+	color: var(--cor-link-est);
 }
 
 main {
