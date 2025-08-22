@@ -141,6 +141,8 @@ nav {
 	column-gap: var(--pos-margem-baixo);
 	align-items: center;
 	height: 60px;
+}
+header nav {
 	flex-basis: 100%;
 	border-bottom: 1px dashed hsl(0, 0%, 85%);
 	padding-block: 1rem;
