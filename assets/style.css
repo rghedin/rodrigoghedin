@@ -2,6 +2,7 @@
 	--cor-fonte: hsl(0, 0%, 0%);
 	--cor-fundo: hsl(0, 0%, 100%);
 	--cor-fundo-alt: light-dark(hsl(0, 0%, 96%), hsl(0, 0%, 12%));
+	--cor-bordas: light-dark(hsl(0, 0%, 85%), hsl(0, 0%, 35%));
 
 	--esq-fonte: light-dark(var(--cor-fonte), var(--cor-fundo));
 	--esq-fundo: light-dark(var(--cor-fundo), var(--cor-fonte));
@@ -107,7 +108,7 @@ code {
 }
 
 blockquote {
-	border-left: 4px solid rgb(232, 232, 232);
+	border-left: 4px solid var(--cor-bordas);
 	border-radius: 6px;
 	padding-left: 1rem;
 }
@@ -144,7 +145,7 @@ nav {
 }
 header nav {
 	flex-basis: 100%;
-	border-bottom: 1px dashed hsl(0, 0%, 85%);
+	border-bottom: 1px dashed var(--cor-bordas);
 	padding-block: 1rem;
 }
 header nav a:visited {
@@ -188,7 +189,7 @@ footer {
 	align-items: start;
 	margin: var(--pos-grande-salto) auto var(--pos-margem-baixo);
 	padding: var(--pos-margem-baixo) 0 0;
-	border-top: 1px dashed var(--cor-fundo-alt);
+	border-top: 1px dashed var(--cor-bordas);
 }
 footer ul {
 	display: flex;
@@ -336,7 +337,7 @@ input[type="email"] {
 	padding: .5rem;
 	color: var(--esq-fonte);
 	background-color: var(--esq-fundo);
-	border: 2px solid light-dark(var(--cor-fundo-alt), hsl(0, 0%, 30%));
+	border: 2px solid var(--cor-bordas);
 	border-radius: var(--pos-curvada);
 	transition: border-color .2s ease;
 }
@@ -408,4 +409,7 @@ input[type="submit"]:hover {
 	header h1 img {
 		box-shadow: none;
 	}	
+	header h1 img {
+		border: 1px solid var(--cor-bordas);
+	}
 }
