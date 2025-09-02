@@ -1,7 +1,7 @@
 :root {
 	--cor-fonte: hsl(0, 0%, 0%);
 	--cor-fundo: hsl(0, 0%, 100%);
-	--cor-fundo-alt: hsl(0, 0%, 85%);
+	--cor-fundo-alt: light-dark(hsl(0, 0%, 96%), hsl(0, 0%, 12%));
 
 	--esq-fonte: light-dark(var(--cor-fonte), var(--cor-fundo));
 	--esq-fundo: light-dark(var(--cor-fundo), var(--cor-fonte));
@@ -147,11 +147,35 @@ header nav {
 	border-bottom: 1px dashed hsl(0, 0%, 85%);
 	padding-block: 1rem;
 }
-nav a:visited {
-	color: var(--cor-link);
+header nav a:visited {
+	color: var(--cor-link)
 }
-nav a:hover {
+header nav a:hover {
 	color: var(--cor-link-est);
+}
+
+.nav-blogs {
+	display: flex;
+	justify-content: space-between;
+	font-family: var(--ff-mono);
+	font-size: var(--fs-0);
+	padding: 0;
+	margin: 0 0 var(--pos-grande-salto);
+}
+nav.nav-blogs > .nav-blogs-antigos:only-child {
+	width: 100%;
+	text-align: right;
+}
+nav.nav-blogs > .nav-blogs-novos:only-child {
+	width: 100%;
+	text-align: left;
+}
+nav.nav-blogs a,
+nav.nav-blogs a:visited {
+	color: var(--cor-link-alt);
+}
+nav.nav-blogs a:hover {
+	color: var(--cor-link-alt-est);
 }
 
 main {
@@ -212,29 +236,6 @@ h1.p-name {
 	color: var(--cor-link-alt-est);
 }
 
-.nav-blogs {
-	display: flex;
-	justify-content: space-between;
-	font-family: var(--ff-mono);
-	font-size: var(--fs-0);
-	padding: 0;
-	margin: 0 0 var(--pos-grande-salto);
-}
-.nav-blogs > .nav-blogs-antigos:only-child {
-	width: 100%;
-	text-align: right;
-}
-.nav-blogs > .nav-blogs-novos:only-child {
-	width: 100%;
-	text-align: left;
-}
-.nav-blogs a {
-	color: var(--cor-link-alt);
-}
-.nav-blogs a:hover {
-	color: var(--cor-link-alt-est);
-}
-
 /************
  * Tipos de posts
  ************/
@@ -277,10 +278,10 @@ figure {
 
 .e-quote blockquote:before {
 	content: "\201C";
+	color: var(--cor-fundo-alt);
 	display: block;
 	position: relative;
 	height: 0;
-	opacity: .03;
 	z-index: -999;
 	font-size: 390px;
 	left: -35px;
@@ -296,7 +297,7 @@ p.link,
 p.link:before,
 .e-link div.e-content p:first-child:before {
 	content: "\2197";
-	color: black;
+	color: light-dark(black, white);
 	opacity: .15;
 	z-index: 1;
 	font-size: 56px;
