@@ -15,4 +15,4 @@ Minha sugestão? Ouça uma das entrevistas que o Michel deu a todos os podcasts 
 
 \*\*\*
 
-Ouvi a entrevista do Michel ao Marcelo Tas e quase perdi a atenção em vários momentos porque o Tas fica gemendo o tempo todo…? “Sim, hmmm, é, sim…” Estranho. [#](https://rodrigo.ghed.in/blog/coisa-de-rico)
+Ouvi a entrevista do Michel ao Marcelo Tas e quase perdi a atenção em vários momentos porque o Tas fica gemendo o tempo todo…? “Sim, hmmm, é, sim…” Estranho.
