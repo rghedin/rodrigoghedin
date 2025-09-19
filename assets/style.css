@@ -115,38 +115,36 @@ blockquote {
 
 header {
 	display: flex;
-	justify-content: space-between;
-	column-gap: var(--pos-margem-baixo);
+	column-gap: 1rem;
 	align-items: center;
 	margin: 0 auto var(--pos-grande-salto);
 }
 
 header h1 {
+	flex: 0 0 auto;
+	height: 54px;
 	font-size: var(--fs-1);
 	line-height: 1.5;
 	margin: 0;
-	height: 54px;
-	flex-basis: content;
 }
 header h1 img {
 	border-radius: 50%;
 	box-shadow: var(--sombra);
 }
 header picture {
-	height: 42px;
-	width: 42px;
+	height: 54px;
+	width: 54px;
 }
 
 nav {
 	display: flex;
 	column-gap: var(--pos-margem-baixo);
 	align-items: center;
-	height: 60px;
 }
 header nav {
-	flex-basis: 100%;
+	flex: 1 1 auto;
+	height: 54px;
 	border-bottom: 1px dashed var(--cor-bordas);
-	padding-block: 1rem;
 }
 header nav a:visited {
 	color: var(--cor-link)
@@ -164,11 +162,11 @@ header nav a:hover {
 	margin: 0 0 var(--pos-grande-salto);
 }
 nav.nav-blogs > .nav-blogs-antigos:only-child {
-	width: 100%;
+	flex: 1 1 auto;
 	text-align: right;
 }
 nav.nav-blogs > .nav-blogs-novos:only-child {
-	width: 100%;
+	flex: 1 1 auto;
 	text-align: left;
 }
 nav.nav-blogs a,
