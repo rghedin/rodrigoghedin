@@ -50,10 +50,10 @@ img {
 
 body {
 	background-color: var(--esq-fundo);
-	width: min(100%, 64ch);
+	width: min(100%, 75ch);
 	margin-inline: auto;
 	padding: 1rem .5rem .5rem;
-	font-family: system-ui, sans-serif;
+	font-family: serif;
 	font-size: var(--fs-1);
 	line-height: 1.5;
 	color: var(--esq-fonte);
