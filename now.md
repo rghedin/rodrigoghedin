@@ -15,9 +15,9 @@ Fechamos dois novos contratos na [Célere](https://celere.dev), o que significa 
 
 Em meio a tudo isso, vez ou outra me pego perdendo tempo com “escolhas morais” em relação aos dispositivos que uso, computador e celular. Trocar macOS e iPhone por Linux e Android. Seria um grande salto, mas a que custo? Sempre desisto. Odeio admitir que as coisas funcionam bem dentro da Maçã.
 
-Minhas leituras estão quase monopolizadas pela disciplina da pós. Encontrei algum tempo para ler, bem devagar, <cite>O filho de mil homens</cite>, do Valter Hugo mão, recomendação de uma ex-professora e amiga muito querida. Agora estou lendo <cite>Porteira 9</cite>, do Rodrigo Pontes, para o “test drive” do clube de leitura do Manual, no início de dezembro.
+Minhas leituras estão quase monopolizadas pela disciplina da pós. Encontrei algum tempo para ler, bem devagar, “O filho de mil homens”, do Valter Hugo Mãe, recomendação de uma ex-professora e amiga muito querida. Agora estou lendo “Porteira 9”, do Rodrigo Pontes, para o “test drive” do clube de leitura do Manual, no início de dezembro.
 
-Na TV, eu e P. estamos assistindo à penúltima temporada de <a href="https://www.themoviedb.org/tv/1621-boardwalk-empire"><cite>Boardwalk Empire</cite></a>, de Terence Winter. Eu, sozinho, estou assistindo também a <a href="https://www.themoviedb.org/tv/117447-can-t-get-you-out-of-my-head-an-emotional-history-of-the-modern-world"><cite>Você não me sai da cabeça</cite></a>, do Adam Curtis.
+Na TV, eu e P. estamos assistindo à penúltima temporada de <a href="https://www.themoviedb.org/tv/1621-boardwalk-empire">“Boardwalk Empire”</a>, de Terence Winter. Eu, sozinho, estou assistindo também a <a href="https://www.themoviedb.org/tv/117447-can-t-get-you-out-of-my-head-an-emotional-history-of-the-modern-world">“Você não me sai da cabeça”</a>, do Adam Curtis.
 
 [Daniel Kossmann](https://www.danielkossmann.com/) me incentivou a recriar esta página no encontro do [Homebrew Website Club Curitiba](https://events.indieweb.org/2025/11/homebrew-website-club-curitiba-3-Rz6rypheSxq3). Obrigado!
 
