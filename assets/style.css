@@ -192,6 +192,7 @@ footer div {
  ************/
 .h-entry {
 	margin-bottom: var(--pos-grande-salto);
+	border-bottom: 1px dashed var(--cor-bordas);
 }
 .h-entry p:last-child {
 	margin-bottom: 0;
@@ -217,6 +218,14 @@ h1.p-name {
 }
 .dt-published a:hover {
 	color: var(--cor-link-alt-est);
+}
+
+.dt-published {
+	position: relative;
+	top: .5lh;
+	background-color: var(--cor-fundo);
+	width: fit-content;
+	padding-right: .5rem;
 }
 
 /************
