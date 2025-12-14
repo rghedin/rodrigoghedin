@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Hildegarde saía socialmente com ele, mas…"
 date: 2015-04-19 12:00 -0300
 ---

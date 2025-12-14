@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "À hora em que os pássaros despertam…"
 date: 2023-01-11 17:45 -0300
 ---

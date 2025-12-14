@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Cuca de uva"
 date: 2021-10-17 19:20 -0300
 ---

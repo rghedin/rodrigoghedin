@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Eu (re)fiz um blog"
 date: 2017-02-14 18:20 -0300
 ---

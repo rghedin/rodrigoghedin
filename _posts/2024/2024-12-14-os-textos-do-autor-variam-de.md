@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Os textos do autor [eu] variam de…"
 date: 2024-12-14 12:14 -0300
 ---

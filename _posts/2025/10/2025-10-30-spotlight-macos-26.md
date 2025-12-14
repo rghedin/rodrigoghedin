@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Coisas quase banais que me fazem ter pensamentos…"
 date: 2025-10-30 08:35 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Na escola arrebentada onde experimentou…"
 date: 2021-12-17 14:45 -0300
 ---

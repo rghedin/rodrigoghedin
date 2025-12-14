@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "One of the biggest mistakes rich people make is…"
 date: 2016-06-08 23:30 -0300
 ---

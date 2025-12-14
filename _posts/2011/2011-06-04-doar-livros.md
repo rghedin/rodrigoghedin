@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Por que você deveria doar os seus livros"
 date: 2011-06-04 14:49 -03:00
 ---

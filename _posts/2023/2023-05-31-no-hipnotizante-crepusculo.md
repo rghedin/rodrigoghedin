@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "No hipnotizante crepúsculo…"
 date: 2023-05-31 20:44 -0300
 ---

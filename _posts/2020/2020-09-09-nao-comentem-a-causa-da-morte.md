@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Não comentem a causa da morte"
 date: 2020-09-09 16:45 -0300
 ---

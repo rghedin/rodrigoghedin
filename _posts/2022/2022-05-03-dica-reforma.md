@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Se você está pensando em reformar…"
 date: 2022-05-03 10:00 -0300
 ---

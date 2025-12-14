@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Que saudade do futuro."
 date: 2021-05-24 09:10 -0300
 ---

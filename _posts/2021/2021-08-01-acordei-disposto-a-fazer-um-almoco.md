@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Acordei disposto a fazer um almoço…"
 date: 2021-08-01 14:50 -0300
 ---

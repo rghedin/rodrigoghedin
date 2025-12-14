@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Reboot no Twitter"
 date: 2010-02-24 19:04 -0300
 ---

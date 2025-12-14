@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Querido diário"
 date: 2012-01-15 20:30 -02:00
 ---

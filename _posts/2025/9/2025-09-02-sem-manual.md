@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Sem Manual"
 date: 2025-09-02 17:11 -0300
 ---

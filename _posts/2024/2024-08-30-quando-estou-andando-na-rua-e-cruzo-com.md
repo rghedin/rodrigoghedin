@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Quando estou andando na rua e cruzo com…"
 date: 2024-08-30 09:01 -0300
 ---

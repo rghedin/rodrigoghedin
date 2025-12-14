@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "That poor girl. She doesn't know that…"
 date: 2015-12-29 13:38 -0300
 ---

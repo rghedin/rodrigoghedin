@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Video games de futebol que mais joguei"
 date: 2023-03-04 17:20 -0300
 ---

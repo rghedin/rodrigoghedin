@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Quem diria que sentar a bunda na cadeira…"
 date: 2021-09-20 17:45 -0300
 ---

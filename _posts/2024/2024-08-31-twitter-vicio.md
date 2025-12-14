@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "A gente nota que o Twitter é um vício…"
 date: 2024-08-31 09:27 -0300
 ---

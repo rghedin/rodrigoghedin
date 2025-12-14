@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Eram, tanto quanto possível, os felizes. Porque a…"
 date: 2025-11-18 14:12 -0300
 ---

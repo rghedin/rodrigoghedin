@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Orem por mim: acabei de fazer…"
 date: 2021-05-22 10:45 -0300
 ---

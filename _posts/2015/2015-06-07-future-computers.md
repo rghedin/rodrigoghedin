@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Future computers?"
 date: 2015-06-07 10:30 -0300
 ---

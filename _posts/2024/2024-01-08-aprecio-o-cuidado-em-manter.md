@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Aprecio o cuidado em manter o cliente…"
 date: 2024-01-08 14:29 -0300
 ---

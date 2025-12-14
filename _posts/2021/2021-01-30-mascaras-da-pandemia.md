@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Máscaras da pandemia"
 date: 2021-01-30 16:05 -0300
 ---

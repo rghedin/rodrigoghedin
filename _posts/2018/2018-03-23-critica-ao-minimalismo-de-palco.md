@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Minimalismo de palco"
 date: 2018-03-23 18:40 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "O que definia a nobreza no Brasil…"
 date: 2019-09-22 17:35 -0300
 ---

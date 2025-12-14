@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Eu era absolutamente soviético…"
 date: 2021-04-11 22:30 -0300
 ---

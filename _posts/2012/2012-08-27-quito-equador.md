@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Quito, Equador"
 date: 2012-08-27 20:41 -03:00
 ---

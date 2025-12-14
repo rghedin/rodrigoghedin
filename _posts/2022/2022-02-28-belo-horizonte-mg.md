@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Belo Horizonte (MG)"
 date: 2022-02-28 15:45 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Nova plantinha na mesa"
 date: 2025-02-03 17:28 -0300
 ---

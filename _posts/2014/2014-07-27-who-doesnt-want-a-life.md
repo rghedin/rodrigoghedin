@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Who doesn't want a life filled…"
 date: 2014-07-27 10:30 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Whitman não ficou nem um pouco satisfeito…"
 date: 2021-09-08 19:10 -0300
 ---

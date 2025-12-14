@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "“Como escrever bem”, de William Zinsser"
 date: 2022-03-08 14:05 -0300
 ---

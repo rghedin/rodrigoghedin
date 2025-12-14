@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Ter, querer, precisar"
 date: 2025-04-21 09:04 -0300
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Dicas para ser menos pessimista"
 date: 2024-04-29 08:16 -0300
 ---

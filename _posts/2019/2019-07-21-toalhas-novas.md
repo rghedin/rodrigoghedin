@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Toalhas novas"
 date: 2019-07-21 19:00 -0300
 ---

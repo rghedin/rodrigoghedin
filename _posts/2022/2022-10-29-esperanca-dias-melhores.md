@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Esperança de dias melhores"
 date: 2022-10-29 08:55 -0300
 ---

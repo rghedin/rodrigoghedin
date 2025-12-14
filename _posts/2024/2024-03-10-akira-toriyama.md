@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Akira Toryiama"
 date: 2024-03-10 09:22 -0300
 ---

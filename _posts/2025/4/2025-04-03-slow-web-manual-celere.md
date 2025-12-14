@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Faz algumas semanas que notei (e ri) da contradição de…"
 date: 2025-04-03 09:53 -0300
 ---

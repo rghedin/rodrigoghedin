@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "“O mal não existe” (2023)"
 date: 2024-08-05 08:26 -0300
 ---

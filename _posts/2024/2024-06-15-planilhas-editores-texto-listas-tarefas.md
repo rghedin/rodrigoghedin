@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Se pensarmos bem, todo software de…"
 date: 2024-06-15 11:01 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "O coração do imperador morto"
 date: 2022-08-23 10:05 -0300
 ---

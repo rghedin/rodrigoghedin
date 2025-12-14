@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Para quem esperava o futuro cheio de…"
 date: 2024-09-12 07:56 -0300
 ---

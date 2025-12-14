@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Meu nome em japonês"
 date: 2006-08-22 10:06 -0300
 ---

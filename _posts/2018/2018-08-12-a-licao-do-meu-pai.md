@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "A lição do meu pai"
 date: 2018-08-12 19:35 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Seis anos depois de migrar este blog…"
 date: 2023-09-09 14:54 -0300
 ---

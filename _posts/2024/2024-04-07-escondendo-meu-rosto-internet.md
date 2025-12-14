@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Escondendo meu rosto na internet"
 date: 2024-04-07 10:16 -0300
 ---

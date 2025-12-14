@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Fez bem a Joey ver o quanto Jenna ficava…"
 date: 2016-09-23 12:08 -0300
 ---

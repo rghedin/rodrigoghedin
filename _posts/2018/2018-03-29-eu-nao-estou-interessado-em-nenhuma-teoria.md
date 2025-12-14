@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Eu não estou interessado em nenhuma teoria…"
 date: 2018-03-29 18:00 -0300
 ---

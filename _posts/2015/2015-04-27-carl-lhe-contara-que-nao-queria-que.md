@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Carl lhe contara que não queria que Marylinn…"
 date: 2015-04-27 12:00 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Sabido que reli a carta, antes e…"
 date: 2024-11-11 15:51 -0300
 ---

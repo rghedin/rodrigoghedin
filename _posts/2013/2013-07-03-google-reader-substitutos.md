@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Apenas mais um post sobre feeds, Google Reader e seus substitutos"
 date: 2013-07-03 17:13 -0300
 ---

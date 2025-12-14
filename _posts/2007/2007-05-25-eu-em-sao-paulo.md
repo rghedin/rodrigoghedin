@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Eu em São Paulo"
 date: 2007-05-25 18:53 -0300
 ---

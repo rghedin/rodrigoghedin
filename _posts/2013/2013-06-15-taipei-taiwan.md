@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Taipei, Taiwan"
 date: 2013-06-15 12:00 -0300
 ---

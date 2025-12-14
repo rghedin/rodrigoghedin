@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Sol e fumaça"
 date: 2024-09-11 07:21 -0300
 ---

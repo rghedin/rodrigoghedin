@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "(Ainda a via, às vezes, em almoços…"
 date: 2020-06-19 18:00 -0300
 ---

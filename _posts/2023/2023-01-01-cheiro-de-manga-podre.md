@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Cheiro de manga podre"
 date: 2023-01-01 08:39 -0300
 ---

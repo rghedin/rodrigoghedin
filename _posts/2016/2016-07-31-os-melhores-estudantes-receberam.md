@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Os melhores estudantes receberam seus diplomas…"
 date: 2016-07-31 12:20 -0300
 ---

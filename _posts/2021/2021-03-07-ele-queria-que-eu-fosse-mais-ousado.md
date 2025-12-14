@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Ele queria que eu fosse mais ousado…"
 date: 2021-03-07 18:00 -0300
 ---

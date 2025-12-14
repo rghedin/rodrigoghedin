@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Pequenas reflexões"
 date: 2013-02-26 10:12 -0300
 ---

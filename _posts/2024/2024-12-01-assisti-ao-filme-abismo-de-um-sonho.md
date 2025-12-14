@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Assisti ao filme “Abismo de um sonho” (1952), do…"
 date: 2024-12-01 09:51 -0300
 ---

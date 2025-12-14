@@ -118,7 +118,7 @@ header {
 	column-gap: var(--pos-margem-baixo);
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto var(--pos-grande-salto);
+	margin: 0 auto calc(var(--pos-grande-salto) * 1.5);
 	padding-block: var(--pos-margem-baixo);
 	border-bottom: 1px dashed var(--cor-bordas);
 	line-height: var(--pos-margem-baixo);
@@ -171,6 +171,33 @@ main {
 	margin: var(--pos-grande-salto) auto;
 }
 
+.filtros-blog {
+	display: flex;
+	margin: 0 0 var(--pos-margem-baixo);
+	list-style: none;
+	padding: 0;
+	gap: 1rem;
+	font-family: var(--ff-mono);
+	font-size: var(--fs-0);
+	justify-content: start;
+}
+.filtros-blog a {
+	color: var(--cor-bordas);
+	text-decoration: none;
+}
+ul.filtros-blog li {
+	border: 1px solid var(--cor-bordas);
+	border-radius: 18px;
+	padding: 2px 10px;
+}
+
+li.filtro-foco {
+	background-color: var(--cor-link-alt);
+}
+li.filtro-foco a {
+	color: var(--cor-bordas);
+}
+
 footer {
 	display: flex;
 	justify-content: space-between;
@@ -191,7 +218,7 @@ footer div {
  * Posts
  ************/
 .h-entry {
-	margin-bottom: calc(var(--pos-grande-salto) * 2);
+	margin-bottom: calc(var(--pos-grande-salto) * 1.5);
 }
 
 h1.p-name,
@@ -353,6 +380,18 @@ input[type="submit"]:hover {
 		justify-content: center;
 		flex-direction: column;
 		row-gap: var(--pos-margem-baixo);
+	}
+
+	.filtros-blog {
+		width: calc(100% + 2rem);
+		margin-inline: -1rem;
+		padding-inline: 1rem;
+		flex-wrap: nowrap;
+		align-items: center;
+		white-space: nowrap;
+		overflow-x: auto;
+		overflow-y: hidden;
+		scrollbar-width: none;
 	}
 
 	footer {

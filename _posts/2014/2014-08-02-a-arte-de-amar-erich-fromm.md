@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "\"A Arte de Amar\", de Erich Fromm"
 date: 2014-08-02 20:12 -03:00
 ---

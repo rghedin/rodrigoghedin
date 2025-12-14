@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Muitas pessoas carecem deste dom: saber…"
 date: 2015-07-18 12:00 -0300
 ---

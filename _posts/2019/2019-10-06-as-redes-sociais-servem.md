@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "As redes sociais servem apenas…"
 date: 2019-10-06 11:00 -0300
 ---

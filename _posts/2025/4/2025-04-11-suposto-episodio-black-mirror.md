@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Fui enganado pelo fornecedor do (suposto) primeiro…"
 date: 2025-04-11 07:16 -0300
 ---

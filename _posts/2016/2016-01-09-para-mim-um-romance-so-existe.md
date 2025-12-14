@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Para mim, um romance só existe na medida…"
 date: 2016-01-09 08:45 -0300
 ---

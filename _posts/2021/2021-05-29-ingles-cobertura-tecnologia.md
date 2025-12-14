@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "O inglês e a cobertura de tecnologia"
 date: 2021-05-29 18:50 -0300
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "A web esquisita"
 date: 2016-05-19 19:27 -03:00
 ---

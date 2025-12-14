@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Young sugere que estar consciente da arbitrariedade…"
 date: 2025-03-12 14:51 -0300
 ---

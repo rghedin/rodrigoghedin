@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "MdU na parede"
 date: 2016-11-13 14:00 -0300
 ---

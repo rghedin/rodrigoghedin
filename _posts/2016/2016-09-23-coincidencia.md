@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Coincidência"
 date: 2016-09-23 14:30 -0300
 ---

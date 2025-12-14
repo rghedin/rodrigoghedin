@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Comprei um monitor grande, 4K"
 date: 2021-10-13 07:40 -0300
 ---

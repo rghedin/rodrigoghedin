@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Mulheres do século 20"
 date: 2020-05-15 18:00 -0300
 ---

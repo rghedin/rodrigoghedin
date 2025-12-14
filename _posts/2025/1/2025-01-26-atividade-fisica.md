@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Atividade física"
 date: 2025-01-26 07:35 -0300
 excerpt: Ano passado ouvi um podcast em que a apresentadora prometia contar o segredo para se manter firme na rotina de exercícios físicos. Foi uma péssima ideia. O segredo é fazer algo que você gosta. Ouvi-lo num momento…

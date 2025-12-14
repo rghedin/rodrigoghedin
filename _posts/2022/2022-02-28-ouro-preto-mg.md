@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Ouro Preto (MG)"
 date: 2022-02-28 15:50 -0300
 ---

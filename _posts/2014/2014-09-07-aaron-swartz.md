@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "O menino da Internet"
 date: 2014-09-07 10:05 -03:00
 ---

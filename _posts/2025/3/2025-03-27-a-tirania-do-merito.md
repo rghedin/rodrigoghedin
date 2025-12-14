@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "A tirania do mérito"
 date: 2025-03-27 10:20 -0300
 excerpt: "Foi por insistência das minhas irmãs que li “A tirania do mérito”, do Michael J. Sandel, publicado no Brasil pela Civilização Brasileira. Não estava muito animado porque, a julgar pela capa, a mim o argumento é chover no molhado. Óbvio que a meritocracia é tirana. E não só: é, também, uma falácia, talvez a maior falácia da contemporaneidade."

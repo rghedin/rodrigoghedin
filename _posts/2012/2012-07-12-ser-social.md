@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Ser social"
 date: 2012-07-12 20:30 -03:00
 ---

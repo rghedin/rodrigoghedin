@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "CSS é um negócio que te surpreende todo dia…"
 date: 2024-04-04 08:45 -0300
 ---

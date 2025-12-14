@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Formatação"
 date: 2022-06-05 11:25 -0300
 ---

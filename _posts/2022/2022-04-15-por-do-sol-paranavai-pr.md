@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Pôr do sol, Paranavaí (PR)"
 date: 2022-04-15 18:40 -0300
 ---

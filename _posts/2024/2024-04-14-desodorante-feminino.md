@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Uns meses atrás, aproveitei uma promoção…"
 date: 2024-04-14 10:30 -0300
 ---

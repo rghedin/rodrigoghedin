@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Caridade epistêmica"
 date: 2025-07-22 08:49 -0300
 ---

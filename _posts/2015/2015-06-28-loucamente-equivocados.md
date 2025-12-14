@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: Loucamente equivocados
 date: 2015-06-28 18:22 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Lifestyle creep"
 date: 2022-11-20 08:32 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Duvido muito que o novo Frankenstein superará…"
 date: 2025-10-24 19:24 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "“A substância (2024)"
 date: 2024-10-21 16:08 -0300
 ---

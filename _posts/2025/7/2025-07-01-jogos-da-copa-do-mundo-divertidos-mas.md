@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Os jogos da Copa do Mundo estão muito divertidos, mas…"
 date: 2025-07-01 09:54 -0300
 ---

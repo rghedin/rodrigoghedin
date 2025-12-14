@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Macarrão com camarões e cogumelos paris"
 date: 2021-06-13 14:05 -0300
 ---

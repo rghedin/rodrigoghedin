@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Princípios do comportamento adulto"
 date: 2018-02-20 07:50 -0300
 ---

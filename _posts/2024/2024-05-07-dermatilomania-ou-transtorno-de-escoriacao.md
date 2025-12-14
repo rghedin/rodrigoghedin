@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Dermatilomania ou transtorno de escoriação"
 date: 2024-05-07 07:54 -0300
 ---

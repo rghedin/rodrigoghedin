@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Existe uma tristeza ocasional nos primeiros…"
 date: 2016-09-18 18:43 -0300
 ---

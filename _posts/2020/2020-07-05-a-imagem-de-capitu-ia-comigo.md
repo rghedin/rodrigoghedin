@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "A imagem de Capitu ia comigo…"
 date: 2020-07-05 16:00 -0300
 ---

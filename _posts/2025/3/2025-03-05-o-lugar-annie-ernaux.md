@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "O lugar"
 date: 2025-03-05 15:31 -0300
 excerpt: Meu primeiro livro dela. Gostei. Terminada a leitura, fiquei com duas impressões.

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Pica-Pau no Globoplay"
 date: 2022-07-18 13:35 -0300
 ---

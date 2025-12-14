@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Gente que não gosta de viajar"
 date: 2022-03-06 18:55 -0300
 ---

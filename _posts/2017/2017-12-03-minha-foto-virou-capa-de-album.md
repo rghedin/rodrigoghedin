@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Minha foto virou capa de álbum"
 date: 2017-12-03 14:00 -0300
 ---

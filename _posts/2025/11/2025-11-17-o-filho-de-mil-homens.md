@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Levantou-se, sacudiu a areia e quase se riu. Se era…"
 date: 2025-11-17 10:48 -0300
 ---

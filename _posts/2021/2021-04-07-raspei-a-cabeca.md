@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Raspei a cabeça"
 date: 2021-04-07 15:50 -0300
 ---

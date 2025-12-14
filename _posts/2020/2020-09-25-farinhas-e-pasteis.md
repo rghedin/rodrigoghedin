@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Fui fazer pastéis veganos. A receita…"
 date: 2020-09-25 10:10 -0300
 ---

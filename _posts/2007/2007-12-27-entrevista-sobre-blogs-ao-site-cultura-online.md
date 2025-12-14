@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Entrevista sobre blogs ao site Cultura Online"
 date: 2007-12-27 08:25 -0300
 ---

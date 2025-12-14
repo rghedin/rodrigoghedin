@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Faz uns bons anos me vi obrigado a comprar…"
 date: 2024-10-21 10:39 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "“Quiet quitting”"
 date: 2022-08-30 16:36 -0300
 ---

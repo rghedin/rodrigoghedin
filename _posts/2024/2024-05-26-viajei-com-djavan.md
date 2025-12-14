@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "O dia em que viajei com o Djavan"
 date: 2024-05-26 13:38 -0300
 ---

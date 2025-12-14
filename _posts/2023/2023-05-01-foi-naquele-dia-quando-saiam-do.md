@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Foi naquele dia, quando saíam do…"
 date: 2023-05-01 09:55 -0300
 ---

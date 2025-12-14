@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Motivos e explicações"
 date: 2005-05-13 08:45 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Era um simples gracejo; disse-o, todavia…"
 date: 2024-11-11 15:54 -0300
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Até logo, Maringá"
 date: 2017-03-30 06:40 -0300
 ---

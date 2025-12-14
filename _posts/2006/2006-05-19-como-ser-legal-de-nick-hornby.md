@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "\"Como ser legal\", de Nick Hornby"
 date: 2006-05-19 10:23 -0300
 ---

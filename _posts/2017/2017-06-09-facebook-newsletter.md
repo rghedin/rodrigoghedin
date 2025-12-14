@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Em vez do Facebook, uma newsletter"
 date: 2017-06-09 20:00 -0300
 ---

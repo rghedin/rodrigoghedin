@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "A cidade que os portugueses construíram…"
 date: 2021-01-10 19:30 -0300
 ---

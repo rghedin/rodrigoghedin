@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Matinhos (PR)"
 date: 2025-11-10 16:03 -0300
 ---

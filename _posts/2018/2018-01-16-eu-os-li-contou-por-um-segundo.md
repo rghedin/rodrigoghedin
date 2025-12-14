@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Eu os li, contou. Por um segundo pensei…"
 date: 2018-01-16 21:35 -0300
 ---

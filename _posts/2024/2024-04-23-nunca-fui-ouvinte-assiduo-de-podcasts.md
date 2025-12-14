@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Nunca fui ouvinte assíduo de podcasts…"
 date: 2024-04-23 16:33 -0300
 ---

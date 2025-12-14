@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Quando um canal no YouTube começa…"
 date: 2024-11-25 09:04 -0300
 ---

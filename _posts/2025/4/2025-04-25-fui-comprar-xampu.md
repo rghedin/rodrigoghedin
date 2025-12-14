@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Fui comprar xampu"
 date: 2025-04-25 08:25 -0300
 ---

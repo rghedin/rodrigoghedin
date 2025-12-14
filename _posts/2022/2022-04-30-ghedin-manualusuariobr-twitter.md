@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "@ghedin e @manualusuariobr no Twitter"
 date: 2022-04-30 10:15 -0300
 ---

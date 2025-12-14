@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Ter pouca roupa nunca foi problema para mim…"
 date: 2024-11-10 10:43 -0300
 ---

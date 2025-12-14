@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "A vida invisível (2019)"
 date: 2019-12-22 18:00 -0300
 ---

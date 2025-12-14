@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Momentos antes de cometer um terrível engano, descobri que Engov After…"
 date: 2022-04-12 08:10 -0300
 ---

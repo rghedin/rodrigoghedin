@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Como desfrutar da sua xícara de chá enquanto o mundo desaba ao seu redor"
 date: 2023-10-04 10:21 -0300
 ---

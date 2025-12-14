@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Às vezes acho que ela sente vontade de ficar…"
 date: 2018-01-16 21:30 -0300
 ---

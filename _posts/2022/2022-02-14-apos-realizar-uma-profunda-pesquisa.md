@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Após realizar uma profunda pesquisa (dois vídeos do Manual…"
 date: 2022-02-14 09:10 -0300
 ---

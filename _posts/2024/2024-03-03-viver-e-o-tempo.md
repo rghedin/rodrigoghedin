@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Viver e o tempo"
 date: 2024-03-03 10:21 -0300
 ---

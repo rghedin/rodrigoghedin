@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "A vergonha pelo uso excessivo estava, na verdade, ligada…"
 date: 2025-07-25 16:33 -0300
 ---

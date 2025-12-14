@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "\"First Blood\""
 date: 2010-12-03 08:24 -0300
 ---

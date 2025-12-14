@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Uma abordagem melhor para diários de humor"
 date: 2023-09-25 18:52 -0300
 ---

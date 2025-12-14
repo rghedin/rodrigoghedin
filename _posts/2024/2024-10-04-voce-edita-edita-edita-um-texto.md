@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Você edita, edita, edita um texto e…"
 date: 2024-10-04 09:54 -0300
 ---

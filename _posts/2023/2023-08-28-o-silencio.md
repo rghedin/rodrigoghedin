@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "O silêncio"
 date: 2023-08-28 09:40 -0300
 ---

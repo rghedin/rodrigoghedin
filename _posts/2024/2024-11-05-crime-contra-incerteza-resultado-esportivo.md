@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Crime contra a incerteza do resultado esportivo"
 date: 2024-11-05 09:47 -0300
 ---

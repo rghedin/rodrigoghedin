@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Os homens sempre dizem isso como…"
 date: 2015-07-17 10:30 -0300
 ---

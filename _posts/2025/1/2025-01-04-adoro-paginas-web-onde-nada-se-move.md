@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Adoro páginas web onde nada se move (a menos que…"
 date: 2025-01-04 08:17 -0300
 ---

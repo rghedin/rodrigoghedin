@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Fui ao cinema (!) assistir ao filme “A hora do mal”…"
 date: 2025-08-17 10:29 -0300
 ---

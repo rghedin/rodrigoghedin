@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Então a pessoa descobre que está levando…"
 date: 2015-05-02 12:00 -0300
 ---

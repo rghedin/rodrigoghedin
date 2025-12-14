@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Pista do Colégio Estadual, Paranavaí (PR)"
 date: 2022-04-11 17:50 -0300
 ---

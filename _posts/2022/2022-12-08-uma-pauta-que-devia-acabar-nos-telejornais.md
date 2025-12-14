@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Uma pauta que devia acabar nos telejornais…"
 date: 2022-12-08 09:18 -0300
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Minha primeira vez em Curitiba"
 date: 2012-06-19 23:01 -0300
 ---

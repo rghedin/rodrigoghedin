@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Alguns dos esportes em que a vitória…"
 date: 2024-08-05 09:00 -0300
 ---

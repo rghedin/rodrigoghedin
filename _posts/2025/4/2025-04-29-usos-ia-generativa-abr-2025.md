@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Usos que faço de IA generativa em abril de 2025"
 date: 2025-04-30 11:21 -0300
 ---

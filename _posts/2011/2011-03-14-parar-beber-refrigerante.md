@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Parei de beber refrigerante"
 date: 2011-03-14 11:37 -0300
 ---

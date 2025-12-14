@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Faz mais ou menos uma semana, decidi…"
 date: 2023-05-06 09:37 -0300
 ---

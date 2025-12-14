@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Alguém no grupo do condomínio ofereceu…"
 date: 2024-05-03 10:01 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Leitores insatisfeitos com a cobertura…"
 date: 2024-06-28 18:44 -0300
 ---

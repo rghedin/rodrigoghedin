@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "“Folhas de outono” (2023)"
 date: 2024-07-30 17:24 -0300
 ---

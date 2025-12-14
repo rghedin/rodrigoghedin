@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Ele pegou as chaves, notando que a barriga…"
 date: 2024-11-18 11:31 -0300
 ---

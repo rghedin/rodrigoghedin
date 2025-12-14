@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Numa rua chamada Thayer, em meio aos tons verdes…"
 date: 2015-12-31 11:49 -0300
 ---

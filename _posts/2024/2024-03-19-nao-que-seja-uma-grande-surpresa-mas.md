@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Não que seja uma grande surpresa, mas…"
 date: 2024-03-19 08:14 -0300
 ---

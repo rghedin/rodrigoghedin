@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Toda vez que acesso o GitHub…"
 date: 2021-08-16 14:20 -0300
 ---

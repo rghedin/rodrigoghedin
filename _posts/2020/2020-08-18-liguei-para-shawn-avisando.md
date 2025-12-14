@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Liguei para Shawn avisando…"
 date: 2020-08-18 16:30 -0300
 ---

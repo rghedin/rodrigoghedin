@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Qual a utilidade de um tablet?"
 date: 2012-03-27 20:09 -0300
 ---

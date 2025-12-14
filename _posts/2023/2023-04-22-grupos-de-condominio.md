@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Grupo de condomínio grande no WhatsApp…"
 date: 2023-04-22 08:33 -0300
 ---

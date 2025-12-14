@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Vez ou outra acesso o site do YouTube para…"
 date: 2025-03-17 09:44 -0300
 ---

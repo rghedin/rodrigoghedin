@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Quebrar o dente comendo pipoca, um dos meus…"
 date: 2022-11-16 20:11 -0300
 ---

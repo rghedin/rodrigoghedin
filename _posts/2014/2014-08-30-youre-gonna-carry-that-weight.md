@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Are computers alive?"
 date: 2014-08-30 10:30 -0300
 ---

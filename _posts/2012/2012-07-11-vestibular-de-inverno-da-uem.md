@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Eu vestibulando — de novo"
 date: 2012-07-11 10:20 -03:00
 ---

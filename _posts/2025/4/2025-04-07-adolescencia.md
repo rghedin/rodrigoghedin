@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "“Adolescência” é uma boa série que chama a atenção por…"
 date: 2025-04-07 10:47 -0300
 ---

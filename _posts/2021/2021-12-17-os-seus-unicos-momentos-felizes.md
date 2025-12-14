@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Os seus únicos momentos felizes…"
 date: 2021-12-17 14:50 -0300
 ---

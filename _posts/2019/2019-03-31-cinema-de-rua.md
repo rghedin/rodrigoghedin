@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Cinema de rua"
 date: 2019-03-31 19:30 -0300
 ---

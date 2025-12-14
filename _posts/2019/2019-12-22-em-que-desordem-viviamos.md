@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Em que desordem vivíamos, quantos…"
 date: 2019-12-22 18:05 -0300
 ---

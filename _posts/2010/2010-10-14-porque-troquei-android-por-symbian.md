@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Por que troquei um Android novo por um Symbian velho"
 date: 2010-10-14 23:09 -0300
 ---

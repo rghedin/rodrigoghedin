@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Coisa de rico"
 date: 2025-09-06 16:09 -0300
 ---

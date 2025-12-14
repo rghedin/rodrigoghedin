@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "“Anna Kariênina”, de Lev Tolstói"
 date: 2022-06-15 18:40 -0300
 ---

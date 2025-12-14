@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "“O despertar de tudo”, de David Graeber e David Wengrow"
 date: 2022-11-07 08:32 -0300
 ---

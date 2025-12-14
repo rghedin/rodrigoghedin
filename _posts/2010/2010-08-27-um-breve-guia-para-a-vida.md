@@ -1,5 +1,7 @@
 ---
 layout: post
+type: quote
+category: citacoes
 title: "Um breve guia para a vida"
 date: 2010-08-27 18:16 -0300
 ---

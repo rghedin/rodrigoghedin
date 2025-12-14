@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Depois de 371 dias, cortei o cabelo…"
 date: 2020-10-29 11:46 -0300
 ---

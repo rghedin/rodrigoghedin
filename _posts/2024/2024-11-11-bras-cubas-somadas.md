@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Somadas umas coisas e outras, qualquer…"
 date: 2024-11-11 15:55 -0300
 ---

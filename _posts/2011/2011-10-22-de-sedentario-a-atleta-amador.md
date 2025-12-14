@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "De sedentário a atleta amador"
 date: 2011-10-22 10:48 -0300
 ---

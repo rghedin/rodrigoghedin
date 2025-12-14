@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Escolhi aprender, mas era mais…"
 date: 2023-02-26 18:12 -0300
 ---

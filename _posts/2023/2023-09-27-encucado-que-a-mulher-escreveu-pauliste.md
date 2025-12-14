@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Encucado que a mulher escreveu “pauliste”…"
 date: 2023-09-27 08:31 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Foi apenas um sonho"
 date: 2015-05-03 10:30 -0300
 ---

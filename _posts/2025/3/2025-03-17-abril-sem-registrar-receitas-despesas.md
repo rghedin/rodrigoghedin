@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Depois de uma animada conversa neste domingo…"
 date: 2025-03-17 18:08 -0300
 ---

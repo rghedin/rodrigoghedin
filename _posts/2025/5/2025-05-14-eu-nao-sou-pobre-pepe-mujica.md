@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Eu não sou pobre, eu sou sóbrio, de bagagem leve…"
 date: 2025-05-14 11:53 -0300
 ---

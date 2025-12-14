@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Sinto que muita gente abre uma empresa e acaba…"
 date: 2025-04-08 15:28 -0300
 ---

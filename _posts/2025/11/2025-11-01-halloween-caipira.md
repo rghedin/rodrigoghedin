@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "A única criança que bateu aqui ontem à noite…"
 date: 2025-11-01 08:31 -0300
 ---

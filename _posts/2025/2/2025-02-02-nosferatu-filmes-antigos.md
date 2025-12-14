@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "“Nosferatu”, filmes antigos"
 date: 2025-02-02 11:38 -0300
 excerpt: Entrei na onda da nova versão de <cite>Nosferatu</cite> e assisti ao filme original, de 1922, dirigido pelo F.W. Murnau. É uma adaptação cinematográfica do Drácula de Bram Stoker, que calhei de ter lido não faz muito tempo…

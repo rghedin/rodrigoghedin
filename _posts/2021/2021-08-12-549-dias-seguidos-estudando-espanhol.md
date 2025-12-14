@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "549 dias seguidos estudando espanhol…"
 date: 2021-08-12 17:40 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Hoje eu descobri que o servidor de e-mail do Manual…"
 date: 2021-07-17 15:35 -0300
 ---

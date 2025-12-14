@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Encontros e desencontros"
 date: 2013-11-03 10:30 -0300
 ---

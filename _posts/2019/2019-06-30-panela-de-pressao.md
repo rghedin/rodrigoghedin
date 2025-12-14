@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Panela de pressão"
 date: 2019-06-30 19:00 -0300
 ---

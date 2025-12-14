@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "“Repulsa ao sexo” (1965)"
 date: 2024-03-14 11:56 -0300
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "\"Você não é tão esperto quanto pensa\""
 date: 2012-05-25 10:17 -0300
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Talvez ninguém se importe"
 date: 2025-04-13 08:37 -0300
 ---

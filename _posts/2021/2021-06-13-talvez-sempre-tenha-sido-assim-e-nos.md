@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "“Talvez sempre tenha sido assim e nós…"
 date: 2021-06-13 14:00 -0300
 ---

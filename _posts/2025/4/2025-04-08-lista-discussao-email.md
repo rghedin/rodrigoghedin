@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Hoje eu me inscrevi em uma lista de discussão por e-mail"
 date: 2025-04-08 19:27 -0300
 ---

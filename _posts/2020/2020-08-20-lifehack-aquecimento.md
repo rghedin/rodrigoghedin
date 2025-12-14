@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Lifehack de aquecimento doméstico"
 date: 2020-08-20 19:25 -0300
 ---

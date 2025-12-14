@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Raul Seixas: Eu sou"
 date: 2025-07-03 16:27 -0300
 ---

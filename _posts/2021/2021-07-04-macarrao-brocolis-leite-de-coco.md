@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Macarrão com brócolis e cenouras ao creme de leite e leite de coco"
 date: 2021-07-04 14:50 -0300
 ---

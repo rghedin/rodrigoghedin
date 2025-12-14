@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Filme do Elvis"
 date: 2024-02-25 13:24 -0300
 ---

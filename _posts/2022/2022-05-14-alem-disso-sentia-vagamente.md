@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Além disso, sentia vagamente…"
 date: 2022-05-14 16:50 -0300
 ---

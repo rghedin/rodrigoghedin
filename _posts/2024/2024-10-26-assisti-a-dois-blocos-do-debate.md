@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Assisti a dois blocos do debate entre os…"
 date: 2024-10-26 11:05 -0300
 ---

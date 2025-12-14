@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Sobre ser introvertido"
 date: 2014-08-16 14:00 -0300
 ---

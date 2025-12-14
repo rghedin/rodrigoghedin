@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "O bom design é invisível"
 date: 2012-07-24 22:02 -0300
 ---

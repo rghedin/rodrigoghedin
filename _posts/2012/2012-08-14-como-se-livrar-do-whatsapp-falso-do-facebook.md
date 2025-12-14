@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Como se livrar do WhatsApp falso do Facebook"
 date: 2012-08-14 11:27 -0300
 ---

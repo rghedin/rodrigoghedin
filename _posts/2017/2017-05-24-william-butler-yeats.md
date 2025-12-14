@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Fossem meus os tecidos bordados dos céus…"
 date: 2017-05-24 13:30 -0300
 ---

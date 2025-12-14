@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Casacor Curitiba 2021"
 date: 2021-10-16 13:50 -0300
 ---

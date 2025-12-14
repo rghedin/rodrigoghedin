@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "A few hours a week, Carole does my laundry…"
 date: 2016-10-28 10:29 -0300
 ---

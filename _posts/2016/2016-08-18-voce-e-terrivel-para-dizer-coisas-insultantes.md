@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "— Você é terrível para dizer coisas insultantes, Jake…"
 date: 2016-08-18 11:08 -0300
 ---

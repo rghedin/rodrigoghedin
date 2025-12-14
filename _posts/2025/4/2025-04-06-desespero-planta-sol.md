@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "O desespero desta coitada pelo calor do Sol"
 date: 2025-04-06 11:49 -0300
 ---

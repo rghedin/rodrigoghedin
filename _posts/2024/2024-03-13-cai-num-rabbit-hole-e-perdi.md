@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Caí num “rabbit hole” e perdi a manhã…"
 date: 2024-03-13 11:21 -0300
 ---

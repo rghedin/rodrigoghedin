@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Balneário Camboriú (SC)"
 date: 2018-02-22 10:00 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "O discurso nada mais é do que…"
 date: 2020-06-19 18:05 -0300
 ---

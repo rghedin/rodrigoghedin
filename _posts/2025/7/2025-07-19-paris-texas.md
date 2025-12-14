@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "“Paris, Texas” (1984)"
 date: 2025-07-19 09:29 -0300
 ---

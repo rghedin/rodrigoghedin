@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Sempre há tempo para recomeçar"
 date: 2013-05-12 09:40 -03:00
 ---

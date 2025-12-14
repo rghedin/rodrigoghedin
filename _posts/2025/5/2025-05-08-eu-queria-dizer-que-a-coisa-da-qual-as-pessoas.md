@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Eu queria dizer que a coisa da qual as pessoas…"
 date: 2025-05-08 09:16 -0300
 ---

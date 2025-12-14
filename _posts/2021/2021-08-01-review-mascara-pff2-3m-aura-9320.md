@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Review ⚡️ rápido: PFF2 Aura 9320 da 3M"
 date: 2021-08-01 11:20 -0300
 ---

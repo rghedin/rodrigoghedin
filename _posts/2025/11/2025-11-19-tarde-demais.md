@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "“Tarde demais” (1949)"
 date: 2025-11-19 16:28 -0300
 ---

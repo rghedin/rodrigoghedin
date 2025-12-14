@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Sobretudo devemos a [Günther] Anders…"
 date: 2021-05-07 15:20 -0300
 ---

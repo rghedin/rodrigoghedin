@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "O amor líquido de Bauman"
 date: 2015-01-25 21:19 -0300
 ---

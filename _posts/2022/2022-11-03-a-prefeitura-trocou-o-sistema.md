@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "A prefeitura trocou o sistema…"
 date: 2022-11-03 03:30 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Fui à padaria comprar pão e me entregaram-no dentro…"
 date: 2025-07-17 17:24 -0300
 ---

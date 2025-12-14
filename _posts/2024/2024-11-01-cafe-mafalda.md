@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Café Mafalda"
 date: 2024-11-01 11:05 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "No \"homem cordial\", a vida…"
 date: 2021-01-14 17:30 -0300
 ---

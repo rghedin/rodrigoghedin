@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "“Ainda estou aqui” (2024)"
 date: 2025-03-06 08:36 -0300
 ---

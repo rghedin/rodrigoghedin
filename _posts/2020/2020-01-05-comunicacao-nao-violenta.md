@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Comunicação não-violenta"
 date: 2020-01-05 18:30 -0300
 ---

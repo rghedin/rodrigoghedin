@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "O isolamento das redes sociais cobra um preço"
 date: 2021-12-01 11:50 -0300
 ---

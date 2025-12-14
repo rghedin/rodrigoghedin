@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Porquanto um dia Capitu quis…"
 date: 2020-07-05 10:30 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "\"No que está pensando, Amy?\" A pergunta…"
 date: 2015-07-26 12:00 -0300
 ---

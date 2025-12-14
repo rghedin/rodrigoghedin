@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Noutro dia vi um rapaz, num café, sem celular…"
 date: 2021-12-17 14:25 -0300
 ---

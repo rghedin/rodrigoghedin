@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "— What do you have to worry about?"
 date: 2016-01-13 20:35 -0300
 ---

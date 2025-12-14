@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Passei os últimos dois dias estabelecendo…"
 date: 2024-10-30 09:00 -0300
 ---

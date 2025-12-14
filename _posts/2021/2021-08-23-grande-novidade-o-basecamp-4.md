@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "“Grande novidade! O Basecamp 4…”"
 date: 2021-08-23 09:40 -0300
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Como faz para virar adulto?"
 date: 2012-04-20 11:40 -0300
 ---

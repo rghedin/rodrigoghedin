@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Anna Arkádievna lia e entendia, mas…"
 date: 2022-03-10 18:45 -0300
 ---

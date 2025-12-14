@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Assistimos a “Uma linda mulher” neste domingo porque…"
 date: 2025-06-16 09:49 -0300
 ---

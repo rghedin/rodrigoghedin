@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Que tempos penosos foram aqueles anos…"
 date: 2016-08-01 19:18 -0300
 ---

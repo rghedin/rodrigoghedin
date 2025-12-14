@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "In a wiser, more self-aware society than our own…"
 date: 2016-05-31 22:57 -0300
 ---

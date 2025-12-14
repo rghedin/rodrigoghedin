@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Os dois tipos de podcasts que existem"
 date: 2025-09-06 16:07 -0300
 ---

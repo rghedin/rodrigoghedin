@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Dia de figurante"
 date: 2019-07-28 19:20 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Recebi um e-mail marketing da farmácia…"
 date: 2021-05-07 14:40 -0300
 ---

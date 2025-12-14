@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Quando o fotógrafo apontou a máquina para seu lado…"
 date: 2021-09-01 09:10 -0300
 ---

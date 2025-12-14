@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "“Blog do leitor” no jornal Destak"
 date: 2015-12-18 13:00 -0300
 ---

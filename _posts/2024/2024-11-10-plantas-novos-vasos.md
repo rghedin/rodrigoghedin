@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "O transplante de vasos foi um sucesso"
 date: 2024-11-10 16:28 -0300
 ---

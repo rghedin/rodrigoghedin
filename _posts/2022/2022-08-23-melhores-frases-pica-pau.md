@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Melhores frases do Pica-Pau"
 date: 2022-08-23 10:11 -0300
 ---

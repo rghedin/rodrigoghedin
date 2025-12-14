@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Eu, Sarah e a Samsung"
 date: 2017-05-07 19:50 -0300
 ---

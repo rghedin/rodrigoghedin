@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Ao contrário de outros principais que usavam perucas…"
 date: 2025-09-01 19:35 -0300
 ---

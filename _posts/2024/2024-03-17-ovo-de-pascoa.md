@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Ovo de Páscoa"
 date: 2024-03-17 09:08 -0300
 ---

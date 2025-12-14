@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Welcome to someday"
 date: 2015-08-02 10:30 -0300
 ---

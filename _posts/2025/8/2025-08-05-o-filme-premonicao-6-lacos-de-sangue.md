@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "O filme “Premonição 6” é um grande episódio…"
 date: 2025-08-05 14:13 -0300
 ---

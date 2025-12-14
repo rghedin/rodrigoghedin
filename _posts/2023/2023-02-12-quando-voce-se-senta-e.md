@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Quando você se senta e não faz nada…"
 date: 2023-02-12 19:10 -0300
 ---

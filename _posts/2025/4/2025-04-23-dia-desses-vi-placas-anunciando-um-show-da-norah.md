@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Dia desses vi umas placas anunciando um show da Norah…"
 date: 2025-04-23 09:53 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 type: aside
+category: notinhas
 title: "Uma pessoa com alguma visibilidade em…"
 date: 2024-04-24 08:50 -0300
 ---

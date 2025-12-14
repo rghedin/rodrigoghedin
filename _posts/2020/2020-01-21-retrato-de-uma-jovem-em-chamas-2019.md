@@ -1,6 +1,7 @@
 ---
 layout: post
 type: image
+category: imagens
 title: "Retrato de uma jovem em chamas"
 date: 2020-01-21 09:00 -0300
 ---

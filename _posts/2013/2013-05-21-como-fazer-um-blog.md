@@ -1,5 +1,6 @@
 ---
 layout: post
+category: textoes
 title: "Como fazer um blog, edição 2013"
 date: 2013-05-21 22:06 -0300
 ---

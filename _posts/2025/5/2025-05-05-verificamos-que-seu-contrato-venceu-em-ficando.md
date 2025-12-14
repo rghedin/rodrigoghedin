@@ -1,6 +1,7 @@
 ---
 layout: post
 type: quote
+category: citacoes
 title: "Verificamos que seu contrato venceu em XXXXXX, ficando…"
 date: 2025-05-05 19:25 -0300
 ---
