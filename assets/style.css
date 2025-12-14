@@ -193,6 +193,7 @@ ul.filtros-blog li {
 
 li.filtro-foco {
 	background-color: var(--cor-link-alt);
+	border-color: var(--cor-link-alt) !important;
 }
 li.filtro-foco a {
 	color: var(--cor-bordas);
