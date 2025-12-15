@@ -3,6 +3,7 @@
 	--cor-fundo: hsl(0, 0%, 100%);
 	--cor-fundo-alt: light-dark(hsl(0, 0%, 96%), hsl(0, 0%, 12%));
 	--cor-bordas: light-dark(hsl(0, 0%, 85%), hsl(0, 0%, 35%));
+	--cor-botoes: light-dark(hsl(0, 0%, 40%), hsl(0, 0%, 70%));
 
 	--esq-fonte: light-dark(var(--cor-fonte), var(--cor-fundo));
 	--esq-fundo: light-dark(var(--cor-fundo), var(--cor-fonte));
@@ -181,22 +182,44 @@ main {
 	font-size: var(--fs-0);
 	justify-content: start;
 }
+
 .filtros-blog a {
-	color: var(--cor-bordas);
+	color: var(--cor-botoes);
 	text-decoration: none;
-}
-ul.filtros-blog li {
-	border: 1px solid var(--cor-bordas);
-	border-radius: 18px;
+	display: block;
 	padding: 2px 10px;
+	border-radius: 18px;
+	transition: background-color 0.2s ease;
+}
+
+/* Hover discreto para botões inativos */
+.filtros-blog a:hover {
+	background-color: light-dark(rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.08));
+}
+
+/* Estado de foco para acessibilidade */
+.filtros-blog a:focus {
+	outline: 2px solid var(--cor-link-alt);
+	outline-offset: 2px;
+}
+
+ul.filtros-blog li {
+	border: 1px solid var(--cor-botoes);
+	border-radius: 18px;
 }
 
 li.filtro-foco {
 	background-color: var(--cor-link-alt);
 	border-color: var(--cor-link-alt) !important;
 }
+
 li.filtro-foco a {
 	color: var(--cor-bordas);
+}
+
+/* Remove hover do botão ativo */
+li.filtro-foco a:hover {
+	background-color: transparent;
 }
 
 footer {
