@@ -3,6 +3,7 @@ layout: post
 type: image
 category: imagens
 title: "Matinhos (PR)"
+excerpt: "Foto da orla de Matinhos, no litoral do Paraná."
 date: 2025-11-10 16:03 -0300
 ---
 ![Foto da orla de Matinhos, com alguns prédios baixose árvores ao fundo, e poucas pessoas caminhando na areia.](/assets/2025/11/matinhos-pr.jpeg)
