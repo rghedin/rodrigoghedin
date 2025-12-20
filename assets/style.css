@@ -63,6 +63,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
 }
 
 a {
@@ -437,13 +438,17 @@ input[type="submit"]:hover {
 		width: 100%;
 	}
 
-	.full-img,
-	.e-image img,
-	figure {
+	.full-img, .e-image img, figure {
 		margin: 0 -50vw var(--pos-margem-baixo);
 		left: 50%;
 		right: 50%;
 		max-width: 1200px;
+		border-radius: initial;
+	}
+	
+	figure img {
+		display: block;
+		margin: 0;
 		border-radius: initial;
 	}
 
