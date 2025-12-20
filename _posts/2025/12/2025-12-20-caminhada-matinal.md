@@ -14,4 +14,4 @@ date: 2025-12-20 07:16 -0300
   </picture>
 </figure>
 
-Tenho saído para caminhar logo após acordar, antes de tomar café. A região onde eu moro é bonita, arborizada, com pássaros e, às 6h da manhã, vazia.
+Tenho saído para caminhar logo após acordar, antes de tomar café. A região onde eu moro é bonita, arborizada, com pássaros e, às 6h da manhã, vazia, sem carros nas ruas.
