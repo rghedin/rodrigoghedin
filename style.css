@@ -140,7 +140,7 @@ nav {
 	align-items: center;
 }
 header nav a:visited {
-	color: var(--cor-link)
+	color: var(--cor-link);
 }
 header nav a:hover {
 	color: var(--cor-link-est);
