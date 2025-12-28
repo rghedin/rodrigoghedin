@@ -18,7 +18,9 @@ timezone: UTC−03:00
 future: false
 
 exclude:
-- README.md
-- LICENSE.md
+  - README.md
+  - LICENSE.*
+  - favicon.ico
+  - apple-touch-icon*.png
 
 Blog: /blog
