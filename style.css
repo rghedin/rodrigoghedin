@@ -115,6 +115,10 @@ blockquote {
     padding-left: 1rem;
 }
 
+details[open] summary {
+    margin-bottom: var(--pos-margem-baixo);
+}
+
 header {
     display: flex;
     column-gap: var(--pos-margem-baixo);
