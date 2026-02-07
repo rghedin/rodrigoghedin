@@ -1,19 +1,16 @@
 :root {
     --cor-fonte: hsl(0, 0%, 0%);
     --cor-fundo: hsl(0, 0%, 100%);
-    --cor-fundo-alt: light-dark(hsl(0, 0%, 96%), hsl(0, 0%, 12%));
-    --cor-bordas: light-dark(hsl(0, 0%, 85%), hsl(0, 0%, 35%));
-    --cor-botoes: light-dark(hsl(0, 0%, 40%), hsl(0, 0%, 70%));
+    --cor-fundo-alt: hsl(0, 0%, 96%);
+    --cor-bordas: hsl(0, 0%, 85%);
+    --cor-botoes: hsl(0, 0%, 40%);
 
-    --esq-fonte: light-dark(var(--cor-fonte), var(--cor-fundo));
-    --esq-fundo: light-dark(var(--cor-fundo), var(--cor-fonte));
+    --cor-link: hsl(225, 72%, 41%);
+    --cor-link-vis: hsl(276, 100%, 25%);
+    --cor-link-est: hsl(225, 79%, 46%);
 
-    --cor-link: light-dark(hsl(225, 72%, 41%), hsl(225, 43%, 76%));
-    --cor-link-vis: light-dark(hsl(276, 100%, 25%), hsl(254, 49%, 68%));
-    --cor-link-est: light-dark(hsl(225, 79%, 46%), hsl(240, 58%, 90%));
-
-    --cor-link-alt: light-dark(hsl(0, 0%, 30%), hsl(0, 0%, 74%));
-    --cor-link-alt-est: light-dark(hsl(0, 0%, 50%), hsl(0, 0%, 95.5%));
+    --cor-link-alt: hsl(0, 0%, 30%);
+    --cor-link-alt-est: hsl(0, 0%, 50%);
 
     --sombra: 4px 4px 16px hsl(0, 0%, 85%);
 
@@ -50,14 +47,14 @@ img:not(.e-image img) {
 }
 
 body {
-    background-color: var(--esq-fundo);
+    background-color: var(--cor-fundo);
     width: min(100%, 75ch);
     margin-inline: auto;
     padding-inline: 1rem;
     font-family: serif;
     font-size: var(--fs-1);
     line-height: 1.5;
-    color: var(--esq-fonte);
+    color: var(--cor-fonte);
     word-wrap: break-word;
     overflow-wrap: break-word;
     -webkit-font-smoothing: antialiased;
@@ -104,7 +101,7 @@ main h1 {
 code {
     font-family: var(--ff-mono);
     font-size: var(--fs-0);
-    background-color: light-dark(var(--cor-fundo-alt), hsl(0, 0%, 22%));
+    background-color: var(--cor-fundo-alt);
     border-radius: var(--pos-curvada);
     padding: 0.1rem 0.2rem;
 }
@@ -199,10 +196,7 @@ main {
 
 /* Hover discreto para botões inativos */
 .filtros-blog a:hover {
-    background-color: light-dark(
-        rgba(0, 0, 0, 0.05),
-        rgba(255, 255, 255, 0.08)
-    );
+    background-color: hsla(0, 0%, 0%, 0.05);
 }
 
 /* Estado de foco para acessibilidade */
@@ -359,7 +353,7 @@ p.link,
 p.link:before,
 .e-link div.e-content p:first-child:before {
     content: "\2197";
-    color: light-dark(black, white);
+    color: var(--cor-fonte);
     opacity: 0.15;
     z-index: 1;
     font-size: 56px;
@@ -396,8 +390,8 @@ input[type="text"],
 input[type="email"] {
     width: 100%;
     padding: 0.5rem;
-    color: var(--esq-fonte);
-    background-color: var(--esq-fundo);
+    color: var(--cor-fonte);
+    background-color: var(--cor-fundo);
     border: 2px solid var(--cor-bordas);
     border-radius: var(--pos-curvada);
     transition: border-color 0.2s ease;
@@ -410,7 +404,7 @@ input[type="email"]:focus {
 
 input[type="submit"] {
     padding: 0.5rem 1rem;
-    color: var(--esq-fundo);
+    color: var(--cor-fundo);
     background-color: var(--cor-link);
     border: none;
     border-radius: var(--pos-curvada);
@@ -464,5 +458,34 @@ input[type="submit"]:hover {
 
     .e-quote blockquote {
         line-height: 1.3;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --cor-fonte: hsl(0, 0%, 100%);
+        --cor-fundo: hsl(0, 0%, 0%);
+        --cor-fundo-alt: hsl(0, 0%, 12%);
+        --cor-bordas: hsl(0, 0%, 35%);
+        --cor-botoes: hsl(0, 0%, 70%);
+
+        --cor-link: hsl(225, 43%, 76%);
+        --cor-link-vis: hsl(254, 49%, 68%);
+        --cor-link-est: hsl(240, 58%, 90%);
+
+        --cor-link-alt: hsl(0, 0%, 74%);
+        --cor-link-alt-est: hsl(0, 0%, 95.5%);
+    }
+
+    main img {
+        box-shadow: none;
+    }
+
+    code {
+        background-color: hsl(0, 0%, 22%);
+    }
+
+    .filtros-blog a:hover {
+        background-color: hsla(0, 0%, 100%, 0.08);
     }
 }

@@ -1,0 +1,13 @@
+source "https://beta.gem.coop/cooldown"
+gem "no-security-problems"
+
+source "https://gem.coop" do
+ gem "security-just-fixed"
+end
+
+gem "jekyll", "~> 4.4.1"
+
+group :jekyll_plugins do
+	gem "jekyll-feed"
+	gem "jekyll-paginate-v2"
+end
