@@ -257,8 +257,7 @@ h1.p-name {
     font-size: var(--fs-3);
 }
 
-.dt-published,
-.comentario {
+.dt-published {
     font-family: var(--ff-mono);
     font-size: var(--fs-0);
 }
@@ -267,6 +266,11 @@ h1.p-name {
 }
 .dt-published a:hover {
     color: var(--cor-link-alt-est);
+}
+
+.comentario {
+    border-top: 1px dashed var(--cor-bordas);
+    padding-top: var(--pos-margem-baixo);
 }
 
 /************
