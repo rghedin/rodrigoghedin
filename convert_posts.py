@@ -1,0 +1,309 @@
+#!/usr/bin/env python3
+"""
+Converte posts Jekyll -> Hugo.
+
+Uso:
+    python3 convert_posts.py
+
+Execute na raiz do projeto Jekyll (onde ficam _posts/ e _config.yml).
+Os arquivos convertidos sao gravados em hugo-site/content/blog/.
+
+Estrutura esperada:
+    meu-jekyll/
+    +-- _posts/
+    +-- _config.yml
+    +-- convert_posts.py      <- este script
+    +-- hugo-site/
+        +-- content/
+            +-- blog/
+                +-- _index.md
+                +-- textoes/_index.md
+                +-- notinhas/_index.md
+                +-- citacoes/_index.md
+                +-- imagens/_index.md
+
+Jekyll front matter de entrada:
+    layout: post
+    category: textoes        # singular
+    type: quote              # opcional: quote | image | aside | link
+    title: "Titulo do post"
+    date: 2024-08-17 15:54 -0300
+    excerpt: "..."           # opcional
+
+Hugo front matter gerado:
+    title: "Titulo do post"
+    date: 2024-08-17T15:54:00-03:00
+    categories: [textoes]    # lista
+    type: quote              # mantido se presente
+    slug: nome-do-arquivo    # garante URLs identicas ao Jekyll
+    excerpt: "..."           # mantido se presente
+
+Estrutura de saida:
+    content/blog/textoes/2024/8/ahsd.md
+    content/blog/notinhas/2026/3/um-domingo-maravilhoso.md
+    etc.
+"""
+
+import re
+import sys
+from pathlib import Path
+
+
+# -- Configuracao ---------------------------------------------------------------
+
+# Raiz dos posts Jekyll (relativo a onde o script esta)
+JEKYLL_POSTS_DIR = Path("_posts")
+
+# Destino Hugo (relativo a onde o script esta)
+HUGO_CONTENT_DIR = Path("hugo-site/content/blog")
+
+# Mapeamento de categorias Jekyll -> subpasta Hugo
+# Adicione aqui qualquer categoria extra que o seu blog possua.
+CATEGORY_MAP = {
+    "textoes":  "textoes",
+    "notinhas": "notinhas",
+    "citacoes": "citacoes",
+    "imagens":  "imagens",
+}
+
+# Categoria padrao quando o front matter nao traz 'category'
+DEFAULT_CATEGORY = "textoes"
+
+
+# -- Helpers -------------------------------------------------------------------
+
+FRONT_MATTER_RE = re.compile(r"^---[ \t]*\n(.*?)\n---[ \t]*\n?(.*)", re.DOTALL)
+
+
+def parse_front_matter(raw: str) -> dict:
+    """
+    Parser minimo de YAML de linha unica — suficiente para front matter Jekyll.
+    Nao usa PyYAML para evitar dependencia externa.
+    Suporta valores entre aspas duplas ou simples e valores sem aspas.
+    """
+    fields: dict = {}
+    for line in raw.splitlines():
+        if not line.strip() or line.startswith("#"):
+            continue
+        if ":" not in line:
+            continue
+        key, _, value = line.partition(":")
+        key   = key.strip()
+        value = value.strip()
+        # Remove aspas envolventes
+        if len(value) >= 2:
+            if (value[0] == '"' and value[-1] == '"') or \
+               (value[0] == "'" and value[-1] == "'"):
+                value = value[1:-1]
+        fields[key] = value
+    return fields
+
+
+def convert_date(raw_date: str) -> str:
+    """
+    '2024-08-17 15:54 -0300'      ->  '2024-08-17T15:54:00-03:00'
+    '2024-08-17 15:54:30 -03:00'  ->  '2024-08-17T15:54:30-03:00'
+    '2024-08-17'                  ->  '2024-08-17T00:00:00-03:00'
+    Mantém a string original se nenhum padrao casar.
+    """
+    raw_date = raw_date.strip()
+
+    # Com hora e timezone (segundos opcionais, ':' no tz opcional)
+    m = re.match(
+        r"(\d{4}-\d{2}-\d{2})"             # data
+        r"\s+(\d{2}:\d{2})(?::(\d{2}))?"   # hora (segundos opcionais)
+        r"\s+([+-]\d{2}):?(\d{2})",         # timezone
+        raw_date,
+    )
+    if m:
+        date_part, hm, sec, tz_h, tz_m = m.groups()
+        sec = sec or "00"
+        return f"{date_part}T{hm}:{sec}{tz_h}:{tz_m}"
+
+    # So data
+    m2 = re.match(r"(\d{4}-\d{2}-\d{2})", raw_date)
+    if m2:
+        return f"{m2.group(1)}T00:00:00-03:00"
+
+    return raw_date
+
+
+def slug_from_filename(filename: str) -> str:
+    """
+    '2024-08-17-ahsd.md'    ->  'ahsd'
+    '2024-08-17-foo-bar.md' ->  'foo-bar'
+    'sem-data.md'           ->  'sem-data'
+    """
+    stem = Path(filename).stem
+    m = re.match(r"^\d{4}-\d{2}-\d{2}-(.+)$", stem)
+    return m.group(1) if m else stem
+
+
+def escape_yaml_value(s: str) -> str:
+    """
+    Envolve em aspas duplas e escapa aspas internas.
+    Primeiro normaliza sequencias de escape Jekyll (\\") para o char real,
+    evitando double-escape.
+    """
+    # Normaliza: \\" (escape Jekyll no YAML) -> " (char real)
+    s = s.replace('\\"', '"')
+    # Re-escapa para YAML limpo
+    s = s.replace("\\", "\\\\")
+    s = s.replace('"', '\\"')
+    return '"' + s + '"'
+
+
+def build_hugo_front_matter(fields: dict, slug: str) -> str:
+    lines = ["---"]
+
+    # title (obrigatorio)
+    title = fields.get("title", slug)
+    lines.append("title: " + escape_yaml_value(title))
+
+    # date
+    raw_date = fields.get("date", "")
+    if raw_date:
+        lines.append("date: " + convert_date(raw_date))
+
+    # categories (Jekyll usa 'category' singular -> Hugo usa lista)
+    category = fields.get("category", "").strip()
+    if category:
+        lines.append("categories: [" + category + "]")
+
+    # type (quote | image | aside | link — controla classes CSS)
+    post_type = fields.get("type", "").strip()
+    if post_type:
+        lines.append("type: " + post_type)
+
+    # slug explicito garante URLs identicas as do Jekyll (/blog/:slug)
+    lines.append("slug: " + slug)
+
+    # excerpt (opcional, preservado se presente)
+    excerpt = fields.get("excerpt", "").strip()
+    if excerpt:
+        lines.append("excerpt: " + escape_yaml_value(excerpt))
+
+    lines.append("---")
+    return "\n".join(lines)
+
+
+def convert_body(body: str) -> str:
+    """
+    Substitui variaveis Liquid do Jekyll por caminhos estaticos Hugo.
+
+    Jekyll                               ->  Hugo
+    {{ site.url }}{{ site.Blog }}/slug   ->  /blog/slug
+    {{ site.url }}/caminho               ->  /caminho
+    {{ site.url }}                       ->  (vazio)
+    {{ site.Blog }}                      ->  /blog
+    """
+    body = re.sub(
+        r"\{\{\s*site\.url\s*\}\}\{\{\s*site\.Blog\s*\}\}",
+        "/blog",
+        body,
+    )
+    body = re.sub(r"\{\{\s*site\.url\s*\}\}/", "/", body)
+    body = re.sub(r"\{\{\s*site\.url\s*\}\}", "", body)
+    body = re.sub(r"\{\{\s*site\.Blog\s*\}\}", "/blog", body)
+    return body
+
+
+# -- Conversao -----------------------------------------------------------------
+
+def year_month_from_post(fields: dict, src: Path) -> tuple:
+    """
+    Extrai ano e mes da data do front matter.
+    Usa o nome do arquivo como fallback ('2024-08-17-slug.md' -> '2024', '8').
+    Retorna (ano, mes) sem zero a esquerda no mes: ('2024', '8').
+    """
+    raw_date = fields.get("date", "").strip()
+    m = re.match(r"(\d{4})-(\d{2})-\d{2}", raw_date)
+    if m:
+        return m.group(1), str(int(m.group(2)))
+
+    # Fallback: pega do nome do arquivo
+    m2 = re.match(r"(\d{4})-(\d{2})-\d{2}", src.name)
+    if m2:
+        return m2.group(1), str(int(m2.group(2)))
+
+    return "0000", "0"
+
+
+def convert_post(src: Path, hugo_content_dir: Path):
+    """Converte um arquivo Jekyll e grava o resultado Hugo. Retorna o destino."""
+    try:
+        raw = src.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        raw = src.read_text(encoding="latin-1")
+
+    m = FRONT_MATTER_RE.match(raw)
+    if not m:
+        return None  # arquivo sem front matter valido (rascunho, _index etc.)
+
+    fm_raw = m.group(1)
+    body   = m.group(2)
+
+    fields   = parse_front_matter(fm_raw)
+    category = fields.get("category", "").strip()
+    hugo_cat = CATEGORY_MAP.get(category, category or DEFAULT_CATEGORY)
+    slug     = slug_from_filename(src.name)
+    year, month = year_month_from_post(fields, src)
+
+    new_fm   = build_hugo_front_matter(fields, slug)
+    new_body = convert_body(body)
+
+    # Estrutura: content/blog/{categoria}/{yyyy}/{m}/slug.md
+    dest_dir = hugo_content_dir / year / month
+    dest_dir.mkdir(parents=True, exist_ok=True)
+
+    dest = dest_dir / (slug + ".md")
+    dest.write_text(new_fm + "\n" + new_body, encoding="utf-8")
+    return dest
+
+
+def main() -> None:
+    posts_dir = JEKYLL_POSTS_DIR
+    hugo_dir  = HUGO_CONTENT_DIR
+
+    if not posts_dir.exists():
+        print("Erro: diretorio '" + str(posts_dir) + "' nao encontrado.")
+        print("Execute este script na raiz do projeto Jekyll.")
+        sys.exit(1)
+
+    hugo_dir.mkdir(parents=True, exist_ok=True)
+
+    # Coleta todos os .md recursivamente
+    # (Jekyll organiza em _posts/2024/, _posts/2024/01/ etc.)
+    all_files = sorted(posts_dir.rglob("*.md"))
+
+    if not all_files:
+        print("Nenhum arquivo .md encontrado em '" + str(posts_dir) + "'.")
+        sys.exit(0)
+
+    print("Encontrados " + str(len(all_files)) + " arquivos em '" + str(posts_dir) + "'.")
+    print("Destino: '" + str(hugo_dir.resolve()) + "'\n")
+
+    ok = skipped = errors = 0
+
+    for src in all_files:
+        try:
+            dest = convert_post(src, hugo_dir)
+            if dest:
+                ok += 1
+            else:
+                print("  [ignorado] " + src.name + "  (sem front matter)")
+                skipped += 1
+        except Exception as exc:
+            print("  [erro]     " + src.name + "  -> " + str(exc))
+            errors += 1
+
+    print(
+        "\nResultado: "
+        + str(ok) + " convertidos | "
+        + str(skipped) + " ignorados | "
+        + str(errors) + " erros"
+    )
+
+
+if __name__ == "__main__":
+    main()
