@@ -10,10 +10,10 @@ Meus amigos, foda-se o investidor. Ninguém liga para ele.
 
 \*\*\*
 
-Estamos lendo o livro “Tecnofeudalismo: O que matou o capitalismo”, do grego Yanis Varoufakis, no grupo de leitura do meu blog, o Manual do Usuário. No primeiro capítulo, ele faz uma breve reconstituição do processo de financeirização, a conversão de todos os valores humanos em bens comercializáveis; do que ele chama “cercamento” — a privatização das terras comunais na Inglaterra do século XVIII — ao “capital-nuvem” das big techs contemporâneas.
+Estamos lendo o livro “Tecnofeudalismo: O que matou o capitalismo”, do grego Yanis Varoufakis, no grupo de leitura do meu blog, o Manual do Usuário. No primeiro capítulo, ele faz uma breve reconstituição do processo de financeirização, a conversão de todos os valores humanos em bens comercializáveis; do que ele chama “cercamento” — a privatização das terras comunais na Inglaterra do século XVIII — ao “capital-nuvem” das big techs.
 
-A partir dos anos 1970, ainda segundo Yanis, o computador viabilizou uma complexidade dos investimentos além da compreensão humana, o que, combinado com desregulação e outras medidas do governo estadunidense, transformou a ~economia em uma gigantesca aposta que superam múltiplas vezes a riqueza existente no planeta.
+A partir dos anos 1970, ainda segundo Yanis, o computador viabilizou uma complexidade dos investimentos além da compreensão humana, o que, combinado com desregulação e outras medidas do governo estadunidense, transformou a ~economia em uma gigantesca aposta que supera múltiplas vezes a riqueza existente no planeta.
 
-Meio doido isso, né? Investidores apostam dinheiro que não existe em promessas irrealizáveis (crescimento infinito) e, de alguma forma, todo mundo, da pessoa mais ferrada a governos mundo afora, passando pela imprensa, é obrigado a não só acreditar, mas a pautar a própria vida nessa ficção delirante.
+Meio doido isso, né? Investidores apostam dinheiro que não existe em promessas irrealizáveis (crescimento infinito) e, de alguma forma, todo mundo, da pessoa mais ferrada a governos mundo afora, passando pela imprensa, é obrigado a não só acreditar, mas a pautar a própria vida nessa ficção delirante. E muitos o fazem de bom grado ou ignorantes de que se trata de uma ficção fajuta construída pelas piores pessoas possíveis para tornar a vida de todos (exceto a deles) pior!
 
 Talvez devêssemos apontar com mais frequência que o rei está nu. Sempre esteve.
