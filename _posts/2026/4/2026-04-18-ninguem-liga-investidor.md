@@ -14,6 +14,6 @@ Estamos lendo o livro “Tecnofeudalismo: O que matou o capitalismo”, do grego
 
 A partir dos anos 1970, ainda segundo Yanis, o computador viabilizou uma complexidade nos investimentos além da compreensão humana, o que, combinado com desregulação e outras medidas do governo estadunidense para sustentar o dólar como moeda global, transformou a ~economia em uma gigantesca aposta que supera múltiplas vezes a riqueza existente no planeta.
 
-Meio doido isso, né? Investidores apostam dinheiro que não existe em promessas irrealizáveis (crescimento infinito) e, de alguma forma, todo mundo, da pessoa mais ferrada a governos mundo afora, passando pela imprensa, é obrigado a não só acreditar, mas a pautar a própria vida nessa ficção delirante. E muitos o fazem de bom grado ou ignorantes de que se trata de uma ficção fajuta construída pelas piores pessoas para estragar a vida de todos — exceto a deles!
+Meio doido isso, né? Investidores apostam dinheiro que não existe em promessas irrealizáveis (crescimento infinito) e, de alguma forma, todo mundo, da pessoa mais ferrada a governos mundo afora, aceita — por bem ou por mal — a não só acreditar, mas a pautar a própria vida nessa ficção delirante.
 
 Talvez devêssemos apontar com mais frequência que o rei está nu. Que sempre esteve.
