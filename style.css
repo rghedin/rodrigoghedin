@@ -192,20 +192,20 @@ li.filtro-foco a {
   font-size: var(--fs-3);
 }
 
-footer {
+.footer-creditos {
   display: flex;
   justify-content: space-between;
-  align-items: start;
-  margin: var(--pos-grande-salto) auto var(--pos-margem-baixo);
-  padding: var(--pos-margem-baixo) 0 0;
-  border-top: 1px dashed var(--cor-bordas);
+  margin-bottom: var(--pos-margem-baixo);
 }
+
+.footer-selos {
+  max-width: 100%;
+  text-align: center;
+}
+
 footer p {
   padding: 0;
   margin: 0;
-}
-footer div {
-  text-align: right;
 }
 
 /************
