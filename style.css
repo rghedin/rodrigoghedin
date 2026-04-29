@@ -192,21 +192,23 @@ li.filtro-foco a {
   font-size: var(--fs-3);
 }
 
-.footer-creditos {
+footer {
   display: flex;
   justify-content: space-between;
-  margin-bottom: var(--pos-margem-baixo);
-}
-
-.footer-selos {
-  max-width: 100%;
-  text-align: center;
+  align-items: start;
+  margin: var(--pos-grande-salto) auto var(--pos-margem-baixo);
+  padding: var(--pos-margem-baixo) 0 0;
+  border-top: 1px dashed var(--cor-bordas);
 }
 
 footer p {
   padding: 0;
   margin: 0;
 }
+footer div {
+  text-align: right;
+}
+
 
 /************
  * Posts
@@ -408,7 +410,6 @@ input[type="submit"]:hover {
     margin-inline: -1rem;
     padding-inline: 1rem;
     flex-wrap: nowrap;
-    align-items: center;
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
