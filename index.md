@@ -9,4 +9,4 @@ Meu nome é Rodrigo Ghedin e este é o meu sítio na web, cartão de visitas na 
 
 Meu blog, que mantenho de uma forma ou outra desde 2005, também está aqui, além do formulário da newsletter que uso para avisar as pessoas que ainda estou vivo.
 
-Escrevo o [Manual do Usuário](https://manualdousuario.net), otimizo sites da [Célere](https://celere.dev) e apresento o [Nós da Internet](https://www.nic.br/podcasts/nos-da-internet/).
+Escrevo o [Manual do Usuário](https://manualdousuario.net), otimizo sites na [Célere](https://celere.dev) e apresento o [Nós da Internet](https://www.nic.br/podcasts/nos-da-internet/).
