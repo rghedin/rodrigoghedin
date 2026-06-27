@@ -2,7 +2,7 @@
   --cor-fonte: hsl(0, 0%, 0%);
   --cor-fundo: hsl(0, 0%, 100%);
   --cor-fundo-alt: hsl(0, 0%, 96%);
-  --cor-bordas: hsl(0, 0%, 85%);
+  --cor-bordas: hsl(0, 0%, 96%);
   --cor-botoes: hsl(0, 0%, 40%);
 
   --cor-link: hsl(225, 72%, 41%);
@@ -119,11 +119,9 @@ details[open] summary {
 header {
   display: flex;
   column-gap: var(--pos-margem-baixo);
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  margin: 0 auto calc(var(--pos-grande-salto) * 1.5);
-  padding-block: var(--pos-margem-baixo);
-  border-bottom: 1px dashed var(--cor-bordas);
+  margin: var(--pos-margem-baixo) auto var(--pos-grande-salto);
   line-height: var(--pos-margem-baixo);
 }
 
@@ -198,7 +196,7 @@ footer {
   align-items: start;
   margin: var(--pos-grande-salto) auto var(--pos-margem-baixo);
   padding: var(--pos-margem-baixo) 0 0;
-  border-top: 1px dashed var(--cor-bordas);
+  border-top: 1px solid var(--cor-bordas);
 }
 
 footer p {
@@ -238,9 +236,9 @@ h1.p-name {
   color: var(--cor-link-alt-est);
 }
 
-.comentario {
-  border-top: 1px dashed var(--cor-bordas);
-  padding-top: var(--pos-margem-baixo);
+.voltar-indice-blog {
+  text-align: center;
+  margin-top: var(--pos-salto-medio);
 }
 
 /************
@@ -439,7 +437,7 @@ input[type="submit"]:hover {
     --cor-fonte: hsl(0, 0%, 100%);
     --cor-fundo: hsl(0, 0%, 0%);
     --cor-fundo-alt: hsl(0, 0%, 12%);
-    --cor-bordas: hsl(0, 0%, 35%);
+    --cor-bordas: hsl(0, 0%, 15%);
     --cor-botoes: hsl(0, 0%, 70%);
 
     --cor-link: hsl(225, 43%, 76%);

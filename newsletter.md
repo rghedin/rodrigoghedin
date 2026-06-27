@@ -14,7 +14,7 @@ Vez ou outra envio os posts do blog por e-mail. Para inscrever-se na newsletter,
 	<label for="bd-name">Digite seu nome (opcional)</label>
 	<input type="text" name="metadata__name" id="bd-name" />
 </p>
-<input type="submit" value="Enviar" />
+<input type="submit" tabindex="0" value="Enviar" />
 </form>
 
 **Atenção:** Clique no link de confirmação no e-mail que você receberá após apertar o botão “Enviar”.
