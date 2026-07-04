@@ -118,7 +118,7 @@ details[open] summary {
 
 header {
   display: flex;
-  column-gap: var(--pos-margem-baixo);
+  gap: var(--pos-margem-baixo);
   justify-content: left;
   align-items: center;
   margin: var(--pos-margem-baixo) auto var(--pos-grande-salto);
@@ -194,6 +194,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: start;
+  gap: var(--pos-margem-baixo);
   margin: var(--pos-grande-salto) auto var(--pos-margem-baixo);
   padding: var(--pos-margem-baixo) 0 0;
   border-top: 1px solid var(--cor-bordas);
@@ -398,9 +399,8 @@ input[type="submit"]:hover {
   }
 
   header {
-    justify-content: center;
     flex-direction: column;
-    row-gap: var(--pos-margem-baixo);
+    align-items: start;
   }
 
   .filtros-blog {
@@ -416,15 +416,11 @@ input[type="submit"]:hover {
 
   footer {
     flex-direction: column;
-    row-gap: var(--pos-margem-baixo);
-    align-items: start;
   }
 
   footer ul,
   footer div {
-    justify-content: center;
-    text-align: center;
-    width: 100%;
+    width: fit-content;
   }
 
   .e-quote blockquote {
