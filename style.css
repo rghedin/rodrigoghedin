@@ -112,6 +112,11 @@ blockquote {
   padding-left: 1rem;
 }
 
+sup,
+sub {
+  line-height: 1;
+}
+
 details[open] summary {
   margin-bottom: var(--pos-margem-baixo);
 }
