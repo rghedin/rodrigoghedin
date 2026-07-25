@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“O Google está matando a internet?”, no Código do Caos"
 date: 2024-03-02 09:09 -0300
 ---

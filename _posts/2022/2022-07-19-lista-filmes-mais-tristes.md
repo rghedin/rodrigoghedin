@@ -1,6 +1,6 @@
 ---
 layout: post
-category: textoes
+category: listas
 title: "Filmes mais tristes a que já assisti (ordem cronológica)"
 date: 2022-07-19 16:25 -0300
 ---

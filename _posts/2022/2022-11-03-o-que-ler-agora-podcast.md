@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“‘O que ler agora?’ indica livros sobre o mundo assombrado pela tecnologia”, no Plural"
 date: 2022-11-03 15:00 -0300
 ---

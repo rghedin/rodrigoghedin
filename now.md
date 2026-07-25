@@ -7,19 +7,28 @@ excerpt: O que estou fazendo no momento (última atualização em 22/11/2025).
 
 Nesta página coloco um breve resumo parcial das coisas que estou fazendo.
 
-Sigo tocando o [Manual do Usuário](https://manualdousuario.net/), publicando notinhas, newsletters e textos de opinião. Comecei o ano com poucas mudanças em relação a 2025. Alguns novos plugins pagos, uma leve reorganização  do editorial a fim de publicar um pouco mais e… foi isso. Estou empolgado com o blog.
+O [Manual do Usuário](https://manualdousuario.net/) continua ocupando a maior parte do meu tempo, que divido no horário comercial com a [Célere](https://celere.dev).
 
-Na [Célere](https://celere.dev), o mês foi de migrações de sites e finalização de um trabalho pontual que trouxemos de dezembro. Agora, vamos focar na prospecção de novos clientes. Você tem um site de notícias ou que publica posts feito em WordPress? Vamos conversar!
+Na Célere, trouxemos um novo sócio (Renan!) e estamos em busca de alguém de vendas. Nós três somos terríveis nisso.
 
-O dilema das “escolhas morais” deu uma arrefecida. O que não significa que acabou. Em algum momento, a vontade de usar apenas software livre volta. Fica nessa, vai e volta… Eu não me ajudo, porém: no final do ano, comprei um Apple&nbsp;Watch. Sou o meu pior inimigo. Também comprei um tablet Android diferentão, só para testar. Devo publicar no Manual, sobre ambos os produtos, em fevereiro.
+Livrei-me do Apple&nbsp;Watch ([não deu](https://manualdousuario.net/apple-watch-review/)) e adquiri [um tablet Android com tela E-Ink](https://manualdousuario.net/boox-go-10-3-lumi-primeiras-impressoes/). De resto, sigo com as mesmas bugigangas e a vontade de migrar tudo da Apple para software livre.
 
-No recesso, li vários livros curtinhos, como o <cite>A vida não é útil</cite>, do Ailton Krenak, e <cite>Bartleby, o escrivão</cite>, do Herman Melville. Todos ótimos. Estou lendo <cite>Tools of conviviality</cite>, do Ivan Illich (sem tradução no Brasil). É intrigante. Por vezes me pego concordando com o que ele escreve, apenas para em seguida achá-lo meio maluco. Gosto de livros assim, que me expõem a outras formas de ver o mundo.
+Acabei de assistir à série brasileira “Emergência radioativa”, sobre o acidente com césio-137 em Goiânia, em 1987. Fiquei intrigado com a história, que a série retrata com algumas liberdades artísticas. Estamos vendo também “Margô está em apuros” e… é ok.
 
-Eu e P. estamos na última temporada de <cite>Boardwalk Empire</cite>. Vi, em pedaços <cite>All her fault</cite> (ela viu inteira), série que todo mundo está comentando. Achei pavorosa de ruim.
+Estou lendo “O império da IA”, da Karen Hao, gentilmente enviado pela editora Rocco.
 
-Novamente escrevo esta página em um encontro do Homebrew Website Club Curitiba. Talvez seja o meu momento de atualizar esta página. Fazia tempo que a anterior (abaixo) estava aqui.
+Mais uma vez, escrevo esta atualização em um encontro do Homebrew Website Club, que passaremos a chamar de “Café com site”. Aproveitei também para criar novos filtros no blog, para [listas](/blog/listas) e [aparições na mídia](/blog/namidia).
 
-*Escrito em 24/1/2026.*
+*Atualizado em 25/7/2026.*
+
+<details><summary>24/1/2026</summary>
+	<p>Sigo tocando o <a href="https://manualdousuario.net/">Manual do Usuário</a>, publicando notinhas, newsletters e textos de opinião. Comecei o ano com poucas mudanças em relação a 2025. Alguns novos plugins pagos, uma leve reorganização  do editorial a fim de publicar um pouco mais e… foi isso. Estou empolgado com o blog.</p>
+	<p>Na <a href="https://celere.dev">Célere</a>, o mês foi de migrações de sites e finalização de um trabalho pontual que trouxemos de dezembro. Agora, vamos focar na prospecção de novos clientes. Você tem um site de notícias ou que publica posts feito em WordPress? Vamos conversar!</p>
+	<p>O dilema das “escolhas morais” deu uma arrefecida. O que não significa que acabou. Em algum momento, a vontade de usar apenas software livre volta. Fica nessa, vai e volta… Eu não me ajudo, porém: no final do ano, comprei um Apple Watch. Sou o meu pior inimigo. Também comprei um tablet Android diferentão, só para testar. Devo publicar no Manual, sobre ambos os produtos, em fevereiro.</p>
+	<p>No recesso, li vários livros curtinhos, como o “A vida não é útil”, do Ailton Krenak, e “Bartleby, o escrivão”, do Herman Melville. Todos ótimos. Estou lendo “Tools of conviviality”, do Ivan Illich (sem tradução no Brasil). É intrigante. Por vezes me pego concordando com o que ele escreve, apenas para em seguida achá-lo meio maluco. Gosto de livros assim, que me expõem a outras formas de ver o mundo.</p>
+	<p>Eu e P. estamos na última temporada de “Boardwalk Empire”. Vi, em pedaços “All her fault” (ela viu inteira), série que todo mundo está comentando. Achei pavorosa de ruim.</p>
+	<p>Novamente escrevo esta página em um encontro do Homebrew Website Club Curitiba. Talvez seja o meu momento de atualizar esta página. Fazia tempo que a anterior (abaixo) estava aqui.</p>
+</details>
 
 <details><summary>22/11/2025</summary>
 	<p>Nesta página coloco um breve resumo parcial das coisas que estou fazendo.</p>

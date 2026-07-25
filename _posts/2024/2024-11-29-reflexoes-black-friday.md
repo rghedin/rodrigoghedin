@@ -1,6 +1,6 @@
 ---
 layout: post
-category: textoes
+category: listas
 title: "Reflexões de Black Friday"
 date: 2024-11-29 18:35 -0300
 ---

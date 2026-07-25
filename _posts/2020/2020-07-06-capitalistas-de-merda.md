@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“A cena underground do mundo dos negócios”, no Capitalistas de Merda"
 date: 2020-07-06 13:00 -0300
 ---

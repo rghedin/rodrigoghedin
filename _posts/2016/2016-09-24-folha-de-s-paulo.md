@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Produtores de conteúdo on-line trocam redes sociais por newsletter”, na Folha de S.Paulo"
 date: 2016-09-24 13:00 -0300
 ---

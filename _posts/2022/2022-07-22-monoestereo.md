@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Outros jeitos de pensar sobre tecnologia”, no MonoEstéreo"
 date: 2022-07-22 13:00 -0300
 ---

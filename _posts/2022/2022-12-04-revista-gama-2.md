@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Estamos preparados para o fim do Twitter?”, na revista Gama"
 date: 2022-12-04 08:20 -0300
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Rodrigo Ghedin escreve sobre tecnologia com coragem e honestidade”, no Plural"
 date: 2022-11-02 09:50 -0300
 ---

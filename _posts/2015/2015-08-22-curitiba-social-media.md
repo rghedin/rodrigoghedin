@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Curitiba Social Media debate uso exagerado da internet”, na Gazeta do Povo"
 date: 2015-08-22 13:00 -0300
 ---

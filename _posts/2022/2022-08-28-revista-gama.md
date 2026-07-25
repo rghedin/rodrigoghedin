@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "Rodrigo Ghedin: “A tendência vai ser compartilhar nossas vidas em grupos mais privados da internet”, na Revista Gama"
 date: 2022-08-28 18:05 -0300
 ---

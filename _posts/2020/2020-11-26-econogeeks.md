@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Big techs & Comportamento”, no Econogeeks"
 date: 2020-11-26 13:00 -0300
 ---

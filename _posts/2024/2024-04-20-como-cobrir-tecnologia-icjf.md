@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Como cobrir tecnologia: big techs, novos produtos e segurança digital”, na Rede de Jornalistas Internacionais"
 date: 2024-04-20 07:58 -0300
 ---

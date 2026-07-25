@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Golpe do emprego faz diversas vítimas em várias partes do país”, no Domingo Espetacular"
 date: 2022-12-04 22:00 -0300
 ---

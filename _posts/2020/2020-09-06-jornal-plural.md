@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Um site de tecnologia que vai contra o consumismo”, no Plural"
 date: 2020-09-06 13:00 -0300
 ---

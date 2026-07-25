@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Como foi a minha palestra ‘Smartphone: modo de usar’ na Unipar, em Paranavaí”, na XVI SEINPAR, da Universidade Paranaense"
 date: 2014-09-15 13:00 -0300
 ---

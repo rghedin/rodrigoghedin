@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Da tecnoutopia ao tecnoniilismo”, no Nexo"
 date: 2022-05-01 08:00 -0300
 ---

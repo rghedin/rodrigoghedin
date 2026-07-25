@@ -9,11 +9,13 @@
     <li><a href="/blog/textoes">Textões</a></li>
     <li><a href="/blog/notinhas">Notinhas</a></li>
     <li><a href="/blog/citacoes">Citações</a></li>
+    <li><a href="/blog/listas">Listas</a></li>
+    <li><a href="/blog/namidia">Na mídia</a></li>
     <li><a href="/blog/imagens">Imagens</a></li>
   </ul>
   
   {% for post in paginator.posts %}
-  <article class="h-entry {% if post.type == 'image' %}e-image{% elsif post.type == 'quote' %}e-quote{% elsif post.type == 'aside' %}e-aside{% elsif post.type == 'link' %}e-link{% endif %}">
+  <article class="h-entry {% if post.type == 'image' %}e-image{% elsif post.type == 'quote' %}e-quote{% elsif post.type == 'aside' %}e-aside{% elsif post.type == 'lista' %}e-lista{% elsif post.type == 'namidia' %}e-namidia{% elsif post.type == 'link' %}e-link{% endif %}">
     {% if post.type == nil %}
     <h2 class="p-name">
       <a href="{{ post.url }}">{{ post.title }}</a>

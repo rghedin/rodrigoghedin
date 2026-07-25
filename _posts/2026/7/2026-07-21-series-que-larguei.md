@@ -1,6 +1,6 @@
 ---
 layout: post
-category: textoes
+category: listas
 title: "5 séries que larguei porque a vida é curta demais para perder tempo com coisas chatas"
 date: 2026-07-21 11:41 -0300
 ---

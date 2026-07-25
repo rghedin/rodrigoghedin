@@ -1,6 +1,7 @@
 ---
 layout: post
-type: link
+type: aside
+category: namidia
 title: "“Por que críticos dizem que os óculos da Apple capitalizam a solidão”, no Nexo"
 date: 2024-01-09 08:00 -0300
 ---
