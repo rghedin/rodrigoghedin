@@ -51,7 +51,7 @@ body {
   width: min(100%, 75ch);
   margin-inline: auto;
   padding-inline: 1rem;
-  font-family: serif;
+  font-family: 'Times New Roman', serif;
   font-size: var(--fs-1);
   line-height: 1.5;
   color: var(--cor-fonte);
