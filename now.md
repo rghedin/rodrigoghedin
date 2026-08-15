@@ -23,7 +23,7 @@ Estou lendo “Ioga”, do Emmanuel Carrère, e gostando muito. Irei atrás de o
 
 *Atualizado em 15/8/2026.*
 
-<details><summary>25/&/2026</summary>
+<details><summary>25/7/2026</summary>
 	<p>Nesta página coloco um breve resumo parcial das coisas que estou fazendo.</p>
 <p>O <a href="https://manualdousuario.net/">Manual do Usuário</a> continua ocupando a maior parte do meu tempo, que divido no horário comercial com a <a href="https://celere.dev">Célere</a>.</p>
 <p>Na Célere, trouxemos um novo sócio (Renan!) e estamos em busca de alguém de vendas. Nós três somos terríveis nisso.</p>
