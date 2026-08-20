@@ -23,7 +23,7 @@ Estou lendo “Ioga”, do Emmanuel Carrère, e gostando muito. Irei atrás de o
 
 *Atualizado em 15/8/2026.*
 
-<details><summary>25/7/2026</summary>
+<details name="historico"><summary>25/7/2026</summary>
 	<p>Nesta página coloco um breve resumo parcial das coisas que estou fazendo.</p>
 <p>O <a href="https://manualdousuario.net/">Manual do Usuário</a> continua ocupando a maior parte do meu tempo, que divido no horário comercial com a <a href="https://celere.dev">Célere</a>.</p>
 <p>Na Célere, trouxemos um novo sócio (Renan!) e estamos em busca de alguém de vendas. Nós três somos terríveis nisso.</p>
@@ -33,7 +33,7 @@ Estou lendo “Ioga”, do Emmanuel Carrère, e gostando muito. Irei atrás de o
 <p>Mais uma vez, escrevo esta atualização em um encontro do Homebrew Website Club, que passaremos a chamar de “Café com site”. Aproveitei também para criar novos filtros no blog, para <a href="/blog/listas">listas</a> e <a href="/blog/namidia">aparições na mídia</a>.</p>
 </details>
 
-<details><summary>24/1/2026</summary>
+<details name="historico"><summary>24/1/2026</summary>
 	<p>Sigo tocando o <a href="https://manualdousuario.net/">Manual do Usuário</a>, publicando notinhas, newsletters e textos de opinião. Comecei o ano com poucas mudanças em relação a 2025. Alguns novos plugins pagos, uma leve reorganização  do editorial a fim de publicar um pouco mais e… foi isso. Estou empolgado com o blog.</p>
 	<p>Na <a href="https://celere.dev">Célere</a>, o mês foi de migrações de sites e finalização de um trabalho pontual que trouxemos de dezembro. Agora, vamos focar na prospecção de novos clientes. Você tem um site de notícias ou que publica posts feito em WordPress? Vamos conversar!</p>
 	<p>O dilema das “escolhas morais” deu uma arrefecida. O que não significa que acabou. Em algum momento, a vontade de usar apenas software livre volta. Fica nessa, vai e volta… Eu não me ajudo, porém: no final do ano, comprei um Apple Watch. Sou o meu pior inimigo. Também comprei um tablet Android diferentão, só para testar. Devo publicar no Manual, sobre ambos os produtos, em fevereiro.</p>
@@ -42,7 +42,7 @@ Estou lendo “Ioga”, do Emmanuel Carrère, e gostando muito. Irei atrás de o
 	<p>Novamente escrevo esta página em um encontro do Homebrew Website Club Curitiba. Talvez seja o meu momento de atualizar esta página. Fazia tempo que a anterior (abaixo) estava aqui.</p>
 </details>
 
-<details><summary>22/11/2025</summary>
+<details name="historico"><summary>22/11/2025</summary>
 	<p>Nesta página coloco um breve resumo parcial das coisas que estou fazendo.</p>
 	<p>Sigo tocando o <a href="https://manualdousuario.net/">Manual do Usuário</a>, publicando notinhas, newsletters e textos de opinião. No início de novembro, voltei a <a href="https://manualdousuario.net/series/manual-do-usuario/">gravar o podcast</a>.</p>
 	<p>Às sextas, estou frequentando como ouvinte a disciplina de Espaço, Tecnologia e Sociedade, da <a href="http://lattes.cnpq.br/6475608295644477">prof.ª Carolina Israel</a>, na UFPR. Não imaginava que houvesse uma interseção entre tecnologia e geografia. As aulas e leituras dialogam com assuntos do meu interesse e que abordo no Manual.</p>
