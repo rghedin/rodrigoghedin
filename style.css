@@ -40,6 +40,8 @@
 
 html {
   color-scheme: light dark;
+  height: 100%;
+  margin: 0;
 }
 
 img:not(.e-image img) {
@@ -47,6 +49,9 @@ img:not(.e-image img) {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: var(--cor-fundo);
   width: min(100%, 75ch);
   margin-inline: auto;
@@ -126,8 +131,8 @@ header {
   gap: var(--pos-margem-baixo);
   justify-content: left;
   align-items: center;
-  margin: var(--pos-margem-baixo) auto var(--pos-grande-salto);
-  line-height: var(--pos-margem-baixo);
+  margin: var(--pos-margem-baixo) 0 var(--pos-grande-salto);
+  line-height: 1;
 }
 
 header h1 {
@@ -174,7 +179,7 @@ nav.nav-blogs a:hover {
 }
 
 main {
-  margin: var(--pos-grande-salto) auto;
+  flex: 1;
 }
 
 .filtros-blog {
@@ -200,17 +205,18 @@ footer {
   justify-content: space-between;
   align-items: start;
   gap: var(--pos-margem-baixo);
-  margin: var(--pos-grande-salto) auto var(--pos-margem-baixo);
-  padding: var(--pos-margem-baixo) 0 0;
+  margin: 2rem 0 0;
+  padding: var(--pos-margem-baixo) 0 var(--pos-margem-baixo);
   border-top: 1px solid var(--cor-bordas);
 }
 
-footer p {
+footer ul {
+  display: flex;
+  column-gap: 1rem;
+  list-style: none;
   padding: 0;
   margin: 0;
-}
-footer div {
-  text-align: right;
+  line-height: 1;
 }
 
 
@@ -405,6 +411,7 @@ input[type="submit"]:hover {
   header {
     flex-direction: column;
     align-items: start;
+    width: 100%;
   }
 
   .filtros-blog {
@@ -420,11 +427,11 @@ input[type="submit"]:hover {
 
   footer {
     flex-direction: column;
+    align-items: initial;
   }
 
-  footer ul,
-  footer div {
-    width: fit-content;
+  footer ul {
+    justify-content: space-between;
   }
 
   .e-quote blockquote {
