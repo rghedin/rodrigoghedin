@@ -8,7 +8,7 @@ Hoje mais cedo, participei do encontro de aniversário (1&nbsp;ano!) do [Site co
 
 Tem sido bem legal! Acho que funciona porque as expectativas são baixas e não se exige quórum mínimo. (Em vários encontros éramos só eu e o Daniel, que os co-organiza comigo.)
 
-* [Relatei no Manual do Usuário o primeiro encontro](https://manualdousuario.net/homebrew-website-club-curitiba/).
-* O Daniel, mais diligente que eu, vem registrando todos os encontros [em seu blog](https://www.danielkossmann.com/pt/arquivo/). (Falta uma etiqueta para agrupá-los; ele prometeu que fará isso em breve, talvez no nosso próximo encontro.)
+* [Relatei o primeiro encontro](https://manualdousuario.net/homebrew-website-club-curitiba/) no Manual do Usuário.
+* O Daniel, mais diligente que eu, vem registrando todos os encontros [em seu blog](https://www.danielkossmann.com/pt/tag/site-com-cafe-homebrew-website-club-curitiba/).
 
 Vida longa ao Site com Café!
