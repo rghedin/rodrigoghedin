@@ -1,0 +1,66 @@
+# Regras de cache para Cloudflare Pages (site Jekyll estático)
+#
+# HTML não tem regra aqui de propósito: o Pages já envia
+# "public, max-age=0, must-revalidate" + ETag. O edge guarda o HTML até ao
+# próximo deploy e o browser só faz um pedido condicional (304), por isso
+# cada deploy aparece imediatamente.
+#
+# Só são usados padrões por extensão para que nenhum ficheiro corresponda
+# a duas regras (o Pages junta valores repetidos com vírgula).
+
+# --- CSS / JS: 1 ano, imutável -----------------------------------------
+# Exige cache-busting nos links (ver layout): ?v={{ site.time | date: '%s' }}
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+/*.mjs
+  Cache-Control: public, max-age=31536000, immutable
+/*.map
+  Cache-Control: public, max-age=31536000, immutable
+
+# --- Fontes: 1 ano, imutável -------------------------------------------
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+/*.woff
+  Cache-Control: public, max-age=31536000, immutable
+/*.ttf
+  Cache-Control: public, max-age=31536000, immutable
+/*.otf
+  Cache-Control: public, max-age=31536000, immutable
+
+# --- Imagens e media: 30 dias + 1 ano a servir stale enquanto revalida -
+/*.png
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.jpg
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.jpeg
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.gif
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.webp
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.avif
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.svg
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.ico
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.mp4
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.webm
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.mp3
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+/*.pdf
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=31536000
+
+# --- Feeds, sitemap, robots, manifest: 1 hora ---------------------------
+/*.xml
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+/*.txt
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+/*.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+/*.webmanifest
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
