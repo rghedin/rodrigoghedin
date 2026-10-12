@@ -17,6 +17,9 @@ permalink: /blog/:slug
 timezone: UTC−03:00
 future: false
 
+include:
+  - _headers
+
 exclude:
   - README.md
   - LICENSE.*
