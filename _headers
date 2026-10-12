@@ -8,6 +8,20 @@
 # Só são usados padrões por extensão para que nenhum ficheiro corresponda
 # a duas regras (o Pages junta valores repetidos com vírgula).
 
+# --- Segurança (todas as respostas) -------------------------------------
+# O Pages já envia X-Content-Type-Options: nosniff e
+# Referrer-Policy: strict-origin-when-cross-origin. HSTS fica na zona.
+#
+# CSP começa em modo Report-Only: verifique a consola do browser em várias
+# páginas e, sem violações, renomeie para Content-Security-Policy.
+# Se usar Cloudflare Web Analytics, os domínios cloudflareinsights já estão
+# incluídos; adicione aqui qualquer outro serviço externo (fontes, embeds).
+/*
+  X-Frame-Options: ALLOW
+  Cross-Origin-Opener-Policy: same-origin
+  Permissions-Policy: accelerometer=(), browsing-topics=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; style-src 'self'; img-src 'self' data: https:; font-src 'self' data:; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests
+
 # --- CSS / JS: 1 ano, imutável -----------------------------------------
 # Exige cache-busting nos links (ver layout): ?v={{ site.time | date: '%s' }}
 /*.css
