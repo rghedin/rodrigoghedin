@@ -1,0 +1,11 @@
+{% if paginator.total_pages > 1 %}
+<nav class="nav-blogs" aria-label="Paginação">
+  {% if paginator.previous_page %}
+    <a class="nav-blogs-novos" href="{{ paginator.previous_page_path | relative_url }}">&laquo;&nbsp;Novos</a>
+  {% endif %}
+  <span class="nav-blogs-posicao">Página {{ paginator.page }} de {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a class="nav-blogs-antigos" href="{{ paginator.next_page_path | relative_url }}">Antigos&nbsp;&raquo;</a>
+  {% endif %}
+</nav>
+{% endif %}

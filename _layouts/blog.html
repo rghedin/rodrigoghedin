@@ -2,47 +2,18 @@
 
 {% include header.html %}
 
-<main class="h-feed">
+<main id="conteudo" class="h-feed">
 
-  <ul class="filtros-blog">
-    <li class="filtro-foco"><a href="/blog">Blog</a></li>
-    <li><a href="/blog/textoes">Textões</a></li>
-    <li><a href="/blog/notinhas">Notinhas</a></li>
-    <li><a href="/blog/citacoes">Citações</a></li>
-    <li><a href="/blog/listas">Listas</a></li>
-    <li><a href="/blog/namidia">Na mídia</a></li>
-    <li><a href="/blog/imagens">Imagens</a></li>
-  </ul>
-  
+  <h1 class="p-name visualmente-oculto">{{ page.title | escape_once }}</h1>
+
+  {% include filtros-blog.html %}
+
   {% for post in paginator.posts %}
-  <article class="h-entry {% if post.type == 'image' %}e-image{% elsif post.type == 'quote' %}e-quote{% elsif post.type == 'aside' %}e-aside{% elsif post.type == 'lista' %}e-lista{% elsif post.type == 'namidia' %}e-namidia{% elsif post.type == 'link' %}e-link{% endif %}">
-    {% if post.type == nil %}
-    <h2 class="p-name">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    {% endif %}
-
-    <div class="e-content">
-      {{ post.content }}
-    </div>
-
-    <p class="dt-published">
-      <a href="{{ post.url }}">{{ post.date | date: "%-d/%-m/%Y" }}</a>
-    </p>
-  </article>
+  {% include post-resumo.html %}
   {% endfor %}
 </main>
 
-{% if paginator.total_pages > 1 %}
-<nav class="nav-blogs">
-  {% if paginator.previous_page %}
-    <a class="nav-blogs-novos" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&laquo;&nbsp;Novos</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a class="nav-blogs-antigos" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Antigos&nbsp;&raquo;</a>
-  {% endif %}
-</nav>
-{% endif %}
+{% include paginacao.html %}
 
 {% include footer.html %}
 

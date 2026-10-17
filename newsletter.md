@@ -2,19 +2,21 @@
 layout: default
 title: Newsletter
 excerpt: Vez ou outra envio os posts do blog por e-mail.
+buscavel: true
 ---
-Vez ou outra envio os posts do blog por e-mail. Para inscrever-se na newsletter, digite seu e-mail (e, se quiser, o nome) no formulário.
+<h1 class="visualmente-oculto">Newsletter</h1>
+
+Vez ou outra envio os posts do blog por e-mail.
 
 <form action="https://buttondown.com/api/emails/embed-subscribe/rodrigoghedin" method="post">
 <p>
-	<label for="bd-email">Digite seu e-mail</label>
-	<input type="email" name="email" id="bd-email" />
+	<label for="bd-email">E-mail</label>
+	<input type="email" name="email" id="bd-email" required autocomplete="email" />
 </p>
 <p>
-	<label for="bd-name">Digite seu nome (opcional)</label>
-	<input type="text" name="metadata__name" id="bd-name" />
+	<label for="bd-name">Nome (opcional)</label>
+	<input type="text" name="metadata__name" id="bd-name" autocomplete="name" />
 </p>
-<input type="submit" tabindex="0" value="Enviar" />
+<p>Depois de enviar, clique no link de confirmação que chegará no seu e-mail.</p>
+<input type="submit" value="Enviar" />
 </form>
-
-**Atenção:** Clique no link de confirmação no e-mail que você receberá após apertar o botão “Enviar”.

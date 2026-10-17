@@ -1,0 +1,15 @@
+{%- comment -%}
+  Menu de filtros do blog. Lista automaticamente as páginas de blog/ que
+  têm pagination.category, na ordem do campo "ordem". Para criar um filtro
+  novo, basta adicionar um arquivo em blog/.
+{%- endcomment -%}
+{%- assign categoria = page.pagination.category -%}
+{%- assign filtros = site.pages | where_exp: "p", "p.pagination.category" | sort: "ordem" -%}
+<ul class="filtros-blog" aria-label="Categorias do blog">
+  <li{% if categoria == nil %} class="filtro-foco"{% endif %}><a href="{{ site.Blog | relative_url }}"{% if categoria == nil %} aria-current="page"{% endif %}>Blog</a></li>
+  {%- for filtro in filtros %}
+  {%- unless filtro.url contains "/page/" %}
+  <li{% if categoria == filtro.pagination.category %} class="filtro-foco"{% endif %}><a href="{{ filtro.url | remove: 'index.html' | relative_url }}"{% if categoria == filtro.pagination.category %} aria-current="page"{% endif %}>{{ filtro.title }}</a></li>
+  {%- endunless %}
+  {%- endfor %}
+</ul>

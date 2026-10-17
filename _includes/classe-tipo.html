@@ -1,0 +1,12 @@
+{%- comment -%}
+  Classe CSS do tipo de post. Uso: {% include classe-tipo.html tipo=post.type %}
+  Gera " tipo-xxx" (com espaço inicial) ou nada.
+{%- endcomment -%}
+{%- case include.tipo -%}
+  {%- when 'image' %} tipo-imagem
+  {%- when 'quote' %} tipo-citacao
+  {%- when 'aside' %} tipo-nota
+  {%- when 'lista' %} tipo-lista
+  {%- when 'namidia' %} tipo-namidia
+  {%- when 'link' %} tipo-link
+{%- endcase -%}

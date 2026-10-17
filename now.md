@@ -2,8 +2,9 @@
 layout: default
 title: Now
 excerpt: O que estou fazendo no momento (última atualização em 15/8/2026).
+buscavel: true
 ---
-## Now
+# Now
 
 Nesta página coloco um breve resumo parcial das coisas que estou fazendo.
 

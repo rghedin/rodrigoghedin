@@ -1,13 +1,13 @@
 <footer>
 	<ul>
 		<li><a href="mailto:rodrigo@ghed.in" rel="me">Contato</a></li>
-		<li><a href="https://mastodon.social/@manualdousuario">Mastodon</a></li>
-		<li><a href="https://rodrigo.ghed.in/feed.xml">RSS</a></li>
-		<li><a href="https://lerama.pcdomanual.com/">Lerama</a></li>
+		<li><a href="https://mastodon.social/@manualdousuario" rel="me">Mastodon</a></li>
+		<li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+		<li><a href="https://lerama.pcdomanual.com/" title="Diretório e buscador de blogs pessoais">Lerama</a></li>
 	</ul>
 	<ul>
 		<li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br">CC BY-NC-SA 4.0</a></li>
-		<li>2005–2026</li>
+		<li>2005–{{ site.time | date: '%Y' }}</li>
 	</ul>
 </footer>
 

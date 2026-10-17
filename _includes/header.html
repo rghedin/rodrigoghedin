@@ -1,20 +1,20 @@
+{%- assign url_atual = page.url | remove: "index.html" | remove: ".html" %}
 <header>
-<h1 class="title">
-    Rodrigo Ghedin
+<p class="title">
+    <a href="{{ '/' | relative_url }}"{% if url_atual == '/' %} aria-current="page"{% endif %}>Rodrigo Ghedin</a>
     <!--picture>
+        <source type="image/avif" srcset="{{ '/assets/perfil.avif' | relative_url }}">
         <img
-            type="image/avif"
-            srcset="{{ site.url }}/assets/perfil.avif"
+            src="{{ '/assets/perfil.jpg' | relative_url }}"
             alt="Foto de Rodrigo Ghedin"
             width="54"
             height="54"
-        />
+        >
     </picture-->
-</h1>
-<nav>
-    <a href="{{ site.url }}">Início</a>
-    <a href="{{ site.url }}{{ site.Blog }}">Blog</a>
-    <a href="/now">/now</a>
-    <a href="/newsletter">Newsletter</a>
+</p>
+<nav aria-label="Principal">
+    <a href="{{ site.Blog | relative_url }}"{% if url_atual == site.Blog %} aria-current="page"{% endif %}>Blog</a>
+    <a href="{{ '/now' | relative_url }}" title="O que estou fazendo agora"{% if url_atual == '/now' %} aria-current="page"{% endif %}>/now</a>
+    <a href="{{ '/newsletter' | relative_url }}"{% if url_atual == '/newsletter' %} aria-current="page"{% endif %}>Newsletter</a>
 </nav>
 </header>

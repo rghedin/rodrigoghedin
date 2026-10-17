@@ -1,9 +1,45 @@
+/*
+ * Fonte: Inter 4.1 (SIL OFL, ver assets/fonts/LICENSE-Inter.txt)
+ * Subconjunto latino com eixo de peso (wght). O tamanho óptico foi fixado no
+ * desenho de texto (opsz=14): o desenho "Display" não tem as variantes
+ * cv05/cv08 usadas abaixo.
+ * Ao trocar a versão, troque o nome do arquivo (cache de 1 ano em _headers).
+ */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/fonts/inter-4.1-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/fonts/inter-4.1-latin-italic.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* Arial ajustada às medidas da Inter: reduz o "pulo" do texto quando a Inter carrega */
+@font-face {
+  font-family: "Inter fallback";
+  src: local("Arial");
+  size-adjust: 107%;
+  ascent-override: 90%;
+  descent-override: 22.4%;
+  line-gap-override: 0%;
+}
+
 :root {
+  --ff-texto: "Inter", "Inter fallback", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  --ff-serifa: Georgia, ui-serif, "Iowan Old Style", "Palatino Linotype", "Noto Serif", serif;
+
   --cor-fonte: hsl(0, 0%, 0%);
   --cor-fundo: hsl(0, 0%, 100%);
   --cor-fundo-alt: hsl(0, 0%, 96%);
   --cor-bordas: hsl(0, 0%, 96%);
-  --cor-botoes: hsl(0, 0%, 40%);
+  --cor-bordas-campo: hsl(0, 0%, 55%);
 
   --cor-link: hsl(225, 72%, 41%);
   --cor-link-vis: hsl(276, 100%, 25%);
@@ -12,18 +48,19 @@
   --cor-link-alt: hsl(0, 0%, 30%);
   --cor-link-alt-est: hsl(0, 0%, 50%);
 
-  --sombra: 4px 4px 16px hsl(0, 0%, 85%);
+  --sombra: 0.25rem 0.25rem 1rem hsl(0, 0%, 85%);
 
-  --ff-mono: ui-monospace, monospace;
+  --ff-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, "Liberation Mono", monospace;
 
   --fs-0: 1rem;
   --fs-1: 1.1rem;
-  --fs-2: 1.5rem;
-  --fs-3: 1.9rem;
+  /* Tamanhos fluidos: menores no celular, iguais aos de antes a partir de ~640px */
+  --fs-2: clamp(1.35rem, 1.1rem + 1.2vw, 1.5rem);
+  --fs-3: clamp(1.5rem, 1.1rem + 2vw, 1.9rem);
 
   --pos-margem-baixo: 1.25rem;
-  --pos-salto-medio: 5rem;
-  --pos-grande-salto: 6rem;
+  --pos-salto-medio: 3rem;
+  --pos-grande-salto: 4rem;
   --pos-curvada: 0.4rem;
 }
 
@@ -42,9 +79,12 @@ html {
   color-scheme: light dark;
   height: 100%;
   margin: 0;
+  /* Impede o iOS de aumentar o texto sozinho em modo paisagem */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
-img:not(.e-image img) {
+img {
   max-width: 100%;
 }
 
@@ -53,24 +93,31 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: var(--cor-fundo);
-  width: min(100%, 70ch);
+  /* Medida fixa: ~65–70 caracteres por linha, independente da fonte */
+  width: min(100%, 42rem);
   margin-inline: auto;
   padding-inline: 1rem;
-  font-family: Arial, sans-serif;
+  font-family: var(--ff-texto);
+  /* Diferencia I (com serifas) de l (com cauda) e de 1 */
+  font-feature-settings: "cv05", "cv08";
   font-size: var(--fs-1);
   line-height: 1.5;
   color: var(--cor-fonte);
-  word-wrap: break-word;
   overflow-wrap: break-word;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  font-kerning: normal;
   overflow-x: hidden;
+}
+
+/* Texto corrido um pouco mais espaçado que a interface */
+main p,
+main li {
+  line-height: 1.6;
 }
 
 a {
   color: var(--cor-link);
-  cursor: pointer;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
 }
 a:visited {
   color: var(--cor-link-vis);
@@ -106,7 +153,7 @@ main h1 {
 code {
   font-family: var(--ff-mono);
   font-size: var(--fs-0);
-  background-color: var(--cor-fundo-alt);
+  background-color: var(--cor-fundo-codigo, var(--cor-fundo-alt));
   border-radius: var(--pos-curvada);
   padding: 0.1rem 0.2rem;
 }
@@ -126,20 +173,48 @@ details[open] summary {
   margin-bottom: var(--pos-margem-baixo);
 }
 
+/* Acessibilidade: conteúdo só para leitores de tela */
+.visualmente-oculto,
+.pular-conteudo:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.pular-conteudo:focus {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+  padding: 0.5rem 1rem;
+  background-color: var(--cor-fundo);
+}
+
 header {
   display: flex;
   gap: var(--pos-margem-baixo);
-  justify-content: left;
+  justify-content: flex-start;
   align-items: center;
   margin: var(--pos-margem-baixo) 0 var(--pos-grande-salto);
   line-height: 1;
 }
 
-header h1 {
+header .title {
   font-size: var(--fs-1);
   font-weight: bold;
   margin: 0;
   line-height: 1;
+}
+header .title a,
+header .title a:visited {
+  color: var(--cor-fonte);
+  text-decoration: none;
+}
+header .title a:hover {
+  text-decoration: underline;
 }
 
 nav {
@@ -154,21 +229,36 @@ header nav a:hover {
   color: var(--cor-link-est);
 }
 
+/* Área de toque maior nos links de navegação, sem mudar o leiaute
+   (padding vertical em elemento inline não altera a altura da linha) */
+header a,
+.filtros-blog a,
+.nav-blogs a,
+footer a {
+  padding-block: 0.25rem;
+}
+
+/* Paginação e navegação entre posts: novos | posição | antigos */
 .nav-blogs {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  column-gap: 1rem;
   font-family: var(--ff-mono);
   font-size: var(--fs-0);
   padding: 0;
   margin: 0 0 var(--pos-grande-salto);
 }
-nav.nav-blogs > .nav-blogs-antigos:only-child {
-  flex: 1 1 auto;
-  text-align: right;
+.nav-blogs-novos {
+  grid-column: 1;
+  justify-self: start;
 }
-nav.nav-blogs > .nav-blogs-novos:only-child {
-  flex: 1 1 auto;
-  text-align: left;
+.nav-blogs-posicao {
+  grid-column: 2;
+}
+.nav-blogs-antigos {
+  grid-column: 3;
+  justify-self: end;
+  text-align: right;
 }
 nav.nav-blogs a,
 nav.nav-blogs a:visited {
@@ -186,7 +276,8 @@ main {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
   justify-content: start;
   align-items: baseline;
   margin-bottom: var(--pos-salto-medio);
@@ -196,8 +287,11 @@ main {
   color: var(--cor-link);
 }
 
+/* Filtro ativo: mesmo tamanho dos outros, destacado como texto */
 li.filtro-foco a {
-  font-size: var(--fs-3);
+  color: var(--cor-fonte);
+  font-weight: bold;
+  text-decoration: none;
 }
 
 footer {
@@ -224,7 +318,7 @@ footer ul {
  * Posts
  ************/
 .h-entry {
-  margin-bottom: calc(var(--pos-grande-salto) * 1.5);
+  margin-bottom: var(--pos-grande-salto);
 }
 
 h1.p-name,
@@ -232,9 +326,6 @@ h2.p-name {
   font-size: var(--fs-3);
   font-weight: 400;
   margin-bottom: var(--pos-margem-baixo);
-}
-h1.p-name {
-  font-size: var(--fs-3);
 }
 
 .dt-published {
@@ -248,11 +339,6 @@ h1.p-name {
   color: var(--cor-link-alt-est);
 }
 
-.voltar-indice-blog {
-  text-align: center;
-  margin-top: var(--pos-salto-medio);
-}
-
 /************
  * Tipos de posts
  ************/
@@ -261,91 +347,80 @@ h1.p-name {
   margin-bottom: var(--pos-margem-baixo);
 }
 
-.e-image .p-name,
-.e-quote .p-name,
-.e-aside .p-name,
-.e-link .p-name {
+.tipo-imagem .p-name,
+.tipo-citacao .p-name,
+.tipo-nota .p-name,
+.tipo-link .p-name {
   display: none;
 }
 
 main img {
   box-shadow: var(--sombra);
   border-radius: var(--pos-curvada);
-}
-
-main figure,
-.e-image p:has(> img) {
-  margin-bottom: 0;
-}
-
-main figure,
-main img:not(:has(figure)) {
-  max-width: 100%;
-}
-
-@media (max-width: 512px) {
-  main figure,
-  main img:not(:has(figure)) {
-    width: 100vw;
-    max-width: 100vw;
-    margin: 0 -50vw var(--pos-margem-baixo);
-    left: 50%;
-    right: 50%;
-    position: relative;
-  }
-  main figure img,
-  main img {
-    margin-bottom: 0;
-  }
-
-  main .e-image img {
-    border-radius: initial;
-  }
-}
-
-main img {
   margin-bottom: var(--pos-margem-baixo);
 }
 
-.e-quote blockquote {
+.tipo-imagem p:has(> img) {
+  margin-bottom: 0;
+}
+
+main figure {
+  margin-bottom: var(--pos-margem-baixo);
+}
+main figure img {
+  margin-bottom: 0;
+}
+figcaption {
+  margin-top: 0.5rem;
+}
+
+main figure,
+main img {
+  max-width: 100%;
+}
+
+.tipo-citacao blockquote {
   margin-left: 0;
   font-size: var(--fs-2);
   border-left: none;
   padding-left: 0;
-  font-family: Georgia, serif;
+  font-family: var(--ff-serifa);
 }
 
-.e-quote blockquote:before {
+.tipo-citacao blockquote:before {
   content: "\201C";
   color: var(--cor-fundo-alt);
   display: block;
   position: relative;
   height: 0;
+  /* Fica atrás do texto porque o fundo do body é pintado no canvas.
+     Se algum ancestral ganhar background, as aspas deixam de aparecer. */
   z-index: -999;
-  font-size: 390px;
-  left: -35px;
-  top: -140px;
+  /* Em "em" para acompanhar o tamanho do texto (antes: 390px, -35px, -140px) */
+  font-size: 16.25em;
+  left: -0.09em;
+  top: -0.36em;
 }
 
 p.link,
-.e-link div.e-content p:first-child {
+.tipo-link div.e-content p:first-child {
   padding: 0.5rem 1rem;
   background: var(--cor-fundo-alt);
   border-radius: var(--pos-curvada);
 }
 p.link:before,
-.e-link div.e-content p:first-child:before {
+.tipo-link div.e-content p:first-child:before {
   content: "\2197";
   color: var(--cor-fonte);
   opacity: 0.15;
   z-index: 1;
-  font-size: 56px;
+  font-size: 3.2em;
   line-height: 1;
   float: right;
 }
 
 p.link span,
-.e-link div.e-content > p span {
+.tipo-link div.e-content > p span {
   font-family: var(--ff-mono);
   font-size: var(--fs-0);
   line-height: 1;
@@ -354,7 +429,6 @@ p.link span,
 /*
  * Formulário
  */
-/* Formulário */
 form {
   margin-bottom: var(--pos-margem-baixo);
 }
@@ -366,6 +440,7 @@ label {
 
 input {
   font-family: inherit;
+  font-feature-settings: inherit;
   font-size: var(--fs-1);
 }
 
@@ -375,7 +450,7 @@ input[type="email"] {
   padding: 0.5rem;
   color: var(--cor-fonte);
   background-color: var(--cor-fundo);
-  border: 2px solid var(--cor-bordas);
+  border: 2px solid var(--cor-bordas-campo);
   border-radius: var(--pos-curvada);
   transition: border-color 0.2s ease;
 }
@@ -402,10 +477,38 @@ input[type="submit"]:hover {
 /*
  * Telas pequenas
  */
-@media only screen and (max-width: 512px) {
+@media (max-width: 512px) {
   :root {
-    --fs-2: 1.55rem;
     --pos-margem-baixo: 1rem;
+  }
+
+  /* Colunas estreitas: hifenizar evita buracos no fim das linhas */
+  main p,
+  main li {
+    hyphens: auto;
+  }
+
+  /* Imagens ocupam toda a largura da tela */
+  main figure,
+  main img {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 -50vw var(--pos-margem-baixo);
+    left: 50%;
+    right: 50%;
+    position: relative;
+  }
+  main figure img {
+    margin-bottom: 0;
+  }
+
+  /* Sem cantos arredondados em imagens de borda a borda */
+  main img {
+    border-radius: initial;
+  }
+
+  figcaption {
+    padding-inline: 1rem;
   }
 
   header {
@@ -414,38 +517,19 @@ input[type="submit"]:hover {
     width: 100%;
   }
 
-  .filtros-blog {
-    width: calc(100% + 2rem);
-    margin-inline: -1rem;
-    padding-inline: 1rem;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scrollbar-width: none;
-  }
-
   footer {
     flex-direction: column;
     align-items: initial;
-  }
-
-  footer ul {
-    justify-content: space-between;
-  }
-
-  .e-quote blockquote {
-    font-size: 1.4rem;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --cor-fonte: hsl(0, 0%, 100%);
-    --cor-fundo: hsl(0, 0%, 0%);
-    --cor-fundo-alt: hsl(0, 0%, 12%);
-    --cor-bordas: hsl(0, 0%, 15%);
-    --cor-botoes: hsl(0, 0%, 70%);
+    --cor-fonte: hsl(0, 0%, 90%);
+    --cor-fundo: hsl(0, 0%, 7%);
+    --cor-fundo-alt: hsl(0, 0%, 14%);
+    --cor-bordas: hsl(0, 0%, 18%);
+    --cor-bordas-campo: hsl(0, 0%, 45%);
 
     --cor-link: hsl(225, 43%, 76%);
     --cor-link-vis: hsl(254, 49%, 68%);
@@ -453,17 +537,235 @@ input[type="submit"]:hover {
 
     --cor-link-alt: hsl(0, 0%, 74%);
     --cor-link-alt-est: hsl(0, 0%, 95.5%);
+
+    --cor-fundo-codigo: hsl(0, 0%, 22%);
+  }
+
+  /* Suavização fina só ajuda texto claro sobre fundo escuro */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   main img {
     box-shadow: none;
   }
 
-  code {
-    background-color: hsl(0, 0%, 22%);
-  }
-
   .filtros-blog a:hover {
     background-color: hsla(0, 0%, 100%, 0.08);
+  }
+}
+
+/*
+ * Paletas alternativas
+ * assets/paleta.js sorteia uma a cada carregamento e a grava em
+ * <html data-paleta="...">. "atual" (ou sem JavaScript) usa as cores do :root acima.
+ * Para incluir uma paleta: copie um bloco claro + escuro e acrescente o nome em paleta.js.
+ * Os blocos escuros precisam vir depois dos claros (mesma especificidade).
+ */
+
+/* Lavanda */
+:root[data-paleta="lavanda"] {
+  --cor-fonte: #231d2e;
+  --cor-fundo: #f6f2fc;
+  --cor-fundo-alt: #e8dff7;
+  --cor-bordas: #e2d8f2;
+  --cor-bordas-campo: #8b7ca6;
+  --cor-link: #5a3d9a;
+  --cor-link-vis: #7d3a7a;
+  --cor-link-est: #6f4fbf;
+  --cor-link-alt: #5f566e;
+  --cor-link-alt-est: #857b96;
+}
+
+/* Sálvia */
+:root[data-paleta="salvia"] {
+  --cor-fonte: #1d2620;
+  --cor-fundo: #f1f6ed;
+  --cor-fundo-alt: #dfead6;
+  --cor-bordas: #d6e2cc;
+  --cor-bordas-campo: #7b8f71;
+  --cor-link: #2c6146;
+  --cor-link-vis: #5b5a26;
+  --cor-link-est: #367a58;
+  --cor-link-alt: #55614f;
+  --cor-link-alt-est: #7a8673;
+}
+
+/* Pêssego */
+:root[data-paleta="pessego"] {
+  --cor-fonte: #2a1e19;
+  --cor-fundo: #fff2e9;
+  --cor-fundo-alt: #fadfcd;
+  --cor-bordas: #f2d5c2;
+  --cor-bordas-campo: #aa826e;
+  --cor-link: #a3401f;
+  --cor-link-vis: #8a3358;
+  --cor-link-est: #ab4424;
+  --cor-link-alt: #6b5148;
+  --cor-link-alt-est: #93776c;
+}
+
+/* Céu */
+:root[data-paleta="ceu"] {
+  --cor-fonte: #18222c;
+  --cor-fundo: #eef5fb;
+  --cor-fundo-alt: #d9e8f5;
+  --cor-bordas: #cfe0ee;
+  --cor-bordas-campo: #6f8ba2;
+  --cor-link: #1d5a8e;
+  --cor-link-vis: #5a4a99;
+  --cor-link-est: #2470ad;
+  --cor-link-alt: #4e5d6b;
+  --cor-link-alt-est: #748595;
+}
+
+/* Salmão */
+:root[data-paleta="salmao"] {
+  --cor-fonte: #2b1d1c;
+  --cor-fundo: #fff2ef;
+  --cor-fundo-alt: #fdddd5;
+  --cor-bordas: #f6d2c9;
+  --cor-bordas-campo: #ae8077;
+  --cor-link: #a3333f;
+  --cor-link-vis: #7c3a6e;
+  --cor-link-est: #b23b47;
+  --cor-link-alt: #6e5350;
+  --cor-link-alt-est: #957672;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Lavanda */
+  :root[data-paleta="lavanda"] {
+    --cor-fonte: #e9e4f2;
+    --cor-fundo: #18151f;
+    --cor-fundo-alt: #26212f;
+    --cor-bordas: #302a3b;
+    --cor-bordas-campo: #6c6180;
+    --cor-link: #c7b6f2;
+    --cor-link-vis: #e3b3dc;
+    --cor-link-est: #e2d8fb;
+    --cor-link-alt: #b5abc6;
+    --cor-link-alt-est: #e9e4f2;
+    --cor-fundo-codigo: #302a3b;
+  }
+  /* Sálvia */
+  :root[data-paleta="salvia"] {
+    --cor-fonte: #e3eadf;
+    --cor-fundo: #141a16;
+    --cor-fundo-alt: #202922;
+    --cor-bordas: #2a352c;
+    --cor-bordas-campo: #62715f;
+    --cor-link: #a9d6b8;
+    --cor-link-vis: #d6d39b;
+    --cor-link-est: #cdebd7;
+    --cor-link-alt: #aab5a5;
+    --cor-link-alt-est: #e3eadf;
+    --cor-fundo-codigo: #2a352c;
+  }
+  /* Pêssego */
+  :root[data-paleta="pessego"] {
+    --cor-fonte: #f2e6df;
+    --cor-fundo: #1c1512;
+    --cor-fundo-alt: #2b201b;
+    --cor-bordas: #372a24;
+    --cor-bordas-campo: #7d665b;
+    --cor-link: #f5b79c;
+    --cor-link-vis: #e8a9c4;
+    --cor-link-est: #fbd6c6;
+    --cor-link-alt: #c5b1a8;
+    --cor-link-alt-est: #f2e6df;
+    --cor-fundo-codigo: #372a24;
+  }
+  /* Céu */
+  :root[data-paleta="ceu"] {
+    --cor-fonte: #e1eaf2;
+    --cor-fundo: #11171d;
+    --cor-fundo-alt: #1c252e;
+    --cor-bordas: #26313c;
+    --cor-bordas-campo: #5d6e7e;
+    --cor-link: #a3cdf0;
+    --cor-link-vis: #c4b8ef;
+    --cor-link-est: #cfe5f8;
+    --cor-link-alt: #a8b6c3;
+    --cor-link-alt-est: #e1eaf2;
+    --cor-fundo-codigo: #26313c;
+  }
+  /* Salmão */
+  :root[data-paleta="salmao"] {
+    --cor-fonte: #f5e4e6;
+    --cor-fundo: #1f1418;
+    --cor-fundo-alt: #311f25;
+    --cor-bordas: #3e2930;
+    --cor-bordas-campo: #876369;
+    --cor-link: #f7a3a8;
+    --cor-link-vis: #d9b0e6;
+    --cor-link-est: #fdd2d5;
+    --cor-link-alt: #cbb0b5;
+    --cor-link-alt-est: #f5e4e6;
+    --cor-fundo-codigo: #3e2930;
+  }
+}
+
+/*
+ * Impressão (e "Salvar como PDF")
+ */
+@media print {
+  @page {
+    margin: 2cm;
+  }
+
+  :root,
+  :root[data-paleta] {
+    --cor-fonte: #000;
+    --cor-fundo: #fff;
+    --cor-fundo-alt: hsl(0, 0%, 94%);
+    --cor-fundo-codigo: hsl(0, 0%, 94%);
+    --cor-link: #000;
+    --cor-link-vis: #000;
+    --cor-link-alt: #000;
+    --sombra: none;
+  }
+
+  body {
+    width: auto;
+    padding: 0;
+    font-size: 11pt;
+  }
+
+  header nav,
+  .filtros-blog,
+  .nav-blogs,
+  footer,
+  .pular-conteudo {
+    display: none;
+  }
+
+  header {
+    margin-bottom: 2rem;
+  }
+
+  /* Mostra o endereço dos links externos no conteúdo */
+  main a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    overflow-wrap: anywhere;
+  }
+
+  main img,
+  main figure,
+  blockquote,
+  pre {
+    break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  .tipo-citacao blockquote:before {
+    display: none;
   }
 }

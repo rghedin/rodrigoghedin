@@ -1,7 +1,5 @@
+# Todas as páginas ficam abertas ao rastreamento para que os buscadores
+# consigam ler a meta tag "noindex" (bloquear aqui impediria isso).
+# Só /, /now e /newsletter são indexáveis: ver "buscavel" em _includes/head.html.
 User-agent: *
-Disallow: /
-Allow: /$
-Allow: /feed.xml
-
-User-agent: Buttondown RSS-Feed-Parser
-Allow: /
+Disallow:

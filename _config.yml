@@ -12,10 +12,24 @@ pagination:
   per_page: 10
   permalink: '/page/:num/'
   title: ':title'
+  sort_reverse: true
 
 permalink: /blog/:slug
-timezone: UTC−03:00
+timezone: America/Sao_Paulo
 future: false
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  # Índice do blog e páginas de filtro por tipo (pasta blog/)
+  - scope:
+      path: "blog"
+      type: pages
+    values:
+      layout: blog
 
 include:
   - _headers
@@ -23,7 +37,5 @@ include:
 exclude:
   - README.md
   - LICENSE.*
-  - favicon.ico
-  - apple-touch-icon*.png
 
-Blog: /blog
+Blog: /blog/
