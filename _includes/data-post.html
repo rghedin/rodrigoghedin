@@ -9,5 +9,5 @@
   {%- else -%}
   {{ include.data | date: "%-d/%-m/%Y" }}
   {%- endif -%}
-</time>{% if include.rotulo and include.rotulo != "" %} <span class="rotulo-tipo">· {{ include.rotulo }}</span>{% endif %}</p>
+</time>{% if include.rotulo and include.rotulo != "" %} <span class="rotulo-tipo">&bull; {{ include.rotulo }}</span>{% endif %}</p>
 <a class="p-author h-card" href="{{ '/' | absolute_url }}" hidden>{{ site.author }}</a>

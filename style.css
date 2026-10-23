@@ -57,6 +57,8 @@
   /* Tamanhos fluidos: menores no celular, iguais aos de antes a partir de ~640px */
   --fs-2: clamp(1.35rem, 1.1rem + 1.2vw, 1.5rem);
   --fs-3: clamp(1.5rem, 1.1rem + 2vw, 1.9rem);
+  /* Subtítulos dentro dos posts: ~23px no celular, ~26px (como antes) no desktop */
+  --fs-subtitulo: clamp(1.4rem, 1.15rem + 1.25vw, 1.65rem);
 
   --pos-margem-baixo: 1.25rem;
   --pos-salto-medio: 3rem;
@@ -229,17 +231,18 @@ header nav a:hover {
   color: var(--cor-link-est);
 }
 
-/* Links de navegação sem sublinhado (posição e contexto já os identificam);
-   o sublinhado volta ao passar o mouse. No texto dos posts, continua. */
+/* Links de navegação com sublinhado suave: continuam reconhecíveis como
+   links em telas sem cor (E-Ink, escala de cinza), sem pesar no menu.
+   Ao passar o mouse, o sublinhado fica na cor cheia. */
 header nav a,
 .filtros-blog a,
 footer a {
-  text-decoration: none;
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
 }
 header nav a:hover,
 .filtros-blog a:hover,
 footer a:hover {
-  text-decoration: underline;
+  text-decoration-color: currentColor;
 }
 
 /* Seção atual no menu: "pílula" num tom da cor de link, para não se
@@ -251,8 +254,6 @@ header nav a[aria-current] {
   box-shadow: 0 0 0 0.4em var(--cor-fundo-alt);
   box-shadow: 0 0 0 0.4em color-mix(in srgb, var(--cor-link) 13%, var(--cor-fundo));
   border-radius: 999px;
-}
-header nav a[aria-current]:hover {
   text-decoration: none;
 }
 
@@ -357,42 +358,21 @@ footer ul {
 
 /* Listagem: traço curto entre os posts e espaçamento mais compacto */
 .h-feed .h-entry {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
-.h-feed .h-entry + .h-entry::before {
+/* Traço curto: separa os posts na listagem e o post do "Responder por e-mail" */
+.h-feed .h-entry + .h-entry::before,
+.acoes-post::before {
   content: "";
   display: block;
   width: 3rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
   border-top: 2px solid var(--cor-bordas-campo);
   opacity: 0.6;
 }
 
-/* Tipo do post ao lado da data ("· Link", "· Citação"…) */
+/* Tipo do post ao lado da data ("• Link", "• Citação"…) */
 .rotulo-tipo {
-  color: var(--cor-link-alt);
-}
-
-/* Home: últimos posts */
-.ultimos-titulo {
-  font-size: var(--fs-2);
-  margin-top: var(--pos-salto-medio);
-}
-.ultimos {
-  list-style: none;
-  padding: 0;
-}
-.ultimos li {
-  display: flex;
-  gap: 1rem;
-  align-items: baseline;
-  margin-bottom: 0.5rem;
-}
-.ultimos time {
-  flex: none;
-  min-width: 6.5rem;
-  font-family: var(--ff-mono);
-  font-size: var(--fs-0);
   color: var(--cor-link-alt);
 }
 
@@ -401,7 +381,7 @@ footer ul {
   font-family: var(--ff-mono);
   font-size: var(--fs-0);
   color: var(--cor-link-alt);
-  margin-top: var(--pos-salto-medio);
+  margin-top: 3rem;
 }
 .acoes-post a,
 .acoes-post a:visited {
@@ -420,6 +400,9 @@ footer ul {
 /* Subtítulos mais próximos do texto que introduzem */
 .e-content :is(h2, h3, h4):not(:first-child) {
   margin-top: 2.25rem;
+}
+.e-content h2 {
+  font-size: var(--fs-subtitulo);
 }
 
 h1.p-name,
@@ -490,6 +473,11 @@ main img {
   font-family: var(--ff-serifa);
 }
 
+/* Texto grande pede entrelinha menor que a do texto corrido (1,6) */
+.tipo-citacao blockquote p {
+  line-height: 1.3;
+}
+
 .tipo-citacao blockquote:before {
   content: "\201C";
   color: var(--cor-fundo-alt);
@@ -499,16 +487,10 @@ main img {
   /* Fica atrás do texto porque o fundo do body é pintado no canvas.
      Se algum ancestral ganhar background, as aspas deixam de aparecer. */
   z-index: -999;
-  /* Em "em" para acompanhar o tamanho do texto; só junto à primeira linha */
-  font-size: 6em;
-  left: -0.1em;
-  top: -0.42em;
-}
-
-/* Atribuição da citação ("— Fulano") discreta */
-.tipo-citacao blockquote + p {
-  color: var(--cor-link-alt);
-  font-size: var(--fs-0);
+  /* Em "em" para acompanhar o tamanho do texto; atrás do início da citação */
+  font-size: 18em;
+  left: -0.07em;
+  top: -0.46em;
 }
 
 p.link,

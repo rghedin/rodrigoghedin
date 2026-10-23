@@ -9,7 +9,9 @@
       {{ post.content }}
     </div>
 
-    {% capture rotulo %}{% include rotulo-tipo.html post=post %}{% endcapture %}{% assign rotulo = rotulo | strip %}
+    {%- comment -%} Nas páginas de um filtro (ex.: /blog/notinhas/), o tipo é redundante {%- endcomment %}
+    {% assign rotulo = "" %}
+    {% unless page.pagination.category %}{% capture rotulo %}{% include rotulo-tipo.html post=post %}{% endcapture %}{% assign rotulo = rotulo | strip %}{% endunless %}
     {% include data-post.html data=post.date url=post.url rotulo=rotulo %}
     {% include categorias-post.html post=post %}
   </article>
