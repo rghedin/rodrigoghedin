@@ -1,0 +1,21 @@
+{%- comment -%}
+  Nome do tipo de um post, para mostrar ao lado da data na listagem.
+  Uso: {% include rotulo-tipo.html post=post %}
+  Posts com "type" usam o nome do tipo; os demais, o "rotulo" (singular) da
+  página da primeira categoria em blog/, ou o "title" dela se não houver.
+{%- endcomment -%}
+{%- assign rt_post = include.post -%}
+{%- case rt_post.type -%}
+  {%- when 'image' -%}Imagem
+  {%- when 'quote' -%}Citação
+  {%- when 'aside' -%}Notinha
+  {%- when 'lista' -%}Lista
+  {%- when 'namidia' -%}Na mídia
+  {%- when 'link' -%}Link
+  {%- else -%}
+    {%- assign rt_categoria = rt_post.categories | first -%}
+    {%- if rt_categoria -%}
+      {%- assign rt_pagina = site.pages | where_exp: "p", "p.pagination.category == rt_categoria" | first -%}
+      {{- rt_pagina.rotulo | default: rt_pagina.title -}}
+    {%- endif -%}
+{%- endcase -%}

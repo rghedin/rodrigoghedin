@@ -1,0 +1,27 @@
+{%- comment -%}
+  Título de um post para uso fora do <h1> visível (aba do navegador, home,
+  <h1> oculto). Uso: {% include titulo-post.html post=page %}
+  Posts sem "title" recebem do Jekyll um título feito do nome do arquivo
+  ("minha-nota" → "Minha Nota"). Nesses casos, usa o começo do texto.
+{%- endcomment -%}
+{%- assign tp_post = include.post -%}
+{%- assign tp_titulo = tp_post.title -%}
+{%- assign tp_partes = tp_post.slug | split: "-" -%}
+{%- capture tp_slug %}{% for parte in tp_partes %}{{ parte | capitalize }}{% unless forloop.last %}{{ " " }}{% endunless %}{% endfor %}{% endcapture -%}
+{%- if tp_titulo == tp_slug -%}
+  {%- if tp_post.type == 'link' -%}
+    {%- comment -%} Post de link: só o texto do link, sem o domínio {%- endcomment -%}
+    {%- assign tp_inicio = tp_post.excerpt | split: "</a>" | first | strip_html | normalize_whitespace | truncate: 60, "…" -%}
+  {%- else -%}
+    {%- assign tp_inicio = tp_post.excerpt | strip_html | normalize_whitespace | truncate: 60, "…" -%}
+  {%- endif -%}
+  {%- if tp_inicio == "" -%}
+    {%- assign tp_inicio = tp_post.content | strip_html | normalize_whitespace | truncate: 60, "…" -%}
+  {%- endif -%}
+  {%- if tp_inicio != "" -%}
+    {%- assign tp_titulo = tp_inicio -%}
+  {%- else -%}
+    {%- capture tp_titulo %}Post de {{ tp_post.date | date: "%-d/%-m/%Y" }}{% endcapture -%}
+  {%- endif -%}
+{%- endif -%}
+{{- tp_titulo -}}

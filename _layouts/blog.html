@@ -5,6 +5,8 @@
 <main id="conteudo" class="h-feed">
 
   <h1 class="p-name visualmente-oculto">{{ page.title | escape_once }}</h1>
+  <a class="u-url" href="{{ page.url | remove: 'index.html' | absolute_url }}" hidden></a>
+  <a class="p-author h-card" href="{{ '/' | absolute_url }}" hidden>{{ site.author }}</a>
 
   {% include filtros-blog.html %}
 

@@ -1,7 +1,9 @@
 <footer>
 	<ul>
-		<li><a href="mailto:rodrigo@ghed.in" rel="me">Contato</a></li>
-		<li><a href="https://mastodon.social/@manualdousuario" rel="me">Mastodon</a></li>
+		<li><a href="mailto:{{ site.email }}" rel="me">Contato</a></li>
+		{%- for perfil in site.perfis %}
+		<li><a href="{{ perfil.url }}" rel="me">{{ perfil.nome }}</a></li>
+		{%- endfor %}
 		<li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
 		<li><a href="https://lerama.pcdomanual.com/" title="Diretório e buscador de blogs pessoais">Lerama</a></li>
 	</ul>

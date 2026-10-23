@@ -1,0 +1,7 @@
+{%- comment -%}
+  Categorias do post como p-category (microformats), sem aparecer na tela.
+  Uso: {% include categorias-post.html post=post %}
+{%- endcomment -%}
+{%- for cp_categoria in include.post.categories -%}
+<data class="p-category" value="{{ cp_categoria }}" hidden></data>
+{%- endfor -%}

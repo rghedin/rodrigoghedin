@@ -1,5 +1,5 @@
 <article class="h-entry{% include classe-tipo.html tipo=post.type %}">
-    {% if post.type == nil %}
+    {% if post.type == nil or post.type == 'lista' or post.type == 'namidia' %}
     <h2 class="p-name">
       <a href="{{ post.url | relative_url }}">{{ post.title | escape_once }}</a>
     </h2>
@@ -9,5 +9,7 @@
       {{ post.content }}
     </div>
 
-    {% include data-post.html data=post.date url=post.url %}
+    {% capture rotulo %}{% include rotulo-tipo.html post=post %}{% endcapture %}{% assign rotulo = rotulo | strip %}
+    {% include data-post.html data=post.date url=post.url rotulo=rotulo %}
+    {% include categorias-post.html post=post %}
   </article>

@@ -5,21 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {%- assign titulo_pagina = page.title | default: site.title -%}
-    {%- comment -%}
-      Posts sem "title" recebem do Jekyll um título feito do nome do arquivo
-      ("minha-nota" → "Minha Nota"). Nesses casos, usa o começo do texto.
-    {%- endcomment -%}
     {%- if page.collection == 'posts' -%}
-        {%- assign partes_slug = page.slug | split: "-" -%}
-        {%- capture titulo_slug %}{% for parte in partes_slug %}{{ parte | capitalize }}{% unless forloop.last %}{{ " " }}{% endunless %}{% endfor %}{% endcapture -%}
-        {%- if page.title == titulo_slug -%}
-            {%- assign inicio_texto = page.excerpt | strip_html | normalize_whitespace | truncate: 60, "…" -%}
-            {%- if inicio_texto != "" -%}
-                {%- assign titulo_pagina = inicio_texto -%}
-            {%- else -%}
-                {%- capture titulo_pagina %}Post de {{ page.date | date: "%-d/%-m/%Y" }}{% endcapture -%}
-            {%- endif -%}
-        {%- endif -%}
+        {%- capture titulo_pagina %}{% include titulo-post.html post=page %}{% endcapture -%}
     {%- endif -%}
     {%- assign titulo_completo = titulo_pagina | strip_html | escape_once -%}
     {%- assign titulo = titulo_pagina | strip_html | truncate: 45, "…" | escape_once -%}
@@ -45,7 +32,11 @@
     {%- endif %}
 
     <meta name="fediverse:creator" content="@manualdousuario@mastodon.social">
-    <link rel="me" href="https://mastodon.social/@manualdousuario">
+    <link rel="author" href="{{ '/' | absolute_url }}">
+    <link rel="me" href="mailto:{{ site.email }}">
+    {%- for perfil in site.perfis %}
+    <link rel="me" href="{{ perfil.url }}">
+    {%- endfor %}
     {% feed_meta %}
 
     <!-- Sem favicon: o ícone vazio impede o navegador de pedir /favicon.ico -->

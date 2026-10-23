@@ -3,18 +3,32 @@
 {% include header.html %}
 
 <main id="conteudo">
+  {% capture titulo_post %}{% include titulo-post.html post=page %}{% endcapture %}
+  {% assign titulo_post = titulo_post | strip_html | strip %}
   <article class="h-entry{% include classe-tipo.html tipo=page.type %}">
 
-    {% if page.type == nil %}
+    {% if page.type == nil or page.type == 'lista' or page.type == 'namidia' %}
     <h1 class="p-name">{{ page.title | escape_once }}</h1>
+    {% include data-post.html data=page.date classe="data-topo" %}
+    {% assign data_no_topo = true %}
+    {% else %}
+    {%- comment -%} Posts sem título visível: título só para leitores de tela {%- endcomment %}
+    <h1 class="visualmente-oculto">{{ titulo_post | escape_once }}</h1>
     {% endif %}
 
     <div class="e-content">
       {{ content }}
     </div>
 
-    {% include data-post.html data=page.date %}
-    <a class="u-url" href="{{ page.url | absolute_url }}" hidden></a>
+    {% unless data_no_topo %}{% include data-post.html data=page.date %}{% endunless %}
+    <a class="u-url u-uid" href="{{ page.url | absolute_url }}" hidden></a>
+    {% include categorias-post.html post=page %}
+
+    {%- comment -%} Responder por e-mail, com o título do post no assunto {%- endcomment %}
+    {% capture assunto %}Re: {{ titulo_post }}{% endcapture %}
+    <p class="acoes-post">
+      <a href="mailto:{{ site.email }}?subject={{ assunto | url_encode | replace: '+', '%20' }}">Responder por e-mail</a>
+    </p>
   </article>
 
   {% if page.next or page.previous %}

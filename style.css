@@ -229,6 +229,40 @@ header nav a:hover {
   color: var(--cor-link-est);
 }
 
+/* Links de navegação sem sublinhado (posição e contexto já os identificam);
+   o sublinhado volta ao passar o mouse. No texto dos posts, continua. */
+header nav a,
+.filtros-blog a,
+footer a {
+  text-decoration: none;
+}
+header nav a:hover,
+.filtros-blog a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Seção atual no menu: "pílula" num tom da cor de link, para não se
+   confundir com o nome do site (negrito, cor do texto). O box-shadow
+   amplia o fundo sem deslocar o texto. */
+header nav a[aria-current] {
+  background-color: var(--cor-fundo-alt);
+  background-color: color-mix(in srgb, var(--cor-link) 13%, var(--cor-fundo));
+  box-shadow: 0 0 0 0.4em var(--cor-fundo-alt);
+  box-shadow: 0 0 0 0.4em color-mix(in srgb, var(--cor-link) 13%, var(--cor-fundo));
+  border-radius: 999px;
+}
+header nav a[aria-current]:hover {
+  text-decoration: none;
+}
+
+/* Foco do teclado visível em qualquer paleta */
+:focus-visible {
+  outline: 2px solid var(--cor-link);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 /* Área de toque maior nos links de navegação, sem mudar o leiaute
    (padding vertical em elemento inline não altera a altura da linha) */
 header a,
@@ -321,6 +355,73 @@ footer ul {
   margin-bottom: var(--pos-grande-salto);
 }
 
+/* Listagem: traço curto entre os posts e espaçamento mais compacto */
+.h-feed .h-entry {
+  margin-bottom: 2.5rem;
+}
+.h-feed .h-entry + .h-entry::before {
+  content: "";
+  display: block;
+  width: 3rem;
+  margin-bottom: 2.5rem;
+  border-top: 2px solid var(--cor-bordas-campo);
+  opacity: 0.6;
+}
+
+/* Tipo do post ao lado da data ("· Link", "· Citação"…) */
+.rotulo-tipo {
+  color: var(--cor-link-alt);
+}
+
+/* Home: últimos posts */
+.ultimos-titulo {
+  font-size: var(--fs-2);
+  margin-top: var(--pos-salto-medio);
+}
+.ultimos {
+  list-style: none;
+  padding: 0;
+}
+.ultimos li {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+.ultimos time {
+  flex: none;
+  min-width: 6.5rem;
+  font-family: var(--ff-mono);
+  font-size: var(--fs-0);
+  color: var(--cor-link-alt);
+}
+
+/* Fim do post: "Responder por e-mail" */
+.acoes-post {
+  font-family: var(--ff-mono);
+  font-size: var(--fs-0);
+  color: var(--cor-link-alt);
+  margin-top: var(--pos-salto-medio);
+}
+.acoes-post a,
+.acoes-post a:visited {
+  color: var(--cor-link-alt);
+}
+.acoes-post a:hover {
+  color: var(--cor-link-alt-est);
+}
+
+/* Data logo abaixo do título, na página do post */
+.data-topo {
+  color: var(--cor-link-alt);
+  margin-top: -0.5rem;
+}
+
+/* Subtítulos mais próximos do texto que introduzem */
+.e-content :is(h2, h3, h4):not(:first-child) {
+  margin-top: 2.25rem;
+}
+
 h1.p-name,
 h2.p-name {
   font-size: var(--fs-3);
@@ -372,6 +473,8 @@ main figure img {
 }
 figcaption {
   margin-top: 0.5rem;
+  font-size: var(--fs-0);
+  color: var(--cor-link-alt);
 }
 
 main figure,
@@ -396,27 +499,37 @@ main img {
   /* Fica atrás do texto porque o fundo do body é pintado no canvas.
      Se algum ancestral ganhar background, as aspas deixam de aparecer. */
   z-index: -999;
-  /* Em "em" para acompanhar o tamanho do texto (antes: 390px, -35px, -140px) */
-  font-size: 16.25em;
-  left: -0.09em;
-  top: -0.36em;
+  /* Em "em" para acompanhar o tamanho do texto; só junto à primeira linha */
+  font-size: 6em;
+  left: -0.1em;
+  top: -0.42em;
+}
+
+/* Atribuição da citação ("— Fulano") discreta */
+.tipo-citacao blockquote + p {
+  color: var(--cor-link-alt);
+  font-size: var(--fs-0);
 }
 
 p.link,
 .tipo-link div.e-content p:first-child {
-  padding: 0.5rem 1rem;
+  position: relative;
+  padding: 0.5rem 3rem 0.5rem 1rem;
   background: var(--cor-fundo-alt);
   border-radius: var(--pos-curvada);
 }
+/* Seta centralizada dentro da caixa (antes era maior que a caixa e vazava) */
 p.link:before,
 .tipo-link div.e-content p:first-child:before {
   content: "\2197";
   color: var(--cor-fonte);
-  opacity: 0.15;
-  z-index: 1;
-  font-size: 3.2em;
+  opacity: 0.25;
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.6em;
   line-height: 1;
-  float: right;
 }
 
 p.link span,
@@ -736,6 +849,7 @@ input[type="submit"]:hover {
   header nav,
   .filtros-blog,
   .nav-blogs,
+  .acoes-post,
   footer,
   .pular-conteudo {
     display: none;

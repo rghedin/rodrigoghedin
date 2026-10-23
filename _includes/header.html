@@ -1,7 +1,16 @@
 {%- assign url_atual = page.url | remove: "index.html" | remove: ".html" %}
 <header>
-<p class="title">
-    <a href="{{ '/' | relative_url }}"{% if url_atual == '/' %} aria-current="page"{% endif %}>Rodrigo Ghedin</a>
+{%- comment -%}
+  h-card representativo (IndieWeb): identifica o dono do site. u-url e u-uid
+  apontam para a home; os dados extras ficam ocultos, sem mudar o leiaute.
+{%- endcomment %}
+<p class="title h-card">
+    <a class="p-name u-url u-uid" href="{{ '/' | absolute_url }}"{% if url_atual == '/' %} aria-current="page"{% endif %}>{{ site.author }}</a>
+    <a class="u-email" href="mailto:{{ site.email }}" hidden></a>
+    {%- for perfil in site.perfis %}
+    <a class="u-url" rel="me" href="{{ perfil.url }}" hidden></a>
+    {%- endfor %}
+    <data class="p-note" value="{{ site.description }}" hidden></data>
     <!--picture>
         <source type="image/avif" srcset="{{ '/assets/perfil.avif' | relative_url }}">
         <img
@@ -13,7 +22,7 @@
     </picture-->
 </p>
 <nav aria-label="Principal">
-    <a href="{{ site.Blog | relative_url }}"{% if url_atual == site.Blog %} aria-current="page"{% endif %}>Blog</a>
+    <a href="{{ site.Blog | relative_url }}"{% if url_atual == site.Blog %} aria-current="page"{% elsif url_atual contains site.Blog %} aria-current="true"{% endif %}>Blog</a>
     <a href="{{ '/now' | relative_url }}" title="O que estou fazendo agora"{% if url_atual == '/now' %} aria-current="page"{% endif %}>/now</a>
     <a href="{{ '/newsletter' | relative_url }}"{% if url_atual == '/newsletter' %} aria-current="page"{% endif %}>Newsletter</a>
 </nav>

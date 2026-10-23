@@ -1,12 +1,13 @@
 {%- comment -%}
   Data de publicação com microformats (padrão value-class).
-  Uso: {% include data-post.html data=post.date url=post.url %} (url opcional: vira link)
+  Uso: {% include data-post.html data=post.date url=post.url rotulo="Link" classe="data-topo" %}
+  url, rotulo e classe são opcionais (url vira link; rotulo aparece após a data).
 {%- endcomment -%}
-<p class="dt-published"><time class="value" datetime="{{ include.data | date_to_xmlschema }}">
+<p class="dt-published{% if include.classe %} {{ include.classe }}{% endif %}"><time class="value" datetime="{{ include.data | date_to_xmlschema }}">
   {%- if include.url -%}
   <a class="u-url" href="{{ include.url | relative_url }}">{{ include.data | date: "%-d/%-m/%Y" }}</a>
   {%- else -%}
   {{ include.data | date: "%-d/%-m/%Y" }}
   {%- endif -%}
-</time></p>
+</time>{% if include.rotulo and include.rotulo != "" %} <span class="rotulo-tipo">· {{ include.rotulo }}</span>{% endif %}</p>
 <a class="p-author h-card" href="{{ '/' | absolute_url }}" hidden>{{ site.author }}</a>
