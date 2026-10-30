@@ -3,3 +3,15 @@
 # Só /, /now e /newsletter são indexáveis: ver "buscavel" em _includes/head.html.
 User-agent: *
 Disallow:
+
+# Parâmetros que geram URLs duplicadas
+Disallow: /*utm_
+Disallow: /*blackhole
+Disallow: /*hl=
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*mc_cid=
+Disallow: /*fbclid=
+Disallow: /*trk=
+Disallow: /*?hl=
+Disallow: /*&hl=
