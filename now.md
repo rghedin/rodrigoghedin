@@ -8,21 +8,31 @@ buscavel: true
 
 Nesta página coloco um breve resumo parcial das coisas que estou fazendo.
 
-O [Manual do Usuário](https://manualdousuario.net/) continua ocupando a maior parte do meu tempo, que divido no horário comercial com a [Célere](https://celere.dev).
+O Manual do Usuário [fez 13 anos](https://manualdousuario.net/ano-13/) e aproveitei a efeméride para lançar um novo slogan/posicionamento editorial: [vida digital saudável](https://manualdousuario.net/talvez-eu-odeie-a-tecnologia/).
 
-Na Célere, fechamos um período experimental com uma pessoa de vendas. Estamos todos confiantes de que conquistaremos novos clientes.
+Na [Célere](https://celere.dev), a Bianca, que contratamos para vender os serviços da agência, tem conseguido marcar reuniões com clientes em potencial. Fechamos um e estamos na expectativa de fechar outros ainda em 2026.
 
-No departamento de bugigangas, sigo com o Apple Watch e a Huawei Band 10. Essa última já travou duas vezes no meio de um exercício. Não é um grande problema, mas é um problema. Estou alternando ela e o Apple Watch, que me desanima pelo tamanho, problema que mitigo usando-o apenas durante as atividades físicas.
+Estou terminando a leitura de [“O monge, o iogue e o faquir”](https://todavialivros.com.br/livros/o-monge-o-iogue-e-o-faquir), do Ronaldo Lemos, publicado pela Todavia. (Recebi uma cópia cortesia da editora; obrigado!) Dialoga bastante com reflexões que venho fazendo nos últimos anos.
 
-O sonho de largar a Apple e viver de software livre teve um novo desdobramento, [outra semana a bordo do Linux](https://manualdousuario.net/outra-semana-linux/). Não funcionou como o esperado, mas gostei da experiência.
+Na TV, estamos vendo “A sete palmos”, a célebre série da HBO do início dos anos 2000. Talvez seja o viés da sobrevivência, mas como as séries de antigamente eram boas, né? Difícil achar séries tão boas hoje.
 
-No Manual, aliás, estou empregando [um formato mais dinâmico](https://manualdousuario.net), com posts menores e mais frequentes que se somam aos textões.
+*Atualizado em 14/11/2026.*
 
-Estamos vendo a série “Jogada de risco”, do Globoplay, sobre os bastidores menos glamourosos do futebol profissional. Começamos “For all mankind” e já largamos no primeiro episódio (é muito propaganda ufanista estadunidense) e “Cabo do medo”, que parece promissora.
+<details name="historico"><summary>15/8/2026</summary>
+<p>O [Manual do Usuário](https://manualdousuario.net/) continua ocupando a maior parte do meu tempo, que divido no horário comercial com a [Célere](https://celere.dev).
 
-Estou lendo “Ioga”, do Emmanuel Carrère, e gostando muito. Irei atrás de outros livros dele.
+<p>Na Célere, fechamos um período experimental com uma pessoa de vendas. Estamos todos confiantes de que conquistaremos novos clientes.</p>
 
-*Atualizado em 15/8/2026.*
+<p>No departamento de bugigangas, sigo com o Apple Watch e a Huawei Band 10. Essa última já travou duas vezes no meio de um exercício. Não é um grande problema, mas é um problema. Estou alternando ela e o Apple Watch, que me desanima pelo tamanho, problema que mitigo usando-o apenas durante as atividades físicas.</p>
+
+<p>O sonho de largar a Apple e viver de software livre teve um novo desdobramento, [outra semana a bordo do Linux](https://manualdousuario.net/outra-semana-linux/). Não funcionou como o esperado, mas gostei da experiência.</p>
+
+<p>No Manual, aliás, estou empregando [um formato mais dinâmico](https://manualdousuario.net), com posts menores e mais frequentes que se somam aos textões.</p>
+
+<p>Estamos vendo a série “Jogada de risco”, do Globoplay, sobre os bastidores menos glamourosos do futebol profissional. Começamos “For all mankind” e já largamos no primeiro episódio (é muito propaganda ufanista estadunidense) e “Cabo do medo”, que parece promissora.</p>
+
+<p>Estou lendo “Ioga”, do Emmanuel Carrère, e gostando muito. Irei atrás de outros livros dele.</p>
+</details>
 
 <details name="historico"><summary>25/7/2026</summary>
 	<p>Nesta página coloco um breve resumo parcial das coisas que estou fazendo.</p>
