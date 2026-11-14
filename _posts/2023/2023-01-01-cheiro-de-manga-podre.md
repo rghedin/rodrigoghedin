@@ -12,7 +12,7 @@ Mesmo numa cidade pequena, são surpreendentes as mudanças e a frequência dela
 
 Neste ano, por exemplo, a praça de alimentação ao ar livre da praça central, antes composta por trailers, ganhou uma estrutura em alvenaria gigantesca. (Apesar do prognóstico, ainda não dá para julgar porque não está finalizada.)
 
-O velho cinema de rua, [após anos abandonado](https://blog.ghed.in/cinema-de-rua/), foi transformado em mais uma igreja.
+O velho cinema de rua, [após anos abandonado](https://rodrigo.ghed.in/blog/cinema-de-rua), foi transformado em mais uma igreja.
 
 A pizzaria mais antiga de que me recordo, local de refeições especiais na infância, com uma pintura aleatória na fachada do Don Corleone/Marlon Brando comendo pizza, pelo visto não resistiu à pandemia e fechou. O prédio está para alugar.
 
