@@ -50,6 +50,13 @@
 
   --sombra: 0.25rem 0.25rem 1rem hsl(0, 0%, 85%);
 
+  /*
+   * Fundo fora da coluna: um tom mais escuro que o da coluna, com granulado
+   * leve (ruído SVG). A coluna fica com --cor-fundo, mais clara e lisa.
+   */
+  --cor-moldura: color-mix(in srgb, var(--cor-fundo-alt) 75%, var(--cor-fundo));
+  --textura: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.32 -0.1'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+
   --ff-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, "Liberation Mono", monospace;
 
   /*
@@ -57,25 +64,33 @@
    * proporções do desenho original (corpo de 1.1rem) em relação a ele.
    *
    * --fs-1 cresce com a tela até 1.4rem, mantendo ~75 caracteres por linha
-   * (a coluna do body mede 35.4em). Em telas com menos de ~710px, para em
+   * (o texto da coluna mede 35.4em). Em telas com menos de ~760px, para em
    * 1.2rem, o mesmo tamanho aparente da antiga Inter a 1.1rem.
-   * O divisor 35.4 é a medida da coluna: se mudar uma, mude a outra.
+   * O divisor 35.4 é a medida do texto: se mudar uma, mude a outra.
    */
-  --fs-1: clamp(1.2rem, calc((100vw - 2rem) / 35.4), 1.4rem);
+  --fs-1: clamp(1.2rem, calc((100vw - 2 * var(--pos-lateral)) / 35.4), 1.4rem);
   /* Datas, legendas, código: 10/11 do texto corrido */
   --fs-0: calc(var(--fs-1) * 0.91);
   /*
    * Títulos: proporções menores no celular, como antes. Crescem de 360px até
-   * ~825px, onde o texto corrido chega a 1.4rem.
+   * ~890px, onde o texto corrido chega a 1.4rem.
    */
-  --fs-2: clamp(1.47rem, 1.13rem + 1.5vw, 1.91rem);
-  --fs-3: clamp(1.64rem, 1.03rem + 2.7vw, 2.42rem);
+  --fs-2: clamp(1.47rem, 1.171rem + 1.331vw, 1.91rem);
+  --fs-3: clamp(1.64rem, 1.109rem + 2.359vw, 2.42rem);
   /* Subtítulos dentro dos posts */
-  --fs-subtitulo: clamp(1.53rem, 1.08rem + 1.97vw, 2.1rem);
+  --fs-subtitulo: clamp(1.53rem, 1.142rem + 1.724vw, 2.1rem);
 
   --pos-margem-baixo: 1.25rem;
-  --pos-salto-medio: 3rem;
-  --pos-grande-salto: 4rem;
+  /*
+   * Espaços entre blocos (cabeçalho, posts da listagem, rodapé): os de antes
+   * no celular, o dobro a partir de ~890px, quando a coluna atinge a largura
+   * máxima. Crescem de forma contínua entre 360px e 890px.
+   */
+  --pos-salto-medio: clamp(3rem, 0.958rem + 9.074vw, 6rem);
+  --pos-grande-salto: clamp(4rem, 1.278rem + 12.098vw, 8rem);
+  --pos-rodape: clamp(2rem, 0.639rem + 6.049vw, 4rem);
+  /* Margens laterais da coluna: 1rem no celular, 3rem no desktop */
+  --pos-lateral: clamp(1rem, -0.361rem + 6.049vw, 3rem);
   --pos-curvada: 0.4rem;
 }
 
@@ -92,6 +107,7 @@
 
 html {
   color-scheme: light dark;
+  background: var(--textura), var(--cor-moldura);
   height: 100%;
   margin: 0;
   /* Impede o iOS de aumentar o texto sozinho em modo paisagem */
@@ -109,9 +125,12 @@ body {
   min-height: 100vh;
   background-color: var(--cor-fundo);
   /* Medida em em: ~75 caracteres por linha em qualquer tamanho de fonte (ver --fs-1) */
-  width: min(100%, calc(35.4em + 2rem));
+  width: min(100%, calc(35.4em + 2 * var(--pos-lateral)));
   margin-inline: auto;
-  padding-inline: 1rem;
+  padding-inline: var(--pos-lateral);
+  /* Contexto de empilhamento próprio: elementos com z-index negativo (as
+     aspas das citações) ficam atrás do texto, mas na frente do fundo da coluna */
+  isolation: isolate;
   font-family: var(--ff-texto);
   font-size: var(--fs-1);
   line-height: 1.5;
@@ -180,6 +199,18 @@ blockquote {
 sup,
 sub {
   line-height: 1;
+}
+
+/* Listas encostadas na margem: o marcador fica no recuo, o texto logo depois */
+main ul,
+main ol {
+  padding-left: 1.1em;
+}
+main ol {
+  padding-left: 1.4em;
+}
+main li::marker {
+  color: var(--cor-link-alt);
 }
 
 details[open] summary {
@@ -345,7 +376,7 @@ footer {
   justify-content: space-between;
   align-items: start;
   gap: var(--pos-margem-baixo);
-  margin: 2rem 0 0;
+  margin: var(--pos-rodape) 0 0;
   padding: var(--pos-margem-baixo) 0 var(--pos-margem-baixo);
   border-top: 1px solid var(--cor-bordas);
 }
@@ -369,7 +400,7 @@ footer ul {
 
 /* Listagem: traço curto entre os posts e espaçamento mais compacto */
 .h-feed .h-entry {
-  margin-bottom: 3rem;
+  margin-bottom: var(--pos-salto-medio);
 }
 /* Traço curto: separa os posts na listagem e o post do "Responder por e-mail" */
 .h-feed .h-entry + .h-entry::before,
@@ -377,7 +408,7 @@ footer ul {
   content: "";
   display: block;
   width: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: var(--pos-salto-medio);
   border-top: 2px solid var(--cor-bordas-campo);
   opacity: 0.6;
 }
@@ -392,7 +423,7 @@ footer ul {
   font-family: var(--ff-mono);
   font-size: var(--fs-0);
   color: var(--cor-link-alt);
-  margin-top: 3rem;
+  margin-top: var(--pos-salto-medio);
 }
 .acoes-post a,
 .acoes-post a:visited {
@@ -495,8 +526,8 @@ main img {
   display: block;
   position: relative;
   height: 0;
-  /* Fica atrás do texto porque o fundo do body é pintado no canvas.
-     Se algum ancestral ganhar background, as aspas deixam de aparecer. */
+  /* Fica atrás do texto e na frente do fundo da coluna graças ao
+     isolation: isolate do body. Sem ele, as aspas sumiriam atrás do fundo. */
   z-index: -999;
   /* Em "em" para acompanhar o tamanho do texto; atrás do início da citação */
   font-size: 18em;
@@ -645,6 +676,10 @@ input[type="submit"]:hover {
     --cor-link-alt-est: hsl(0, 0%, 95.5%);
 
     --cor-fundo-codigo: hsl(0, 0%, 22%);
+
+    /* No escuro, a moldura escurece e o granulado é claro */
+    --cor-moldura: color-mix(in srgb, var(--cor-fundo) 65%, black);
+    --textura: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 -0.07'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
 
   /* Suavização fina só ajuda texto claro sobre fundo escuro */
@@ -659,6 +694,13 @@ input[type="submit"]:hover {
 
   .filtros-blog a:hover {
     background-color: hsla(0, 0%, 100%, 0.08);
+  }
+}
+
+/* Alto contraste: fundo liso, sem moldura nem granulado */
+@media (prefers-contrast: more) {
+  html {
+    background: var(--cor-fundo);
   }
 }
 
@@ -831,6 +873,11 @@ input[type="submit"]:hover {
     --cor-link-vis: #000;
     --cor-link-alt: #000;
     --sombra: none;
+  }
+
+  html,
+  body {
+    background: none;
   }
 
   body {
