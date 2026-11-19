@@ -1,38 +1,38 @@
 /*
- * Fonte: Inter 4.1 (SIL OFL, ver assets/fonts/LICENSE-Inter.txt)
- * Subconjunto latino com eixo de peso (wght). O tamanho óptico foi fixado no
- * desenho de texto (opsz=14): o desenho "Display" não tem as variantes
- * cv05/cv08 usadas abaixo.
+ * Fonte: Atkinson Hyperlegible Next 2.001 (SIL OFL, ver assets/fonts/LICENSE-Atkinson.txt)
+ * Subconjunto latino com eixo de peso (wght, 200–800). Desenhada pelo Braille
+ * Institute para diferenciar letras parecidas (I/l/1, O/0, b/d) já no desenho
+ * padrão, sem precisar de variantes tipográficas.
  * Ao trocar a versão, troque o nome do arquivo (cache de 1 ano em _headers).
  */
 @font-face {
-  font-family: "Inter";
+  font-family: "Atkinson Hyperlegible Next";
   font-style: normal;
-  font-weight: 100 900;
+  font-weight: 200 800;
   font-display: swap;
-  src: url("/assets/fonts/inter-4.1-latin.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("/assets/fonts/atkinson-hyperlegible-next-2.001-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: "Atkinson Hyperlegible Next";
   font-style: italic;
-  font-weight: 100 900;
+  font-weight: 200 800;
   font-display: swap;
-  src: url("/assets/fonts/inter-4.1-latin-italic.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("/assets/fonts/atkinson-hyperlegible-next-2.001-latin-italic.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/* Arial ajustada às medidas da Inter: reduz o "pulo" do texto quando a Inter carrega */
+/* Arial ajustada às medidas da Atkinson: reduz o "pulo" do texto quando a fonte carrega */
 @font-face {
-  font-family: "Inter fallback";
+  font-family: "Atkinson fallback";
   src: local("Arial");
-  size-adjust: 107%;
-  ascent-override: 90%;
-  descent-override: 22.4%;
+  size-adjust: 98.9%;
+  ascent-override: 99.5%;
+  descent-override: 32%;
   line-gap-override: 0%;
 }
 
 :root {
-  --ff-texto: "Inter", "Inter fallback", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  --ff-texto: "Atkinson Hyperlegible Next", "Atkinson fallback", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
   --ff-serifa: Georgia, ui-serif, "Iowan Old Style", "Palatino Linotype", "Noto Serif", serif;
 
   --cor-fonte: hsl(0, 0%, 0%);
@@ -52,13 +52,26 @@
 
   --ff-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, "Liberation Mono", monospace;
 
-  --fs-0: 1rem;
-  --fs-1: 1.1rem;
-  /* Tamanhos fluidos: menores no celular, iguais aos de antes a partir de ~640px */
-  --fs-2: clamp(1.35rem, 1.1rem + 1.2vw, 1.5rem);
-  --fs-3: clamp(1.5rem, 1.1rem + 2vw, 1.9rem);
-  /* Subtítulos dentro dos posts: ~23px no celular, ~26px (como antes) no desktop */
-  --fs-subtitulo: clamp(1.4rem, 1.15rem + 1.25vw, 1.65rem);
+  /*
+   * Escala tipográfica. --fs-1 é o texto corrido; os demais mantêm as
+   * proporções do desenho original (corpo de 1.1rem) em relação a ele.
+   *
+   * --fs-1 cresce com a tela até 1.4rem, mantendo ~75 caracteres por linha
+   * (a coluna do body mede 35.4em). Em telas com menos de ~710px, para em
+   * 1.2rem, o mesmo tamanho aparente da antiga Inter a 1.1rem.
+   * O divisor 35.4 é a medida da coluna: se mudar uma, mude a outra.
+   */
+  --fs-1: clamp(1.2rem, calc((100vw - 2rem) / 35.4), 1.4rem);
+  /* Datas, legendas, código: 10/11 do texto corrido */
+  --fs-0: calc(var(--fs-1) * 0.91);
+  /*
+   * Títulos: proporções menores no celular, como antes. Crescem de 360px até
+   * ~825px, onde o texto corrido chega a 1.4rem.
+   */
+  --fs-2: clamp(1.47rem, 1.13rem + 1.5vw, 1.91rem);
+  --fs-3: clamp(1.64rem, 1.03rem + 2.7vw, 2.42rem);
+  /* Subtítulos dentro dos posts */
+  --fs-subtitulo: clamp(1.53rem, 1.08rem + 1.97vw, 2.1rem);
 
   --pos-margem-baixo: 1.25rem;
   --pos-salto-medio: 3rem;
@@ -95,13 +108,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: var(--cor-fundo);
-  /* Medida fixa: ~65–70 caracteres por linha, independente da fonte */
-  width: min(100%, 42rem);
+  /* Medida em em: ~75 caracteres por linha em qualquer tamanho de fonte (ver --fs-1) */
+  width: min(100%, calc(35.4em + 2rem));
   margin-inline: auto;
   padding-inline: 1rem;
   font-family: var(--ff-texto);
-  /* Diferencia I (com serifas) de l (com cauda) e de 1 */
-  font-feature-settings: "cv05", "cv08";
   font-size: var(--fs-1);
   line-height: 1.5;
   color: var(--cor-fonte);
