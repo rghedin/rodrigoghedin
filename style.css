@@ -53,8 +53,13 @@
   --ff-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, "Liberation Mono", monospace;
 
   --fs-0: 1rem;
-  /* A Atkinson tem olho (x-height) ~9% menor que o da Inter: 1.2rem mantém o tamanho aparente */
-  --fs-1: 1.2rem;
+  /*
+   * Texto fluido: cresce com a tela até 1.3rem, mantendo ~75 caracteres por
+   * linha (a coluna do body mede 35.4em). Em telas com menos de ~710px, para
+   * em 1.2rem, o mesmo tamanho aparente da antiga Inter a 1.1rem.
+   * O divisor 35.4 é a medida da coluna: se mudar uma, mude a outra.
+   */
+  --fs-1: clamp(1.2rem, calc((100vw - 2rem) / 35.4), 1.3rem);
   /* Tamanhos fluidos: menores no celular, iguais aos de antes a partir de ~640px */
   --fs-2: clamp(1.35rem, 1.1rem + 1.2vw, 1.5rem);
   --fs-3: clamp(1.5rem, 1.1rem + 2vw, 1.9rem);
@@ -96,8 +101,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: var(--cor-fundo);
-  /* Medida fixa: ~75 caracteres por linha (média medida com a Atkinson a 1.2rem) */
-  width: min(100%, 44.5rem);
+  /* Medida em em: ~75 caracteres por linha em qualquer tamanho de fonte (ver --fs-1) */
+  width: min(100%, calc(35.4em + 2rem));
   margin-inline: auto;
   padding-inline: 1rem;
   font-family: var(--ff-texto);
