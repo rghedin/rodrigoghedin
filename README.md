@@ -34,5 +34,5 @@ navegação. As cores estão em `style.css` (`:root[data-paleta="…"]`).
 
 ## Fonte
 
-Inter 4.1, subconjunto latino em `assets/fonts/` (licença SIL OFL). Ao trocar a
+Atkinson Hyperlegible Next 2.001 (variável, pesos 200–800), subconjunto latino em `assets/fonts/` (licença SIL OFL). Ao trocar a
 versão, troque o nome do arquivo: o `_headers` guarda fontes em cache por 1 ano.

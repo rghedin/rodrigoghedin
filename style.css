@@ -1,38 +1,38 @@
 /*
- * Fonte: Inter 4.1 (SIL OFL, ver assets/fonts/LICENSE-Inter.txt)
- * Subconjunto latino com eixo de peso (wght). O tamanho óptico foi fixado no
- * desenho de texto (opsz=14): o desenho "Display" não tem as variantes
- * cv05/cv08 usadas abaixo.
+ * Fonte: Atkinson Hyperlegible Next 2.001 (SIL OFL, ver assets/fonts/LICENSE-Atkinson.txt)
+ * Subconjunto latino com eixo de peso (wght, 200–800). Desenhada pelo Braille
+ * Institute para diferenciar letras parecidas (I/l/1, O/0, b/d) já no desenho
+ * padrão, sem precisar de variantes tipográficas.
  * Ao trocar a versão, troque o nome do arquivo (cache de 1 ano em _headers).
  */
 @font-face {
-  font-family: "Inter";
+  font-family: "Atkinson Hyperlegible Next";
   font-style: normal;
-  font-weight: 100 900;
+  font-weight: 200 800;
   font-display: swap;
-  src: url("/assets/fonts/inter-4.1-latin.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("/assets/fonts/atkinson-hyperlegible-next-2.001-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: "Atkinson Hyperlegible Next";
   font-style: italic;
-  font-weight: 100 900;
+  font-weight: 200 800;
   font-display: swap;
-  src: url("/assets/fonts/inter-4.1-latin-italic.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("/assets/fonts/atkinson-hyperlegible-next-2.001-latin-italic.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/* Arial ajustada às medidas da Inter: reduz o "pulo" do texto quando a Inter carrega */
+/* Arial ajustada às medidas da Atkinson: reduz o "pulo" do texto quando a fonte carrega */
 @font-face {
-  font-family: "Inter fallback";
+  font-family: "Atkinson fallback";
   src: local("Arial");
-  size-adjust: 107%;
-  ascent-override: 90%;
-  descent-override: 22.4%;
+  size-adjust: 98.9%;
+  ascent-override: 99.5%;
+  descent-override: 32%;
   line-gap-override: 0%;
 }
 
 :root {
-  --ff-texto: "Inter", "Inter fallback", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  --ff-texto: "Atkinson Hyperlegible Next", "Atkinson fallback", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
   --ff-serifa: Georgia, ui-serif, "Iowan Old Style", "Palatino Linotype", "Noto Serif", serif;
 
   --cor-fonte: hsl(0, 0%, 0%);
@@ -53,7 +53,8 @@
   --ff-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, "Liberation Mono", monospace;
 
   --fs-0: 1rem;
-  --fs-1: 1.1rem;
+  /* A Atkinson tem olho (x-height) ~9% menor que o da Inter: 1.2rem mantém o tamanho aparente */
+  --fs-1: 1.2rem;
   /* Tamanhos fluidos: menores no celular, iguais aos de antes a partir de ~640px */
   --fs-2: clamp(1.35rem, 1.1rem + 1.2vw, 1.5rem);
   --fs-3: clamp(1.5rem, 1.1rem + 2vw, 1.9rem);
@@ -95,13 +96,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: var(--cor-fundo);
-  /* Medida fixa: ~65–70 caracteres por linha, independente da fonte */
-  width: min(100%, 42rem);
+  /* Medida fixa: ~75 caracteres por linha (média medida com a Atkinson a 1.2rem) */
+  width: min(100%, 44.5rem);
   margin-inline: auto;
   padding-inline: 1rem;
   font-family: var(--ff-texto);
-  /* Diferencia I (com serifas) de l (com cauda) e de 1 */
-  font-feature-settings: "cv05", "cv08";
   font-size: var(--fs-1);
   line-height: 1.5;
   color: var(--cor-fonte);
