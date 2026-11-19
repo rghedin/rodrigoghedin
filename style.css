@@ -52,19 +52,26 @@
 
   --ff-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, "Liberation Mono", monospace;
 
-  --fs-0: 1rem;
   /*
-   * Texto fluido: cresce com a tela até 1.3rem, mantendo ~75 caracteres por
-   * linha (a coluna do body mede 35.4em). Em telas com menos de ~710px, para
-   * em 1.2rem, o mesmo tamanho aparente da antiga Inter a 1.1rem.
+   * Escala tipográfica. --fs-1 é o texto corrido; os demais mantêm as
+   * proporções do desenho original (corpo de 1.1rem) em relação a ele.
+   *
+   * --fs-1 cresce com a tela até 1.4rem, mantendo ~75 caracteres por linha
+   * (a coluna do body mede 35.4em). Em telas com menos de ~710px, para em
+   * 1.2rem, o mesmo tamanho aparente da antiga Inter a 1.1rem.
    * O divisor 35.4 é a medida da coluna: se mudar uma, mude a outra.
    */
-  --fs-1: clamp(1.2rem, calc((100vw - 2rem) / 35.4), 1.3rem);
-  /* Tamanhos fluidos: menores no celular, iguais aos de antes a partir de ~640px */
-  --fs-2: clamp(1.35rem, 1.1rem + 1.2vw, 1.5rem);
-  --fs-3: clamp(1.5rem, 1.1rem + 2vw, 1.9rem);
-  /* Subtítulos dentro dos posts: ~23px no celular, ~26px (como antes) no desktop */
-  --fs-subtitulo: clamp(1.4rem, 1.15rem + 1.25vw, 1.65rem);
+  --fs-1: clamp(1.2rem, calc((100vw - 2rem) / 35.4), 1.4rem);
+  /* Datas, legendas, código: 10/11 do texto corrido */
+  --fs-0: calc(var(--fs-1) * 0.91);
+  /*
+   * Títulos: proporções menores no celular, como antes. Crescem de 360px até
+   * ~825px, onde o texto corrido chega a 1.4rem.
+   */
+  --fs-2: clamp(1.47rem, 1.13rem + 1.5vw, 1.91rem);
+  --fs-3: clamp(1.64rem, 1.03rem + 2.7vw, 2.42rem);
+  /* Subtítulos dentro dos posts */
+  --fs-subtitulo: clamp(1.53rem, 1.08rem + 1.97vw, 2.1rem);
 
   --pos-margem-baixo: 1.25rem;
   --pos-salto-medio: 3rem;
