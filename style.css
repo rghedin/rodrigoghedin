@@ -54,7 +54,7 @@
    * Fundo fora da coluna: um tom mais escuro que o da coluna, com granulado
    * leve (ruído SVG). A coluna fica com --cor-fundo, mais clara e lisa.
    */
-  --cor-moldura: color-mix(in srgb, var(--cor-fundo-alt) 75%, var(--cor-fundo));
+  --cor-moldura: color-mix(in srgb, var(--cor-fundo-alt) 40%, var(--cor-fundo));
   --textura: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.32 -0.1'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 
   --ff-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, "Liberation Mono", monospace;
@@ -120,10 +120,10 @@ img {
 }
 
 body {
+  position: relative;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: var(--cor-fundo);
   /* Medida em em: ~75 caracteres por linha em qualquer tamanho de fonte (ver --fs-1) */
   width: min(100%, calc(35.4em + 2 * var(--pos-lateral)));
   margin-inline: auto;
@@ -138,6 +138,37 @@ body {
   overflow-wrap: break-word;
   font-kerning: normal;
   overflow-x: hidden;
+}
+
+/*
+ * Fundo da coluna: um pseudo-elemento atrás do conteúdo. Com tela larga o
+ * bastante para sobrar moldura dos dois lados (60em), as bordas ficam
+ * irregulares: segmentos levemente inclinados que mudam de ângulo a cada
+ * 100vh (o desenho se repete a cada 400vh), em faixas de --pos-borda do
+ * lado de fora da coluna. Em telas menores a coluna ocupa a tela toda e as
+ * faixas causariam rolagem horizontal.
+ * Máscaras em vez de imagens: o SVG não enxerga as cores da paleta.
+ */
+body::before {
+  --pos-borda: 2rem;
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1000;
+  background-color: var(--cor-fundo);
+}
+@media (min-width: 60em) {
+  body::before {
+    inset: 0 calc(-1 * var(--pos-borda));
+    -webkit-mask:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 400' preserveAspectRatio='none'%3E%3Cpolygon points='45,0 90,100 10,200 70,300 45,400 100,400 100,0'/%3E%3C/svg%3E") left top / var(--pos-borda) 400vh repeat-y,
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 400' preserveAspectRatio='none'%3E%3Cpolygon points='50,0 95,100 15,200 75,300 50,400 0,400 0,0'/%3E%3C/svg%3E") right top / var(--pos-borda) 400vh repeat-y,
+      linear-gradient(#000, #000) center / calc(100% - 2 * var(--pos-borda)) 100% no-repeat;
+    mask:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 400' preserveAspectRatio='none'%3E%3Cpolygon points='45,0 90,100 10,200 70,300 45,400 100,400 100,0'/%3E%3C/svg%3E") left top / var(--pos-borda) 400vh repeat-y,
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 400' preserveAspectRatio='none'%3E%3Cpolygon points='50,0 95,100 15,200 75,300 50,400 0,400 0,0'/%3E%3C/svg%3E") right top / var(--pos-borda) 400vh repeat-y,
+      linear-gradient(#000, #000) center / calc(100% - 2 * var(--pos-borda)) 100% no-repeat;
+  }
 }
 
 /* Texto corrido um pouco mais espaçado que a interface */
@@ -526,8 +557,8 @@ main img {
   display: block;
   position: relative;
   height: 0;
-  /* Fica atrás do texto e na frente do fundo da coluna graças ao
-     isolation: isolate do body. Sem ele, as aspas sumiriam atrás do fundo. */
+  /* Fica atrás do texto e na frente do fundo da coluna (body::before, com
+     z-index -1000) graças ao isolation: isolate do body. */
   z-index: -999;
   /* Em "em" para acompanhar o tamanho do texto; atrás do início da citação */
   font-size: 18em;
@@ -678,7 +709,7 @@ input[type="submit"]:hover {
     --cor-fundo-codigo: hsl(0, 0%, 22%);
 
     /* No escuro, a moldura escurece e o granulado é claro */
-    --cor-moldura: color-mix(in srgb, var(--cor-fundo) 65%, black);
+    --cor-moldura: color-mix(in srgb, var(--cor-fundo) 82%, black);
     --textura: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 -0.07'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
 
@@ -878,6 +909,9 @@ input[type="submit"]:hover {
   html,
   body {
     background: none;
+  }
+  body::before {
+    display: none;
   }
 
   body {
