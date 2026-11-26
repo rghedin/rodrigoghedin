@@ -40,6 +40,11 @@ defaults:
 include:
   - _headers
 
+# style.scss -> /style.css minificado, sem mapa de origem
+sass:
+  style: compressed
+  sourcemap: never
+
 exclude:
   - README.md
   - LICENSE.*

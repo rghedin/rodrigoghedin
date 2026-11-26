@@ -17,12 +17,17 @@
 # outro serviço externo (fontes, embeds). O formulário da newsletter envia
 # para o Buttondown, por isso ele está em form-action.
 #
+# O hash 'sha256-…' em script-src libera só o script de paleta embutido no
+# <head> (_includes/paleta.min.js). Se o script mudar, o hash tem de mudar
+# junto, senão o navegador o bloqueia e a página fica com a paleta padrão.
+# Instruções no topo de _includes/paleta.js.
+#
 # O site pode ser embutido em iframes por qualquer origem: não há
 # X-Frame-Options nem frame-ancestors de propósito.
 /*
   Cross-Origin-Opener-Policy: same-origin
   Permissions-Policy: accelerometer=(), browsing-topics=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; style-src 'self'; img-src 'self' data: https:; font-src 'self' data:; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://buttondown.com; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-xniHAq2+HP2aO44HM2o5xS38PFZHr2Dqp+wccKCTOW4=' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; style-src 'self'; img-src 'self' data: https:; font-src 'self' data:; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://buttondown.com; upgrade-insecure-requests
 
 # --- CSS / JS: 1 ano, imutável -----------------------------------------
 # Exige cache-busting nos links (ver layout): ?v={{ site.time | date: '%s' }}
