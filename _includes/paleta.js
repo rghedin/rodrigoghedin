@@ -1,6 +1,15 @@
 // Escolhe a paleta de cores da página. As cores de cada paleta estão em
-// style.css (:root[data-paleta]). Carregado no <head>, antes do CSS, para a
-// página já pintar com a paleta certa.
+// style.scss (:root[data-paleta]). Vai embutido no <head>, antes do CSS, para
+// a página já pintar com a paleta certa sem um pedido extra ao servidor.
+//
+// Este é o código-fonte. O que vai para a página é _includes/paleta.min.js,
+// e a CSP em _headers só aceita esse arquivo exato (hash sha256). Depois de
+// mudar este arquivo, rode na raiz do projeto:
+//
+//   npx terser _includes/paleta.js -c -m --ecma 5 -o _includes/paleta.min.js
+//   printf '%s' "$(cat _includes/paleta.min.js)" | openssl dgst -sha256 -binary | base64
+//
+// e troque o hash 'sha256-…' em script-src no _headers pelo novo valor.
 //
 // - Ao recarregar a página (ou na primeira visita da sessão), sorteia uma
 //   paleta diferente da anterior.

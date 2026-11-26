@@ -42,7 +42,14 @@
     <!-- Sem favicon: o ícone vazio impede o navegador de pedir /favicon.ico -->
     <link rel="icon" href="data:,">
 
-    <script src="{{ '/assets/paleta.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    {%- comment -%}
+    Paleta de cores: script embutido para não bloquear a renderização com um
+    pedido extra. Fonte em _includes/paleta.js; ao mudá-lo, regenere o .min.js
+    e o hash da CSP em _headers (instruções no topo de paleta.js). O strip
+    tira espaços e quebras de linha das pontas, que mudariam o hash.
+    {%- endcomment %}
+    {% capture paleta_js %}{% include paleta.min.js %}{% endcapture -%}
+    <script>{{ paleta_js | strip }}</script>
     <link rel="preload" href="{{ '/assets/fonts/atkinson-hyperlegible-next-2.001-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>

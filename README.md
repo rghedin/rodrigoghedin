@@ -29,8 +29,8 @@ e o link "Responder por e-mail".
 
 ## Paletas de cores
 
-`assets/paleta.js` sorteia uma paleta ao recarregar a página e a mantém durante a
-navegação. As cores estão em `style.css` (`:root[data-paleta="…"]`).
+`_includes/paleta.js` (embutido no `<head>` em versão minificada) sorteia uma paleta ao recarregar a página e a mantém durante a
+navegação. As cores estão em `style.scss` (`:root[data-paleta="…"]`).
 
 ## Fonte
 

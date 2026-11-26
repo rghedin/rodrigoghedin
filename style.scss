@@ -1,3 +1,8 @@
+---
+# Front matter vazio: faz o Jekyll processar este arquivo com o Sass, que
+# gera /style.css minificado (ver "sass" em _config.yml). O conteúdo é CSS
+# puro; comentários e espaços somem na saída.
+---
 /*
  * Fonte: Atkinson Hyperlegible Next 2.001 (SIL OFL, ver assets/fonts/LICENSE-Atkinson.txt)
  * Subconjunto latino com eixo de peso (wght, 200–800). Desenhada pelo Braille
@@ -738,9 +743,9 @@ input[type="submit"]:hover {
 
 /*
  * Paletas alternativas
- * assets/paleta.js sorteia uma a cada carregamento e a grava em
+ * _includes/paleta.js sorteia uma a cada carregamento e a grava em
  * <html data-paleta="...">. "atual" (ou sem JavaScript) usa as cores do :root acima.
- * Para incluir uma paleta: copie um bloco claro + escuro e acrescente o nome em paleta.js.
+ * Para incluir uma paleta: copie um bloco claro + escuro e acrescente o nome em _includes/paleta.js (e regenere o .min.js e o hash da CSP).
  * Os blocos escuros precisam vir depois dos claros (mesma especificidade).
  */
 
